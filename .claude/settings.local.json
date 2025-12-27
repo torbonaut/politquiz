@@ -5,7 +5,9 @@
       "Bash(bun install:*)",
       "Bash(npm install:*)",
       "Bash(pkill:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)"
     ]
   }
 }

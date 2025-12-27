@@ -173,13 +173,69 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       padding: 20px;
     }
 
-    .card {
+    .card-stack-container {
+      position: relative;
       width: 400px;
       max-width: 90vw;
       aspect-ratio: 5/8;
+      perspective: 1500px;
+    }
+
+    .card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       transform-style: preserve-3d;
       cursor: pointer;
-      perspective: 1500px;
+      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card:not(.active) {
+      pointer-events: none;
+    }
+
+    /* Stack positioning - cards behind are slightly offset */
+    .card[data-stack-index="0"] {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+
+    .card[data-stack-index="1"] {
+      transform: translateY(8px) scale(0.98);
+      opacity: 0.9;
+    }
+
+    .card[data-stack-index="2"] {
+      transform: translateY(16px) scale(0.96);
+      opacity: 0.8;
+    }
+
+    .card[data-stack-index="3"] {
+      transform: translateY(24px) scale(0.94);
+      opacity: 0.7;
+    }
+
+    .card[data-stack-index="4"] {
+      transform: translateY(32px) scale(0.92);
+      opacity: 0.6;
+    }
+
+    /* Card removal animation */
+    .card.removing {
+      animation: cardSlideOut 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes cardSlideOut {
+      0% {
+        transform: translateY(0) translateX(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100px) translateX(50px) scale(0.8);
+        opacity: 0;
+      }
     }
 
     .card > .inner {
@@ -187,13 +243,84 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       width: 100%;
       height: 100%;
       text-align: center;
-      transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
       transform-style: preserve-3d;
       transform-origin: center center;
+      transition: none;
     }
 
+    /* Flip animation with lift effect */
     .card.flip > .inner {
-      transform: rotateY(180deg);
+      animation: cardFlipWithLift 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes cardFlipWithLift {
+      0% {
+        transform: translateZ(0) rotateY(0deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+      }
+      /* Lift up */
+      25% {
+        transform: translateZ(80px) translateY(-20px) rotateY(0deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
+          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+      }
+      /* Flip while elevated */
+      75% {
+        transform: translateZ(80px) translateY(-20px) rotateY(180deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
+          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+      }
+      /* Set back down */
+      100% {
+        transform: translateZ(0) translateY(0) rotateY(180deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+      }
+    }
+
+    /* Flip back animation (reverse) */
+    .card.flip-back > .inner {
+      animation: cardFlipBackWithLift 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes cardFlipBackWithLift {
+      0% {
+        transform: translateZ(0) rotateY(180deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+      }
+      25% {
+        transform: translateZ(80px) translateY(-20px) rotateY(180deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
+          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+      }
+      75% {
+        transform: translateZ(80px) translateY(-20px) rotateY(0deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
+          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+      }
+      100% {
+        transform: translateZ(0) translateY(0) rotateY(0deg);
+        box-shadow:
+          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
+          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
+          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+      }
     }
 
     .card .front,
@@ -518,24 +645,41 @@ export function renderLayout({ title, description, content, question }: LayoutPr
   </main>
 
   <script>
-    // Add flip toggle to card when it's rendered
-    document.addEventListener('htmx:afterSwap', function(event) {
-      initializeCard();
-    });
-
-    // Initialize on page load
+    // Initialize card stack on page load
     document.addEventListener('DOMContentLoaded', function() {
-      initializeCard();
+      initializeCardStack();
     });
 
-    function initializeCard() {
-      const card = document.querySelector('.card');
-      if (card && !card.dataset.initialized) {
-        card.dataset.initialized = 'true';
+    function initializeCardStack() {
+      const container = document.getElementById('card-stack-container');
+      if (!container) return;
 
-        // Only allow clicking on the back side to flip back
+      const cards = Array.from(container.querySelectorAll('.card'));
+
+      // Handle answer button clicks
+      cards.forEach((card) => {
+        const form = card.querySelector('.options-form');
+        const optionButtons = card.querySelectorAll('.option-button');
+        const questionId = form.dataset.questionId;
+
+        optionButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const selectedAnswer = this.dataset.answer;
+            handleAnswer(card, questionId, selectedAnswer);
+          });
+        });
+
+        // Handle next button click
+        const nextButton = card.querySelector('.next-button');
+        if (nextButton) {
+          nextButton.addEventListener('click', function() {
+            handleNextQuestion(card);
+          });
+        }
+
+        // Handle click to flip back
         card.addEventListener('click', function(e) {
-          // Don't flip if clicking on a button or link
           if (e.target.tagName === 'BUTTON' ||
               e.target.tagName === 'A' ||
               e.target.closest('button') ||
@@ -543,47 +687,147 @@ export function renderLayout({ title, description, content, question }: LayoutPr
             return;
           }
 
-          // Only allow flipping back when card is already flipped
-          if (this.classList.contains('flip')) {
+          if (this.classList.contains('flip') && this.classList.contains('active')) {
             this.classList.remove('flip');
+            this.classList.add('flip-back');
+
+            // Remove flip-back class after animation completes
+            setTimeout(() => {
+              this.classList.remove('flip-back');
+            }, 1200);
           }
         });
-      }
+      });
     }
 
-    // Track previous card state before swap
-    let wasFlipped = false;
-    document.body.addEventListener('htmx:beforeSwap', function(event) {
-      if (event.detail.target.id === 'card-container') {
-        const oldCard = document.querySelector('.card');
-        wasFlipped = oldCard && oldCard.classList.contains('flip');
+    function handleAnswer(card, questionId, selectedAnswer) {
+      const correctAnswer = card.querySelector('.result-header').dataset.correct;
+      const isCorrect = selectedAnswer === correctAnswer;
+
+      // Update stats
+      fetch('/api/answer', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: new URLSearchParams({
+          questionId: questionId,
+          answer: selectedAnswer
+        })
+      }).then(() => {
+        htmx.ajax('GET', '/api/stats', {target: '#stats-bar', swap: 'outerHTML'});
+      });
+
+      // Update result display
+      const resultHeader = card.querySelector('.result-header');
+      resultHeader.textContent = isCorrect ? '✓ Correct!' : '✗ Incorrect';
+      resultHeader.className = 'result-header ' + (isCorrect ? 'correct' : 'incorrect');
+
+      // Show wrong answer if incorrect
+      if (!isCorrect) {
+        const yourAnswer = card.querySelector('.your-answer');
+        const correctOption = Array.from(card.querySelectorAll('.option-button'))
+          .find(btn => btn.dataset.answer === selectedAnswer);
+        const optionText = correctOption ? correctOption.querySelector('.option-text').textContent : '';
+        yourAnswer.innerHTML = '<strong>Your Answer:</strong> ' + selectedAnswer + ') ' + optionText;
+        yourAnswer.style.display = 'block';
       }
-    });
 
-    // Update stats and handle card flip
-    document.body.addEventListener('htmx:afterSwap', function(event) {
-      if (event.detail.target.id === 'card-container') {
-        const card = document.querySelector('.card');
+      // Flip the card
+      card.classList.add('flip');
+    }
 
-        if (card) {
-          // Check if this is an answer result (server sent flip class)
-          const isAnswerResult = card.classList.contains('flip');
+    function handleNextQuestion(card) {
+      const container = document.getElementById('card-stack-container');
+      const cards = Array.from(container.querySelectorAll('.card:not(.removing)'));
 
-          if (isAnswerResult) {
-            // Trigger stats update after answer
-            htmx.ajax('GET', '/api/stats', {target: '#stats-bar', swap: 'outerHTML'});
-          } else if (wasFlipped) {
-            // This is a new question loaded after being on flipped card
-            // Make sure flip class is removed
-            card.classList.remove('flip');
+      // Animate card removal
+      card.classList.add('removing');
+      card.classList.remove('active');
+
+      // After animation, remove card and update stack
+      setTimeout(() => {
+        card.remove();
+
+        // Update remaining cards
+        const remainingCards = Array.from(container.querySelectorAll('.card:not(.removing)'));
+        remainingCards.forEach((c, index) => {
+          c.dataset.stackIndex = index;
+          c.style.zIndex = 10 - index;
+
+          if (index === 0) {
+            c.classList.add('active');
+            c.classList.remove('flip');
           }
+        });
 
-          // Reinitialize card click handler
-          card.dataset.initialized = '';
-          initializeCard();
+        // Add a new card at the bottom if we have less than 5
+        if (remainingCards.length < 5) {
+          addNewCard(container);
         }
-      }
-    });
+      }, 600);
+    }
+
+    function addNewCard(container) {
+      // Get a random question from available ones
+      fetch('/api/next')
+        .then(res => res.text())
+        .then(html => {
+          const temp = document.createElement('div');
+          temp.innerHTML = html;
+          const newCardContent = temp.querySelector('.card');
+
+          if (newCardContent) {
+            const cards = Array.from(container.querySelectorAll('.card'));
+            const newIndex = cards.length;
+
+            const newCard = document.createElement('div');
+            newCard.className = 'card';
+            newCard.dataset.stackIndex = newIndex;
+            newCard.dataset.questionId = newCardContent.dataset.questionId;
+            newCard.style.zIndex = 10 - newIndex;
+            newCard.innerHTML = newCardContent.innerHTML;
+
+            container.appendChild(newCard);
+
+            // Initialize the new card
+            const form = newCard.querySelector('.options-form');
+            const optionButtons = newCard.querySelectorAll('.option-button');
+            const questionId = form.dataset.questionId;
+
+            optionButtons.forEach(button => {
+              button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const selectedAnswer = this.dataset.answer;
+                handleAnswer(newCard, questionId, selectedAnswer);
+              });
+            });
+
+            const nextButton = newCard.querySelector('.next-button');
+            if (nextButton) {
+              nextButton.addEventListener('click', function() {
+                handleNextQuestion(newCard);
+              });
+            }
+
+            newCard.addEventListener('click', function(e) {
+              if (e.target.tagName === 'BUTTON' ||
+                  e.target.tagName === 'A' ||
+                  e.target.closest('button') ||
+                  e.target.closest('a')) {
+                return;
+              }
+
+              if (this.classList.contains('flip') && this.classList.contains('active')) {
+                this.classList.remove('flip');
+                this.classList.add('flip-back');
+
+                setTimeout(() => {
+                  this.classList.remove('flip-back');
+                }, 1200);
+              }
+            });
+          }
+        });
+    }
   </script>
 </body>
 </html>

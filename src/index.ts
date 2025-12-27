@@ -1,9 +1,10 @@
 import { Hono } from 'hono';
 import { getCookie, setCookie } from 'hono/cookie';
 import { serve } from '@hono/node-server';
-import { getQuestionBySlug, getRandomQuestion, questions } from './database.js';
+import { getQuestionBySlug, getRandomQuestion, getRandomQuestions, questions } from './database.js';
 import { renderLayout } from './views/layout.js';
 import { renderCard } from './views/card.js';
+import { renderCardStack } from './views/cardStack.js';
 import { renderStats } from './views/stats.js';
 
 const app = new Hono();
@@ -19,16 +20,16 @@ app.use('*', async (c, next) => {
   await next();
 });
 
-// Home page - random question
+// Home page - random question stack
 app.get('/', (c) => {
-  const question = getRandomQuestion();
+  const questionStack = getRandomQuestions(5);
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
 
   return c.html(renderLayout({
     title: 'PoliCards - Austrian Politics Quiz',
     description: 'Test your knowledge of Austrian politics with interactive flip cards',
-    content: renderCard(question, false, null, stats),
-    question
+    content: renderCardStack(questionStack, stats),
+    question: questionStack[0]
   }));
 });
 

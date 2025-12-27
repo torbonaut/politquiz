@@ -91,3 +91,8 @@ export function getRandomQuestion(excludeIds: number[] = []): Question {
   if (available.length === 0) return questions[Math.floor(Math.random() * questions.length)];
   return available[Math.floor(Math.random() * available.length)];
 }
+
+export function getRandomQuestions(count: number): Question[] {
+  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, questions.length));
+}
