@@ -22,6 +22,13 @@ export function renderStats(stats: { asked: number; correct: number; wrong: numb
         </div>
       </div>
       <button
+        id="theme-toggle"
+        class="theme-toggle"
+        title="Toggle dark/light mode"
+      >
+        <span id="theme-icon">☀️</span>
+      </button>
+      <button
         hx-post="/api/reset-stats"
         hx-target="#stats-bar"
         hx-swap="outerHTML"

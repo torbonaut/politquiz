@@ -26,7 +26,7 @@ app.get('/', (c) => {
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
 
   return c.html(renderLayout({
-    title: 'PoliCards - Austrian Politics Quiz',
+    title: 'Demokratie Quiz - Austrian Politics Quiz',
     description: 'Test your knowledge of Austrian politics with interactive flip cards',
     content: renderCardStack(questionStack, stats),
     question: questionStack[0]
@@ -45,7 +45,7 @@ app.get('/question/:slug', (c) => {
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
 
   return c.html(renderLayout({
-    title: `${question.question} - PoliCards`,
+    title: `${question.question} - Demokratie Quiz`,
     description: `Quiz question: ${question.question}`,
     content: renderCard(question, false, null, stats),
     question
@@ -130,7 +130,7 @@ app.get('/questions', (c) => {
   `;
 
   return c.html(renderLayout({
-    title: 'All Questions - PoliCards',
+    title: 'All Questions - Demokratie Quiz',
     description: 'Browse all Austrian politics quiz questions',
     content,
     question: null

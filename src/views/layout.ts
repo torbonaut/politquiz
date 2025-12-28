@@ -52,7 +52,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     :root {
-      --primary-color: #2563eb;
+      --primary-color: #3b82f6;
       --correct-color: #10b981;
       --incorrect-color: #ef4444;
       --background: #0f172a;
@@ -62,6 +62,21 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       --border: #334155;
     }
 
+    [data-theme="light"] {
+      --primary-color: #2563eb;
+      --correct-color: #059669;
+      --incorrect-color: #dc2626;
+      --background: #f1f5f9;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --text-secondary: #475569;
+      --border: #cbd5e1;
+    }
+
+    [data-theme="light"] body {
+      background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
@@ -69,6 +84,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      transition: background 0.3s ease, color 0.3s ease;
     }
 
     /* Header with Stats */
@@ -155,6 +171,25 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       color: var(--text);
     }
 
+    .theme-toggle {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 0.35rem 0.65rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      font-size: 0.7rem;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .theme-toggle:hover {
+      background: var(--border);
+      color: var(--text);
+    }
+
     /* Main Content */
     main {
       flex: 1;
@@ -162,6 +197,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       align-items: center;
       justify-content: center;
       padding: 2rem;
+      overflow: hidden; /* Hide cards when they animate outside viewport */
     }
 
     /* Flip Card Container */
@@ -203,38 +239,76 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .card[data-stack-index="1"] {
-      transform: translateY(8px) scale(0.98);
-      opacity: 0.9;
+      transform: translateY(12px) scale(0.97);
+      opacity: 0.95;
     }
 
     .card[data-stack-index="2"] {
-      transform: translateY(16px) scale(0.96);
-      opacity: 0.8;
+      transform: translateY(24px) scale(0.94);
+      opacity: 0.9;
     }
 
     .card[data-stack-index="3"] {
-      transform: translateY(24px) scale(0.94);
-      opacity: 0.7;
+      transform: translateY(36px) scale(0.91);
+      opacity: 0.85;
     }
 
     .card[data-stack-index="4"] {
-      transform: translateY(32px) scale(0.92);
-      opacity: 0.6;
+      transform: translateY(48px) scale(0.88);
+      opacity: 0.8;
     }
 
-    /* Card removal animation */
+    /* Card removal animation - move to right and bottom */
     .card.removing {
-      animation: cardSlideOut 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      animation: cardToBottom 1.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      z-index: 20 !important; /* Keep on top during animation */
     }
 
-    @keyframes cardSlideOut {
+    @keyframes cardToBottom {
       0% {
-        transform: translateY(0) translateX(0) scale(1);
+        transform: translateY(0) translateX(0) scale(1) rotateZ(0deg);
         opacity: 1;
       }
-      100% {
-        transform: translateY(-100px) translateX(50px) scale(0.8);
+      /* Move right and slightly up */
+      30% {
+        transform: translateY(-40px) translateX(500px) scale(0.9) rotateZ(12deg);
+        opacity: 0.8;
+      }
+      /* Continue right and start moving down (outside viewport) */
+      45% {
+        transform: translateY(100px) translateX(600px) scale(0.7) rotateZ(18deg);
+        opacity: 0.3;
+      }
+      /* Move down and off screen completely */
+      60% {
+        transform: translateY(250px) translateX(400px) scale(0.5) rotateZ(10deg);
         opacity: 0;
+      }
+      /* Stay invisible while repositioning to bottom */
+      85% {
+        transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
+        opacity: 0;
+      }
+      /* Fade in at bottom position */
+      100% {
+        transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
+        opacity: 0.8;
+      }
+    }
+
+    /* New card appearing from bottom */
+    .card.appearing {
+      animation: cardAppearFromBottom 1.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes cardAppearFromBottom {
+      0% {
+        transform: translateY(60px) scale(0.85);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(48px) scale(0.88);
+        opacity: 0.8;
       }
     }
 
@@ -623,6 +697,39 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       .questions-list-container {
         padding: 2rem;
       }
+
+      /* Mobile-optimized card animation - smaller distances */
+      @keyframes cardToBottom {
+        0% {
+          transform: translateY(0) translateX(0) scale(1) rotateZ(0deg);
+          opacity: 1;
+        }
+        /* Move right and slightly up (less distance for mobile) */
+        35% {
+          transform: translateY(-30px) translateX(150px) scale(0.85) rotateZ(10deg);
+          opacity: 0.7;
+        }
+        /* Continue right and start moving down */
+        55% {
+          transform: translateY(80px) translateX(200px) scale(0.65) rotateZ(15deg);
+          opacity: 0.2;
+        }
+        /* Move down and back (invisible) */
+        70% {
+          transform: translateY(150px) translateX(0) scale(0.5) rotateZ(0deg);
+          opacity: 0;
+        }
+        /* Come back from bottom */
+        85% {
+          transform: translateY(100px) translateX(0) scale(0.7) rotateZ(0deg);
+          opacity: 0.3;
+        }
+        /* Settle at bottom of stack */
+        100% {
+          transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
+          opacity: 0.8;
+        }
+      }
     }
 
     /* HTMX Loading States */
@@ -635,7 +742,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
 <body>
   <header class="header">
     <div class="header-content">
-      <a href="/" class="logo">PoliCards</a>
+      <a href="/" class="logo">Demokratie Quiz</a>
       ${renderStats({ asked: 0, correct: 0, wrong: 0 })}
     </div>
   </header>
@@ -648,55 +755,76 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     // Initialize card stack on page load
     document.addEventListener('DOMContentLoaded', function() {
       initializeCardStack();
+      initializeThemeToggle();
     });
+
+    function initializeThemeToggle() {
+      const themeToggle = document.getElementById('theme-toggle');
+      const themeIcon = document.getElementById('theme-icon');
+      const htmlElement = document.documentElement;
+
+      // Check for saved theme preference or default to 'dark'
+      const currentTheme = localStorage.getItem('theme') || 'dark';
+      htmlElement.setAttribute('data-theme', currentTheme);
+      updateThemeIcon(currentTheme);
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+          const theme = htmlElement.getAttribute('data-theme');
+          const newTheme = theme === 'dark' ? 'light' : 'dark';
+
+          htmlElement.setAttribute('data-theme', newTheme);
+          localStorage.setItem('theme', newTheme);
+          updateThemeIcon(newTheme);
+        });
+      }
+
+      function updateThemeIcon(theme) {
+        if (themeIcon) {
+          themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+      }
+    }
 
     function initializeCardStack() {
       const container = document.getElementById('card-stack-container');
       if (!container) return;
 
-      const cards = Array.from(container.querySelectorAll('.card'));
+      // Use event delegation on the container for better performance
+      container.addEventListener('click', function(e) {
+        const card = e.target.closest('.card');
+        if (!card || !card.classList.contains('active')) return;
 
-      // Handle answer button clicks
-      cards.forEach((card) => {
-        const form = card.querySelector('.options-form');
-        const optionButtons = card.querySelectorAll('.option-button');
-        const questionId = form.dataset.questionId;
-
-        optionButtons.forEach(button => {
-          button.addEventListener('click', function(e) {
-            e.preventDefault();
-            const selectedAnswer = this.dataset.answer;
-            handleAnswer(card, questionId, selectedAnswer);
-          });
-        });
-
-        // Handle next button click
-        const nextButton = card.querySelector('.next-button');
-        if (nextButton) {
-          nextButton.addEventListener('click', function() {
-            handleNextQuestion(card);
-          });
+        // Handle option button clicks
+        const optionButton = e.target.closest('.option-button');
+        if (optionButton) {
+          e.preventDefault();
+          const selectedAnswer = optionButton.dataset.answer;
+          const form = card.querySelector('.options-form');
+          const questionId = form.dataset.questionId;
+          handleAnswer(card, questionId, selectedAnswer);
+          return;
         }
 
-        // Handle click to flip back
-        card.addEventListener('click', function(e) {
-          if (e.target.tagName === 'BUTTON' ||
-              e.target.tagName === 'A' ||
-              e.target.closest('button') ||
-              e.target.closest('a')) {
-            return;
-          }
+        // Handle next button click
+        const nextButton = e.target.closest('.next-button');
+        if (nextButton) {
+          e.preventDefault();
+          handleNextQuestion(card);
+          return;
+        }
 
-          if (this.classList.contains('flip') && this.classList.contains('active')) {
-            this.classList.remove('flip');
-            this.classList.add('flip-back');
+        // Handle click to flip back (only if not clicking buttons or links)
+        if (!e.target.closest('button') && !e.target.closest('a')) {
+          if (card.classList.contains('flip')) {
+            card.classList.remove('flip');
+            card.classList.add('flip-back');
 
-            // Remove flip-back class after animation completes
             setTimeout(() => {
-              this.classList.remove('flip-back');
+              card.classList.remove('flip-back');
             }, 1200);
           }
-        });
+        }
       });
     }
 
@@ -737,96 +865,48 @@ export function renderLayout({ title, description, content, question }: LayoutPr
 
     function handleNextQuestion(card) {
       const container = document.getElementById('card-stack-container');
-      const cards = Array.from(container.querySelectorAll('.card:not(.removing)'));
 
-      // Animate card removal
+      // Animate card to bottom
       card.classList.add('removing');
       card.classList.remove('active');
 
-      // After animation, remove card and update stack
+      // After animation, move card to bottom of stack
       setTimeout(() => {
-        card.remove();
+        card.classList.remove('removing');
+        card.classList.remove('flip');
 
-        // Update remaining cards
-        const remainingCards = Array.from(container.querySelectorAll('.card:not(.removing)'));
-        remainingCards.forEach((c, index) => {
-          c.dataset.stackIndex = index;
-          c.style.zIndex = 10 - index;
+        // Load new question content for this card
+        fetch('/api/next')
+          .then(res => res.text())
+          .then(html => {
+            const temp = document.createElement('div');
+            temp.innerHTML = html;
+            const newCardContent = temp.querySelector('.card');
 
-          if (index === 0) {
-            c.classList.add('active');
-            c.classList.remove('flip');
-          }
-        });
-
-        // Add a new card at the bottom if we have less than 5
-        if (remainingCards.length < 5) {
-          addNewCard(container);
-        }
-      }, 600);
-    }
-
-    function addNewCard(container) {
-      // Get a random question from available ones
-      fetch('/api/next')
-        .then(res => res.text())
-        .then(html => {
-          const temp = document.createElement('div');
-          temp.innerHTML = html;
-          const newCardContent = temp.querySelector('.card');
-
-          if (newCardContent) {
-            const cards = Array.from(container.querySelectorAll('.card'));
-            const newIndex = cards.length;
-
-            const newCard = document.createElement('div');
-            newCard.className = 'card';
-            newCard.dataset.stackIndex = newIndex;
-            newCard.dataset.questionId = newCardContent.dataset.questionId;
-            newCard.style.zIndex = 10 - newIndex;
-            newCard.innerHTML = newCardContent.innerHTML;
-
-            container.appendChild(newCard);
-
-            // Initialize the new card
-            const form = newCard.querySelector('.options-form');
-            const optionButtons = newCard.querySelectorAll('.option-button');
-            const questionId = form.dataset.questionId;
-
-            optionButtons.forEach(button => {
-              button.addEventListener('click', function(e) {
-                e.preventDefault();
-                const selectedAnswer = this.dataset.answer;
-                handleAnswer(newCard, questionId, selectedAnswer);
-              });
-            });
-
-            const nextButton = newCard.querySelector('.next-button');
-            if (nextButton) {
-              nextButton.addEventListener('click', function() {
-                handleNextQuestion(newCard);
-              });
+            if (newCardContent) {
+              // Replace old card content with new question
+              card.innerHTML = newCardContent.innerHTML;
+              card.dataset.questionId = newCardContent.dataset.questionId;
+              // Event listeners are handled by event delegation, no need to reinitialize
             }
 
-            newCard.addEventListener('click', function(e) {
-              if (e.target.tagName === 'BUTTON' ||
-                  e.target.tagName === 'A' ||
-                  e.target.closest('button') ||
-                  e.target.closest('a')) {
-                return;
-              }
+            // Remove card from current position and append to end
+            container.appendChild(card);
 
-              if (this.classList.contains('flip') && this.classList.contains('active')) {
-                this.classList.remove('flip');
-                this.classList.add('flip-back');
+            // Update all cards' stack indices
+            const updatedCards = Array.from(container.querySelectorAll('.card'));
+            updatedCards.forEach((c, index) => {
+              c.dataset.stackIndex = index;
+              c.style.zIndex = 10 - index;
 
-                setTimeout(() => {
-                  this.classList.remove('flip-back');
-                }, 1200);
+              if (index === 0) {
+                c.classList.add('active');
+              } else {
+                c.classList.remove('active');
               }
             });
-          }
-        });
+          });
+      }, 1600);
     }
   </script>
 </body>
