@@ -53,11 +53,11 @@ export function renderCard(
 
               <div class="answer-info">
                 <p class="correct-answer">
-                  <strong>Correct Answer:</strong> ${question.correctAnswer}) ${correctOption?.text}
+                  <strong>Correct Answer:</strong> ${question.correctAnswer}) ${correctOption?.text || 'Unknown'}
                 </p>
-                ${!isCorrect ? `
+                ${!isCorrect && selectedAnswer ? `
                   <p class="your-answer">
-                    <strong>Your Answer:</strong> ${selectedAnswer}) ${question.options.find(o => o.letter === selectedAnswer)?.text}
+                    <strong>Your Answer:</strong> ${selectedAnswer}) ${question.options.find(o => o.letter === selectedAnswer)?.text || 'Unknown'}
                   </p>
                 ` : ''}
               </div>
@@ -76,7 +76,6 @@ export function renderCard(
                 >
                   Next Question
                 </button>
-                <a href="/questions" class="button secondary-button">All Questions</a>
               </div>
             </div>
           </div>

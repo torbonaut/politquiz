@@ -76,7 +76,6 @@ function renderSingleCard(
               <button class="button next-button">
                 Next Question
               </button>
-              <a href="/questions" class="button secondary-button">All Questions</a>
             </div>
           </div>
         </div>

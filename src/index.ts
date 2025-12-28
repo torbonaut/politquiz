@@ -29,7 +29,8 @@ app.get('/', (c) => {
     title: 'Demokratie Quiz - Austrian Politics Quiz',
     description: 'Test your knowledge of Austrian politics with interactive flip cards',
     content: renderCardStack(questionStack, stats),
-    question: questionStack[0]
+    question: questionStack[0],
+    stats
   }));
 });
 
@@ -44,11 +45,21 @@ app.get('/question/:slug', (c) => {
 
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
 
+  // Create a stack with the selected question at the top and 4 random others
+  const otherQuestions = questions
+    .filter(q => q.id !== question.id)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 4);
+
+  const questionStack = [question, ...otherQuestions];
+  const content = renderCardStack(questionStack, stats);
+
   return c.html(renderLayout({
     title: `${question.question} - Demokratie Quiz`,
     description: `Quiz question: ${question.question}`,
-    content: renderCard(question, false, null, stats),
-    question
+    content,
+    question,
+    stats
   }));
 });
 
@@ -133,7 +144,8 @@ app.get('/questions', (c) => {
     title: 'All Questions - Demokratie Quiz',
     description: 'Browse all Austrian politics quiz questions',
     content,
-    question: null
+    question: null,
+    stats
   }));
 });
 

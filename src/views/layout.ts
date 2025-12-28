@@ -6,9 +6,10 @@ interface LayoutProps {
   description: string;
   content: string;
   question: Question | null;
+  stats: { asked: number; correct: number; wrong: number };
 }
 
-export function renderLayout({ title, description, content, question }: LayoutProps) {
+export function renderLayout({ title, description, content, question, stats }: LayoutProps) {
   const url = question ? `https://policards.com/question/${question.slug}` : 'https://policards.com';
   const ogImage = 'https://policards.com/og-image.png'; // You can generate dynamic OG images later
 
@@ -60,6 +61,11 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       --text: #f1f5f9;
       --text-secondary: #cbd5e1;
       --border: #334155;
+      --border-hover: #475569;
+      --shadow-color-1: rgba(100, 116, 139, 0.4);
+      --shadow-color-2: rgba(148, 163, 184, 0.3);
+      --shadow-color-3: rgba(203, 213, 225, 0.2);
+      --button-hover: #2563eb;
     }
 
     [data-theme="light"] {
@@ -71,6 +77,11 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       --text: #0f172a;
       --text-secondary: #475569;
       --border: #cbd5e1;
+      --border-hover: #94a3b8;
+      --shadow-color-1: rgba(14, 63, 126, 0.06);
+      --shadow-color-2: rgba(42, 51, 70, 0.04);
+      --shadow-color-3: rgba(42, 51, 70, 0.03);
+      --button-hover: #1d4ed8;
     }
 
     [data-theme="light"] body {
@@ -167,7 +178,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .reset-button:hover {
-      background: var(--border);
+      background: var(--border-hover);
       color: var(--text);
     }
 
@@ -186,7 +197,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .theme-toggle:hover {
-      background: var(--border);
+      background: var(--border-hover);
       color: var(--text);
     }
 
@@ -214,7 +225,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       width: 400px;
       max-width: 90vw;
       aspect-ratio: 5/8;
-      perspective: 1500px;
+      perspective: 2000px;
     }
 
     .card {
@@ -239,29 +250,30 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .card[data-stack-index="1"] {
-      transform: translateY(12px) scale(0.97);
+      transform: translateY(20px) scale(0.96);
       opacity: 0.95;
     }
 
     .card[data-stack-index="2"] {
-      transform: translateY(24px) scale(0.94);
+      transform: translateY(40px) scale(0.92);
       opacity: 0.9;
     }
 
     .card[data-stack-index="3"] {
-      transform: translateY(36px) scale(0.91);
+      transform: translateY(60px) scale(0.88);
       opacity: 0.85;
     }
 
     .card[data-stack-index="4"] {
-      transform: translateY(48px) scale(0.88);
+      transform: translateY(80px) scale(0.84);
       opacity: 0.8;
     }
 
     /* Card removal animation - move to right and bottom */
     .card.removing {
-      animation: cardToBottom 1.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      animation: cardToBottom 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
       z-index: 20 !important; /* Keep on top during animation */
+      pointer-events: none !important;
     }
 
     @keyframes cardToBottom {
@@ -270,29 +282,20 @@ export function renderLayout({ title, description, content, question }: LayoutPr
         opacity: 1;
       }
       /* Move right and slightly up */
-      30% {
+      40% {
         transform: translateY(-40px) translateX(500px) scale(0.9) rotateZ(12deg);
         opacity: 0.8;
       }
       /* Continue right and start moving down (outside viewport) */
-      45% {
+      70% {
         transform: translateY(100px) translateX(600px) scale(0.7) rotateZ(18deg);
         opacity: 0.3;
       }
-      /* Move down and off screen completely */
-      60% {
-        transform: translateY(250px) translateX(400px) scale(0.5) rotateZ(10deg);
-        opacity: 0;
-      }
-      /* Stay invisible while repositioning to bottom */
-      85% {
-        transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
-        opacity: 0;
-      }
-      /* Fade in at bottom position */
+      /* Move down and off screen completely - stay invisible */
       100% {
-        transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
-        opacity: 0.8;
+        transform: translateY(250px) translateX(700px) scale(0.5) rotateZ(20deg);
+        opacity: 0;
+        visibility: hidden;
       }
     }
 
@@ -303,11 +306,11 @@ export function renderLayout({ title, description, content, question }: LayoutPr
 
     @keyframes cardAppearFromBottom {
       0% {
-        transform: translateY(60px) scale(0.85);
+        transform: translateY(100px) scale(0.8);
         opacity: 0;
       }
       100% {
-        transform: translateY(48px) scale(0.88);
+        transform: translateY(80px) scale(0.84);
         opacity: 0.8;
       }
     }
@@ -331,33 +334,28 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       0% {
         transform: translateZ(0) rotateY(0deg);
         box-shadow:
-          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
-          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+          var(--shadow-color-1) 0px 0px 0px 1px,
+          var(--shadow-color-3) 0px 1px 1px -0.5px,
+          var(--shadow-color-2) 0px 2px 2px -1px;
       }
       /* Lift up */
       25% {
         transform: translateZ(80px) translateY(-20px) rotateY(0deg);
         box-shadow:
-          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
-          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+          var(--shadow-color-2) 0px 30px 40px -10px,
+          var(--shadow-color-2) 0px 20px 30px -5px;
       }
       /* Flip while elevated */
       75% {
         transform: translateZ(80px) translateY(-20px) rotateY(180deg);
         box-shadow:
-          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
-          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+          var(--shadow-color-2) 0px 30px 40px -10px,
+          var(--shadow-color-2) 0px 20px 30px -5px;
       }
       /* Set back down */
       100% {
         transform: translateZ(0) translateY(0) rotateY(180deg);
-        box-shadow:
-          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
-          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+        box-shadow: none;
       }
     }
 
@@ -369,31 +367,26 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     @keyframes cardFlipBackWithLift {
       0% {
         transform: translateZ(0) rotateY(180deg);
-        box-shadow:
-          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
-          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+        box-shadow: none;
       }
       25% {
         transform: translateZ(80px) translateY(-20px) rotateY(180deg);
         box-shadow:
-          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
-          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+          var(--shadow-color-2) 0px 30px 40px -10px,
+          var(--shadow-color-2) 0px 20px 30px -5px;
       }
       75% {
         transform: translateZ(80px) translateY(-20px) rotateY(0deg);
         box-shadow:
-          rgba(14, 63, 126, 0.15) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.2) 0px 30px 40px -10px,
-          rgba(42, 51, 70, 0.15) 0px 20px 30px -5px;
+          var(--shadow-color-2) 0px 30px 40px -10px,
+          var(--shadow-color-2) 0px 20px 30px -5px;
       }
       100% {
         transform: translateZ(0) translateY(0) rotateY(0deg);
         box-shadow:
-          rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
-          rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
-          rgba(42, 51, 70, 0.04) 0px 2px 2px -1px;
+          var(--shadow-color-1) 0px 0px 0px 1px,
+          var(--shadow-color-3) 0px 1px 1px -0.5px,
+          var(--shadow-color-2) 0px 2px 2px -1px;
       }
     }
 
@@ -411,28 +404,32 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       transform-style: preserve-3d;
       transition: box-shadow 0.6s cubic-bezier(0.4, 0, 0.2, 1);
       box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
       box-shadow:
-        rgba(14, 63, 126, 0.06) 0px 0px 0px 1px,
-        rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px,
-        rgba(42, 51, 70, 0.04) 0px 2px 2px -1px,
-        rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
-        rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px,
-        rgba(42, 51, 70, 0.03) 0px 10px 10px -5px,
-        rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+        var(--shadow-color-1) 0px 0px 0px 1px,
+        var(--shadow-color-3) 0px 1px 1px -0.5px,
+        var(--shadow-color-2) 0px 2px 2px -1px,
+        var(--shadow-color-2) 0px 3px 3px -1.5px,
+        var(--shadow-color-3) 0px 5px 5px -2.5px,
+        var(--shadow-color-3) 0px 10px 10px -5px,
+        var(--shadow-color-3) 0px 24px 24px -8px;
     }
 
     .card:hover .front,
     .card:hover .back {
       box-shadow:
-        rgba(14, 63, 126, 0.1) 0px 0px 0px 1px,
-        rgba(42, 51, 70, 0.1) 0px 5px 10px -3px,
-        rgba(42, 51, 70, 0.1) 0px 10px 20px -5px,
-        rgba(42, 51, 70, 0.1) 0px 20px 30px -10px;
+        var(--shadow-color-1) 0px 0px 0px 1px,
+        var(--shadow-color-2) 0px 5px 10px -3px,
+        var(--shadow-color-2) 0px 10px 20px -5px,
+        var(--shadow-color-2) 0px 20px 30px -10px;
     }
 
     .back {
       transform: rotateY(180deg);
       border: 15px solid var(--primary-color);
+      border-radius: 15px !important;
+      box-shadow: none !important;
     }
 
     .header {
@@ -456,7 +453,8 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     .content {
       margin: 15px 12px 12px 12px;
       overflow-y: auto;
-      max-height: calc(100% - 150px);
+      flex: 1;
+      min-height: 0;
     }
 
     .question-text {
@@ -490,7 +488,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .option-button:hover {
-      background: var(--border);
+      background: var(--border-hover);
       border-color: var(--primary-color);
       transform: translateY(-2px);
     }
@@ -600,7 +598,7 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .button:hover {
-      background: #1d4ed8;
+      background: var(--button-hover);
       transform: translateY(-2px);
     }
 
@@ -610,7 +608,54 @@ export function renderLayout({ title, description, content, question }: LayoutPr
     }
 
     .secondary-button:hover {
-      background: var(--border);
+      background: var(--border-hover);
+    }
+
+    /* All Questions Icon Button */
+    .all-questions-icon {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 3rem;
+      height: 3rem;
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      z-index: 50;
+    }
+
+    body:has(.questions-list-container) .all-questions-icon {
+      display: none;
+    }
+
+    .all-questions-icon:hover {
+      background: var(--primary-color);
+      border-color: var(--primary-color);
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .all-questions-icon:hover::after {
+      content: 'All Questions';
+      position: absolute;
+      right: 100%;
+      margin-right: 0.75rem;
+      background: var(--surface);
+      color: var(--text);
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border);
     }
 
     /* Questions List Page */
@@ -705,28 +750,30 @@ export function renderLayout({ title, description, content, question }: LayoutPr
           opacity: 1;
         }
         /* Move right and slightly up (less distance for mobile) */
-        35% {
-          transform: translateY(-30px) translateX(150px) scale(0.85) rotateZ(10deg);
+        40% {
+          transform: translateY(-30px) translateX(250px) scale(0.85) rotateZ(10deg);
           opacity: 0.7;
         }
         /* Continue right and start moving down */
-        55% {
-          transform: translateY(80px) translateX(200px) scale(0.65) rotateZ(15deg);
+        70% {
+          transform: translateY(100px) translateX(350px) scale(0.65) rotateZ(15deg);
           opacity: 0.2;
         }
-        /* Move down and back (invisible) */
-        70% {
-          transform: translateY(150px) translateX(0) scale(0.5) rotateZ(0deg);
+        /* Move down and off screen completely - stay invisible */
+        100% {
+          transform: translateY(220px) translateX(400px) scale(0.5) rotateZ(18deg);
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+
+      @keyframes cardAppearFromBottom {
+        0% {
+          transform: translateY(100px) scale(0.8);
           opacity: 0;
         }
-        /* Come back from bottom */
-        85% {
-          transform: translateY(100px) translateX(0) scale(0.7) rotateZ(0deg);
-          opacity: 0.3;
-        }
-        /* Settle at bottom of stack */
         100% {
-          transform: translateY(48px) translateX(0) scale(0.88) rotateZ(0deg);
+          transform: translateY(80px) scale(0.84);
           opacity: 0.8;
         }
       }
@@ -743,13 +790,17 @@ export function renderLayout({ title, description, content, question }: LayoutPr
   <header class="header">
     <div class="header-content">
       <a href="/" class="logo">Demokratie Quiz</a>
-      ${renderStats({ asked: 0, correct: 0, wrong: 0 })}
+      ${renderStats(stats)}
     </div>
   </header>
 
   <main>
     ${content}
   </main>
+
+  <a href="/questions" class="all-questions-icon" title="All Questions">
+    ☰
+  </a>
 
   <script>
     // Initialize card stack on page load
@@ -850,11 +901,11 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       resultHeader.className = 'result-header ' + (isCorrect ? 'correct' : 'incorrect');
 
       // Show wrong answer if incorrect
-      if (!isCorrect) {
+      if (!isCorrect && selectedAnswer) {
         const yourAnswer = card.querySelector('.your-answer');
         const correctOption = Array.from(card.querySelectorAll('.option-button'))
           .find(btn => btn.dataset.answer === selectedAnswer);
-        const optionText = correctOption ? correctOption.querySelector('.option-text').textContent : '';
+        const optionText = correctOption ? correctOption.querySelector('.option-text').textContent : 'Unknown';
         yourAnswer.innerHTML = '<strong>Your Answer:</strong> ' + selectedAnswer + ') ' + optionText;
         yourAnswer.style.display = 'block';
       }
@@ -870,8 +921,12 @@ export function renderLayout({ title, description, content, question }: LayoutPr
       card.classList.add('removing');
       card.classList.remove('active');
 
-      // After animation, move card to bottom of stack
+      // After animation completes, move card to bottom of stack
       setTimeout(() => {
+        // Keep the card invisible during repositioning
+        card.style.visibility = 'hidden';
+        card.style.opacity = '0';
+
         card.classList.remove('removing');
         card.classList.remove('flip');
 
@@ -887,7 +942,6 @@ export function renderLayout({ title, description, content, question }: LayoutPr
               // Replace old card content with new question
               card.innerHTML = newCardContent.innerHTML;
               card.dataset.questionId = newCardContent.dataset.questionId;
-              // Event listeners are handled by event delegation, no need to reinitialize
             }
 
             // Remove card from current position and append to end
@@ -905,8 +959,14 @@ export function renderLayout({ title, description, content, question }: LayoutPr
                 c.classList.remove('active');
               }
             });
+
+            // Small delay before making card visible again at its new position
+            setTimeout(() => {
+              card.style.visibility = '';
+              card.style.opacity = '';
+            }, 50);
           });
-      }, 1600);
+      }, 800);
     }
   </script>
 </body>
