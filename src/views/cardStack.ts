@@ -72,10 +72,32 @@ function renderSingleCard(
                 </p>
               </div>
 
-              <div class="mb-4 bg-blue-50 dark:bg-slate-700/30 p-4 rounded-lg border border-blue-200 dark:border-slate-600">
-                <h3 class="text-sm font-semibold mb-2 text-blue-700 dark:text-blue-400">Background Information</h3>
-                <p class="text-slate-700 dark:text-slate-300 leading-relaxed text-sm">${question.backgroundInfo}</p>
+              <div class="mb-3 bg-blue-50 dark:bg-slate-700/30 p-2.5 rounded-lg border border-blue-200 dark:border-slate-600">
+                <h3 class="text-xs font-semibold mb-1.5 text-blue-700 dark:text-blue-400">Background Information</h3>
+                <p class="text-slate-700 dark:text-slate-300 leading-relaxed text-xs">${question.backgroundInfo}</p>
               </div>
+
+              ${question.sourceLinks && question.sourceLinks.length > 0 ? `
+                <div class="mb-3 bg-slate-50 dark:bg-slate-800/50 p-2 rounded border border-slate-200/50 dark:border-slate-700/50">
+                  <h3 class="text-xs font-normal mb-1.5 text-slate-500 dark:text-slate-400 flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                    </svg>
+                    Sources
+                  </h3>
+                  <div class="flex flex-wrap gap-1.5">
+                    ${question.sourceLinks.map(link => `
+                      <a href="${link.url}" target="_blank" rel="noopener noreferrer"
+                         class="inline-flex items-center gap-1 text-xs px-1.5 py-0.5 bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+                        <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                        ${link.name}
+                      </a>
+                    `).join('')}
+                  </div>
+                </div>
+              ` : ''}
             </div>
 
             <div class="flex justify-center px-4 py-3 border-t border-slate-200 dark:border-slate-700">

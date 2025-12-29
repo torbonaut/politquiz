@@ -9,7 +9,10 @@
       "Bash(lsof:*)",
       "Bash(xargs kill:*)",
       "Bash(npm run dev:*)",
-      "Bash(bun run:*)"
+      "Bash(bun run:*)",
+      "Bash(node update-sources.js:*)",
+      "Bash(node update-sources.cjs:*)",
+      "Bash(node convert-sources.cjs:*)"
     ]
   }
 }
