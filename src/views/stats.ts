@@ -47,10 +47,10 @@ export function renderStats(stats: { asked: number; correct: number; wrong: numb
               ${allTags.length > 0 ? `
                 <div class="mt-3 pt-3 border-t border-slate-200 dark:border-slate-700">
                   <div class="text-xs font-semibold text-slate-500 dark:text-slate-400 px-3 mb-2">Filter by Tag</div>
-                  <div class="max-h-48 overflow-y-auto">
+                  <div class="max-h-48 overflow-y-auto px-3">
                     ${allTags.map(tag => `
-                      <a href="/tag/${encodeURIComponent(tag)}" class="block px-3 py-1.5 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded transition-colors">
-                        <span class="inline-block px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded text-xs">${tag}</span>
+                      <a href="/tag/${encodeURIComponent(tag)}" class="inline-block mr-1.5 mb-1.5">
+                        <span class="inline-block px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800/50 rounded text-xs transition-colors">${tag}</span>
                       </a>
                     `).join('')}
                   </div>
