@@ -9,6 +9,7 @@ export interface Question {
   correctAnswer: string;
   backgroundInfo: string;
   sourceLinks?: Array<{ name: string; url: string }>;
+  tags?: string[];
 }
 
 export const questions: Question[] = [
@@ -27,7 +28,8 @@ export const questions: Question[] = [
     sourceLinks: [
       { name: "Der Standard", url: "https://www.derstandard.at/story/2000073964568/kickl-das-recht-hat-der-politik-zu-folgen" },
       { name: "ORF", url: "https://orf.at/stories/3107252/" }
-    ]
+    ],
+    tags: ["FPÖ", "Kickl", "Rechtsstaat", "2018"]
   },
   {
     id: 2,
@@ -44,7 +46,8 @@ export const questions: Question[] = [
     sourceLinks: [
       { name: "Der Standard", url: "https://www.derstandard.at/story/2000104280267/brigitte-bierlein-wird-bundeskanzlerin" },
       { name: "ORF", url: "https://orf.at/stories/3123776/" }
-    ]
+    ],
+    tags: ["Ibiza-Affäre", "2019", "Bierlein"]
   },
   {
     id: 3,
@@ -148,7 +151,8 @@ export const questions: Question[] = [
     sourceLinks: [
       { name: "Der Standard", url: "https://www.derstandard.at/story/2000073964568/fpoe-liederbuch-skandal" },
       { name: "Die Zeit", url: "https://www.zeit.de/politik/ausland/2018-01/oesterreich-fpoe-liederbuch-antisemitismus" }
-    ]
+    ],
+    tags: ["FPÖ", "Rechtsextrem", "Antisemitismus", "2018"]
   },
   {
     id: 9,
@@ -985,7 +989,8 @@ export const questions: Question[] = [
 ,
     sourceLinks: [
       { name: "Wikipedia", url: "https://de.wikipedia.org/wiki/Freiheitliche_Partei_%C3%96sterreichs" }
-    ]
+    ],
+    tags: ["FPÖ", "COVID", "Verschwörungstheorien"]
   },
   {
     id: 58,
@@ -1823,4 +1828,16 @@ export function getRandomQuestion(excludeIds: number[] = []): Question {
 export function getRandomQuestions(count: number): Question[] {
   const shuffled = [...questions].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, questions.length));
+}
+
+export function getQuestionsByTag(tag: string): Question[] {
+  return questions.filter(q => q.tags?.includes(tag));
+}
+
+export function getAllTags(): string[] {
+  const tagSet = new Set<string>();
+  questions.forEach(q => {
+    q.tags?.forEach(tag => tagSet.add(tag));
+  });
+  return Array.from(tagSet).sort();
 }

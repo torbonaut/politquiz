@@ -28,7 +28,16 @@ function renderSingleCard(
         <div class="front">
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-2 border-slate-200 dark:border-slate-700 h-full flex flex-col">
             <div class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">
-              <h2 class="text-sm font-bold text-blue-600 dark:text-blue-400">Question ${question.id}</h2>
+              <div class="flex items-center justify-between">
+                <h2 class="text-sm font-bold text-blue-600 dark:text-blue-400">Question ${question.id}</h2>
+                ${question.tags && question.tags.length > 0 ? `
+                  <div class="flex flex-wrap gap-1">
+                    ${question.tags.slice(0, 3).map(tag => `
+                      <span class="text-xs px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">${tag}</span>
+                    `).join('')}
+                  </div>
+                ` : ''}
+              </div>
             </div>
             <div class="content flex-1 overflow-y-auto px-4 py-3">
               <h3 class="text-base font-semibold mb-4 text-slate-900 dark:text-slate-100">${question.question}</h3>
@@ -96,6 +105,14 @@ function renderSingleCard(
                       </a>
                     `).join('')}
                   </div>
+                </div>
+              ` : ''}
+
+              ${question.tags && question.tags.length > 0 ? `
+                <div class="flex flex-wrap gap-1.5">
+                  ${question.tags.map(tag => `
+                    <span class="text-xs px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">${tag}</span>
+                  `).join('')}
                 </div>
               ` : ''}
             </div>

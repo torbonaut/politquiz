@@ -1,7 +1,7 @@
 import { Hono } from 'hono';
 import { getCookie, setCookie } from 'hono/cookie';
 import { serve } from '@hono/node-server';
-import { getQuestionBySlug, getRandomQuestion, getRandomQuestions, questions } from './database.js';
+import { getQuestionBySlug, getRandomQuestion, getRandomQuestions, questions, getAllTags, getQuestionsByTag } from './database.js';
 import { renderLayout } from './views/layout.js';
 import { renderCard } from './views/card.js';
 import { renderCardStack } from './views/cardStack.js';
@@ -24,13 +24,15 @@ app.use('*', async (c, next) => {
 app.get('/', (c) => {
   const questionStack = getRandomQuestions(5);
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
+  const allTags = getAllTags();
 
   return c.html(renderLayout({
     title: 'Demokratie Quiz - Austrian Politics Quiz',
     description: 'Test your knowledge of Austrian politics with interactive flip cards',
     content: renderCardStack(questionStack, stats),
     question: questionStack[0],
-    stats
+    stats,
+    allTags
   }));
 });
 
@@ -60,6 +62,35 @@ app.get('/question/:slug', (c) => {
     content,
     question,
     stats
+  }));
+});
+
+// Filter questions by tag
+app.get('/tag/:tag', (c) => {
+  const tag = decodeURIComponent(c.req.param('tag'));
+  const taggedQuestions = getQuestionsByTag(tag);
+
+  if (taggedQuestions.length === 0) {
+    return c.text('No questions found with this tag', 404);
+  }
+
+  const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
+  const allTags = getAllTags();
+
+  // Create a stack with up to 5 questions with this tag
+  const questionStack = taggedQuestions
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 5);
+
+  const content = renderCardStack(questionStack, stats);
+
+  return c.html(renderLayout({
+    title: `${tag} Questions - Demokratie Quiz`,
+    description: `Quiz questions tagged with ${tag}`,
+    content,
+    question: questionStack[0],
+    stats,
+    allTags
   }));
 });
 
@@ -104,7 +135,8 @@ app.get('/api/next', (c) => {
 // API endpoint to update stats display
 app.get('/api/stats', (c) => {
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
-  return c.html(renderStats(stats));
+  const allTags = getAllTags();
+  return c.html(renderStats(stats, allTags));
 });
 
 // Reset stats
@@ -114,7 +146,8 @@ app.post('/api/reset-stats', (c) => {
     maxAge: 60 * 60 * 24 * 365
   });
   const stats = { asked: 0, correct: 0, wrong: 0 };
-  return c.html(renderStats(stats));
+  const allTags = getAllTags();
+  return c.html(renderStats(stats, allTags));
 });
 
 // All questions list (for sitemap/discovery)

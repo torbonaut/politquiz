@@ -7,9 +7,10 @@ interface LayoutProps {
   content: string;
   question: Question | null;
   stats: { asked: number; correct: number; wrong: number };
+  allTags?: string[];
 }
 
-export function renderLayout({ title, description, content, question, stats }: LayoutProps) {
+export function renderLayout({ title, description, content, question, stats, allTags = [] }: LayoutProps) {
   const url = question ? `https://policards.com/question/${question.slug}` : 'https://policards.com';
   const ogImage = 'https://policards.com/og-image.png';
 
@@ -301,7 +302,7 @@ export function renderLayout({ title, description, content, question, stats }: L
 <body class="min-h-screen flex flex-col bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-900 dark:to-slate-800 text-slate-900 dark:text-slate-100 transition-colors duration-300">
   <header class="sticky top-0 bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm z-50 shadow-md">
     <div class="max-w-screen-xl mx-auto px-4">
-      ${renderStats(stats)}
+      ${renderStats(stats, allTags)}
     </div>
   </header>
 
@@ -319,7 +320,43 @@ export function renderLayout({ title, description, content, question, stats }: L
     document.addEventListener('DOMContentLoaded', function() {
       initializeCardStack();
       initializeThemeToggle();
+      initializeMenuDropdown();
     });
+
+    // Reinitialize after HTMX swaps (for reset stats, etc.)
+    document.body.addEventListener('htmx:afterSwap', function(event) {
+      if (event.detail.target.id === 'stats-bar') {
+        initializeThemeToggle();
+        initializeMenuDropdown();
+      }
+    });
+
+    function initializeMenuDropdown() {
+      const menuToggle = document.getElementById('menu-toggle');
+      const menuDropdown = document.getElementById('menu-dropdown');
+
+      if (menuToggle && menuDropdown) {
+        // Toggle dropdown on button click
+        menuToggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          menuDropdown.classList.toggle('hidden');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!menuDropdown.contains(e.target) && !menuToggle.contains(e.target)) {
+            menuDropdown.classList.add('hidden');
+          }
+        });
+
+        // Close dropdown when clicking a link inside
+        menuDropdown.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', function() {
+            menuDropdown.classList.add('hidden');
+          });
+        });
+      }
+    }
 
     function initializeThemeToggle() {
       const themeToggle = document.getElementById('theme-toggle');
@@ -419,6 +456,7 @@ export function renderLayout({ title, description, content, question, stats }: L
             if (statsBar) {
               statsBar.outerHTML = html;
               initializeThemeToggle();
+              initializeMenuDropdown();
             }
           });
       });
