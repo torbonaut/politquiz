@@ -121,21 +121,21 @@ app.post('/api/reset-stats', (c) => {
 app.get('/questions', (c) => {
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
   const questionList = questions.map(q => `
-    <li class="question-item">
-      <a href="/question/${q.slug}" class="question-link">
+    <li class="mb-2">
+      <a href="/question/${q.slug}" class="block p-3 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 transition-colors text-slate-900 dark:text-slate-100 text-sm">
         ${q.question}
       </a>
     </li>
   `).join('');
 
   const content = `
-    <div class="questions-list-container">
-      <h1>All Questions</h1>
-      <ul class="questions-list">
+    <div class="questions-list-container max-w-3xl mx-auto bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-2xl border-2 border-slate-200 dark:border-slate-700">
+      <h1 class="text-xl font-bold mb-4 text-slate-900 dark:text-slate-100">All Questions</h1>
+      <ul class="space-y-2 mb-4">
         ${questionList}
       </ul>
-      <div class="actions">
-        <a href="/" class="button">Back to Random Question</a>
+      <div class="flex justify-center">
+        <a href="/" class="px-6 py-2 bg-blue-500 dark:bg-blue-500 text-white dark:text-white rounded-lg font-semibold hover:bg-blue-600 dark:hover:bg-blue-600 transition-colors shadow-lg text-sm">Back to Random Question</a>
       </div>
     </div>
   `;
