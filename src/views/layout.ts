@@ -142,22 +142,26 @@ export function renderLayout({ title, description, content, question, stats }: L
       }
     }
 
-    /* Card return animation - move to bottom of stack */
+    /* Card return animation - 3D arc to bottom of stack */
     .card.returning {
-      animation: cardMoveToBottom 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      animation: cardMoveToBottom 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     }
 
     @keyframes cardMoveToBottom {
       0% {
-        transform: translateY(0) translateX(600px) scale(0.9);
+        transform: translateY(0) translateX(600px) translateZ(0) scale(0.9);
         opacity: 0;
       }
-      50% {
-        transform: translateY(100px) translateX(300px) scale(0.85);
-        opacity: 0.3;
+      30% {
+        transform: translateY(-50px) translateX(350px) translateZ(100px) scale(0.87);
+        opacity: 0.4;
+      }
+      60% {
+        transform: translateY(30px) translateX(100px) translateZ(50px) scale(0.85);
+        opacity: 0.55;
       }
       100% {
-        transform: translateY(72px) scale(0.84);
+        transform: translateY(72px) translateX(0) translateZ(0) scale(0.84);
         opacity: 0.6;
       }
     }
@@ -484,7 +488,7 @@ export function renderLayout({ title, description, content, question, stats }: L
         // Remove returning class after animation completes
         setTimeout(() => {
           card.classList.remove('returning');
-        }, 600);
+        }, 800);
       }, 500);
     }
 
