@@ -7412,7 +7412,6518 @@ export const questions: Question[] = [
       "Ausblick",
       "Zukunft"
     ]
+  },
+
+  {
+    "id": 1,
+    "slug": "ungarn-orban-lgbtq-propaganda-gesetz-2021",
+    "question": "Was verbietet Ungarns umstrittenes LGBT-Propaganda-Gesetz von 2021?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Darstellung von Homo- und Transsexualität vor Minderjährigen"
+      },
+      {
+        "letter": "B",
+        "text": "Heterosexuelle Beziehungen"
+      },
+      {
+        "letter": "C",
+        "text": "Werbung für Kinderschutz"
+      },
+      {
+        "letter": "D",
+        "text": "Religiöse Symbole in Schulen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Die Fidesz-Regierung von Viktor Orbán verabschiedete 2021 ein Gesetz, das die positive Darstellung von Homosexualität und Transidentität vor Minderjährigen verbietet. Kritiker sehen darin ein homophobes Zensurgesetz nach russischem Vorbild.",
+    "sourceLinks": [
+      {
+        "name": "Die Zeit",
+        "url": "https://www.zeit.de/politik/ausland/2021-06/ungarn-lgbtq-gesetz-minderjaehrige-verbot-proteste"
+      },
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/ungarn-homosexualitaet-103.html"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2021",
+      "LGBTQ+"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "ungarn-pride-verbot-2025",
+    "question": "Was beschloss das ungarische Parlament 2025 in Bezug auf Pride-Demonstrationen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ein Verbot von Pride-Demonstrationen mit Geldstrafen für Organisator:innen und Teilnehmer:innen"
+      },
+      {
+        "letter": "B",
+        "text": "Staatliche Förderung von Pride-Veranstaltungen"
+      },
+      {
+        "letter": "C",
+        "text": "Verpflichtende Sicherheitsschulungen für Pride-Organisator:innen"
+      },
+      {
+        "letter": "D",
+        "text": "Eine Ausweitung der Demonstrationsrechte für LGBTQ+-Gruppen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2025 wurde in Ungarn ein Gesetz verabschiedet, das Pride-Demonstrationen faktisch verbietet. Eine Verfassungsänderung schrieb außerdem fest, dass es nur zwei Geschlechter gebe.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Österreich",
+        "url": "https://www.amnesty.at/presse/ungarn-pride-verbot-ist-ein-frontalangriff-auf-lgbtqiaplus-personen-und-darf-nicht-in-kraft-treten"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2025",
+      "LGBTQ+"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "ungarn-orban-verfassungsgericht-entmachtung-2012",
+    "question": "Wie schwächte Viktor Orbán 2012 das ungarische Verfassungsgericht?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Er entzog dem Gericht weitgehend das Recht, Steuer- und Haushaltsgesetze zu überprüfen"
+      },
+      {
+        "letter": "B",
+        "text": "Er verkleinerte das Gericht auf drei Richter"
+      },
+      {
+        "letter": "C",
+        "text": "Er machte alle Richter direkt vom Präsidenten der EU-Kommission abhängig"
+      },
+      {
+        "letter": "D",
+        "text": "Er verbot dem Gericht, Menschenrechtsfragen zu behandeln"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Mit dem neuen Grundgesetz 2012 schränkte die Fidesz-Regierung die Kompetenzen des Verfassungsgerichts massiv ein, besonders bei Steuer- und Finanzgesetzen – ein gezielter Angriff auf die Gewaltenteilung.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      },
+      {
+        "name": "bpb",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/308619/10-jahre-fidesz-regierung-lage-der-demokratie-in-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2012",
+      "Rechtsstaat"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "ungarn-verwaltungsgerichte-politische-kontrolle-2018",
+    "question": "Wozu diente das separate Verwaltungsgerichtssystem in Ungarn ab 2018?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Es sollte politisch sensible Fälle wie Wahlen unter Einfluss des Justizministers bringen"
+      },
+      {
+        "letter": "B",
+        "text": "Es sollte NGOs mehr Klagerechte einräumen"
+      },
+      {
+        "letter": "C",
+        "text": "Es sollte Korruptionsverfahren an EU-Gerichte übertragen"
+      },
+      {
+        "letter": "D",
+        "text": "Es sollte die Unabhängigkeit der Kommunalgerichte stärken"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Die Fidesz-Regierung beschloss ein eigenes Verwaltungsgerichtssystem für politisch heikle Verfahren. Der Justizminister sollte Richter:innen ernennen und Budgets kontrollieren – ein direkter Hebel zur Kontrolle unliebsamer Urteile.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2018",
+      "Justizreform"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "ungarn-wahlsystem-umbau-fidesz-vorteil",
+    "question": "Wie veränderte Viktor Orbán das Wahlsystem zugunsten seiner Partei?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Er reduzierte die Zahl der Parlamentssitze und stärkte das Mehrheitswahlrecht"
+      },
+      {
+        "letter": "B",
+        "text": "Er führte reines Verhältniswahlrecht ein"
+      },
+      {
+        "letter": "C",
+        "text": "Er führte eine verpflichtende Wahlbeteiligung ein"
+      },
+      {
+        "letter": "D",
+        "text": "Er gab Minderheiten automatische Zusatzsitze"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbán ließ die Zahl der Abgeordneten senken und das System so umbauen, dass Direktmandate die Regierungspartei klar bevorzugen. Das System erschwert strukturell einen Machtwechsel.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      },
+      {
+        "name": "bpb",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/308619/10-jahre-fidesz-regierung-lage-der-demokratie-in-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2010",
+      "Wahlrecht"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "ungarn-asyl-transitzonen-eugh-verurteilung",
+    "question": "Wie verstieß Ungarn mit Transitzonen gegen europäisches Asylrecht?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Asylsuchende wurden in Grenzlagern monatelang festgehalten"
+      },
+      {
+        "letter": "B",
+        "text": "Ungarn gewährte zu großzügig Asyl und überforderte damit die EU"
+      },
+      {
+        "letter": "C",
+        "text": "Ungarn übergab alle Asylfälle direkt an private Sicherheitsfirmen"
+      },
+      {
+        "letter": "D",
+        "text": "Ungarn verlangte Asylgebühren von mehreren Tausend Euro"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Ungarn richtete Transitzonen an der Grenze ein, in denen Asylbewerber:innen festgehalten wurden. Der Europäische Gerichtshof erklärte diese Praxis als Verstoß gegen EU-Asylrecht.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "Asyl",
+      "Menschenrechte"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "ungarn-souveraenitaetsgesetz-ngo-repression-2023",
+    "question": "Was regelt das ungarische Souveränitätsgesetz von 2023 in Bezug auf NGOs?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Es kriminalisiert aus dem Ausland finanzierte zivilgesellschaftliche Organisationen"
+      },
+      {
+        "letter": "B",
+        "text": "Es stellt NGOs unter besonderen staatlichen Schutz"
+      },
+      {
+        "letter": "C",
+        "text": "Es schreibt eine Mindestfinanzierung für Menschenrechtsorganisationen vor"
+      },
+      {
+        "letter": "D",
+        "text": "Es erlaubt NGOs, Regierungsentscheidungen zu vetieren"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Das 2023 beschlossene Souveränitätsgesetz erschwert international unterstützte NGOs massiv und kann als Werkzeug eingesetzt werden, kritische Organisationen zu kriminalisieren.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2023",
+      "Zivilgesellschaft"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "deutschland-afd-verfassungsschutz-einstufung-2025",
+    "question": "Wie stufte das Bundesamt für Verfassungsschutz die AfD im Jahr 2025 ein?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Als \"gesichert rechtsextremistische\" Partei"
+      },
+      {
+        "letter": "B",
+        "text": "Als harmlose Protestbewegung"
+      },
+      {
+        "letter": "C",
+        "text": "Als reine Wirtschaftspartei"
+      },
+      {
+        "letter": "D",
+        "text": "Als neutralen Beobachter des politischen Systems"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Der Verfassungsschutz erklärte 2025, der Verdacht rechtsextremistischer Bestrebungen in der AfD habe sich zur Gewissheit verdichtet. Die Partei wurde als gesichert rechtsextremistisch eingestuft.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Rechtsextremismus"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "deutschland-afd-kriminalitaet-missbrauch-statistiken",
+    "question": "Wie verzerrt die AfD laut Medienforschung die Darstellung von Kriminalität?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sie stellt 95% der erwähnten Tatverdächtigen als Ausländer dar, obwohl ihr Anteil unter 35% liegt"
+      },
+      {
+        "letter": "B",
+        "text": "Sie weist konsequent auf deutsche Täter hin"
+      },
+      {
+        "letter": "C",
+        "text": "Sie verwendet ausschließlich offizielle Polizeistatistiken"
+      },
+      {
+        "letter": "D",
+        "text": "Sie vermeidet jegliche Nationalitätsangaben"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Medienwissenschaftler dokumentieren: AfD-Pressemitteilungen zu Kriminalität stellen Verdächtige fast ausschließlich als Ausländer dar, obwohl offizielle Statistiken ein anderes Bild zeigen.",
+    "sourceLinks": [
+      {
+        "name": "Die Zeit",
+        "url": "https://www.zeit.de/politik/deutschland/2019-08/afd-kriminalitaetsstatistik-medienwissenschaftler-zuwanderer"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2019",
+      "Propaganda"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "deutschland-reichsbuerger-terrorgruppe-putschplan-2022",
+    "question": "Wessen wird die 2022 aufgedeckte Reichsbürger-Gruppe beschuldigt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sie soll geplant haben, mit Waffengewalt die Regierung zu stürzen"
+      },
+      {
+        "letter": "B",
+        "text": "Sie organisierte lediglich legale Demonstrationen"
+      },
+      {
+        "letter": "C",
+        "text": "Sie war eine Satiregruppe ohne politische Ambitionen"
+      },
+      {
+        "letter": "D",
+        "text": "Sie betrieb ausschließlich Online-Petitionen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Im Dezember 2022 wurden 54 Reichsbürger:innen angeklagt, darunter eine ehemalige AfD-Bundestagsabgeordnete. Ihr wird ein geplanter bewaffneter Umsturz und die Besetzung des Bundestags vorgeworfen.",
+    "sourceLinks": [
+      {
+        "name": "Deutscher Bundestag",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw50-de-aktuelle-stunde-reichsbuerger-926426"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "Reichsbürger",
+      "2022",
+      "Terrorismus"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "deutschland-malsack-winkemann-afd-terrorgruppe-prozess",
+    "question": "Wer ist Birgit Malsack-Winkemann und warum ist sie bedeutsam?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sie war AfD-Abgeordnete und Mitglied der Reichsbürger-Terrorgruppe"
+      },
+      {
+        "letter": "B",
+        "text": "Sie ist eine führende Demokratisierungsaktivistin"
+      },
+      {
+        "letter": "C",
+        "text": "Sie lehrt Verfassungsrecht an der Universität"
+      },
+      {
+        "letter": "D",
+        "text": "Sie ist Vorsitzende der Grünen-Fraktion"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Birgit Malsack-Winkemann war Richterin und AfD-Bundestagsabgeordnete. Sie wurde als Mitglied der Reichsbürger-Terrorgruppe angeklagt, die einen bewaffneten Staatsstreich plante.",
+    "sourceLinks": [
+      {
+        "name": "Deutscher Bundestag",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw50-de-aktuelle-stunde-reichsbuerger-926426"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2022",
+      "Terrorismus"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "deutschland-rechte-gewalt-anstieg-2024",
+    "question": "Um wie viel Prozent stieg rechte Gewalt in Deutschland 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Um etwa 25%, mit über 3.450 erfassten Angriffszielen"
+      },
+      {
+        "letter": "B",
+        "text": "Rechte Gewalt sank um 15%"
+      },
+      {
+        "letter": "C",
+        "text": "Die Zahlen blieben stabil"
+      },
+      {
+        "letter": "D",
+        "text": "Ein minimaler Anstieg von unter 5%"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024 dokumentierten Opferberatungsstellen einen massiven Anstieg rechter Gewalt um etwa 25% – parallel zu Wahlerfolgen der AfD. Rassismus war das häufigste Tatmotiv.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Rechte Gewalt",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "deutschland-angriffe-journalisten-2024-pressefreiheit",
+    "question": "Wie viele Angriffe auf Journalist:innen gab es 2024 in Deutschland?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "37 Angriffe, oft bei AfD-Veranstaltungen und neo-Nazi-Aufmärsche"
+      },
+      {
+        "letter": "B",
+        "text": "Keine Angriffe"
+      },
+      {
+        "letter": "C",
+        "text": "Ein Rückgang der Gewalt"
+      },
+      {
+        "letter": "D",
+        "text": "Nur einzelne isolierte Fälle"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024 wurden 37 Angriffe auf Journalist:innen dokumentiert. Besonders häufig traten diese bei AfD-Veranstaltungen auf – ein Zeichen verfestigter Pressefeindlichkeit in der extremen Rechten.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Pressefreiheit",
+      "Gewalt"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "deutschland-gewalt-gegen-politische-gegner-2024",
+    "question": "Um wie viel Prozent stiegen Angriffe auf politische Gegner 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fast 75% Anstieg (542 Fälle gegen Aktivisten gegen Rechtsextremismus)"
+      },
+      {
+        "letter": "B",
+        "text": "Rückgang der Angriffe"
+      },
+      {
+        "letter": "C",
+        "text": "Stabile Zahlen"
+      },
+      {
+        "letter": "D",
+        "text": "Minimale Zunahme"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024 stieg die Anzahl von Angriffszielen gegen politische Gegner um beinahe 75%. Betroffen waren vor allem Journalist:innen und Aktivisten gegen Rechtsextremismus.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Politische Gewalt",
+      "Angriffe"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "ungarn-oligarch-meszaros-auftragsvergabe",
+    "question": "Wie wurde der Oligarch Sándor Mészáros unter Orbán erfolgreich?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Er erhielt ohne Ausschreibung Millionen-Euro-Aufträge von Fidesz-Gemeinden"
+      },
+      {
+        "letter": "B",
+        "text": "Er gründete Unternehmen in offener Konkurrenz"
+      },
+      {
+        "letter": "C",
+        "text": "Er betrieb ehrliche Geschäftstätigkeit"
+      },
+      {
+        "letter": "D",
+        "text": "Er gewann Ausschreibungen durch Kompetenz"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Sándor Mészáros war insolvent, bevor Orbán an die Macht kam. Sein Vermögen wuchs auf über 5 Milliarden Dollar – hauptsächlich durch staatliche Aufträge ohne echte Konkurrenz.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "ungarn-felcsut-stadiumbau-eu-gelder",
+    "question": "Wofür gab Ungarn 230 Millionen Euro EU-Gelder aus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Für ein Fußballstadion in Orbáns Heimatdorf Felcsut (1.600 Einwohner)"
+      },
+      {
+        "letter": "B",
+        "text": "Für ein Universitätskrankenhaus in Budapest"
+      },
+      {
+        "letter": "C",
+        "text": "Für eine Autobahn-Sanierung"
+      },
+      {
+        "letter": "D",
+        "text": "Für ein neues Justizgebäude"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Felcsut, Orbáns Heimatdorf mit nur 1.600 Einwohnern, erhielt 230 Millionen Euro EU-Gelder für ein extravagantes Fußballstadion neben Orbáns Wochenendhaus – ein Paradebeispiel für Korruption.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU-Betrug"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "ungarn-led-skandal-schwiegersohn-tiborcz",
+    "question": "Was war der LED-Lampen-Skandal in Ungarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gemeinden zahlten Millionen über Orbáns Schwiegersohn István Tiborcz für teure LED-Lampen"
+      },
+      {
+        "letter": "B",
+        "text": "Ein innovatives Energiesparprogramm"
+      },
+      {
+        "letter": "C",
+        "text": "Eine transparente Ausschreibung"
+      },
+      {
+        "letter": "D",
+        "text": "Eine EU-Umweltinitiative"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Ungarische Gemeinden zahlten Millionen für LED-Lampen über ein Unternehmen von Orbáns Schwiegersohn – ohne echte Ausschreibung, zu überhöhten Preisen, finanziert durch EU-Gelder.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2020",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "ungarn-eu-haushalt-40-milliarden-blockiert",
+    "question": "Warum hält die EU 40 Milliarden Euro für Ungarn zurück?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Wegen Korruption und Verstoß gegen Rechtsstaatlichkeit"
+      },
+      {
+        "letter": "B",
+        "text": "Wegen administrativer Verzögerungen"
+      },
+      {
+        "letter": "C",
+        "text": "Wegen technischer Probleme"
+      },
+      {
+        "letter": "D",
+        "text": "Aus budgetären Gründen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Die EU-Kommission blockiert bis zu 40 Milliarden Euro an Mitteln für Ungarn wegen grassierender Korruption und antidemokratischer Reformen. Dies ist das einzige wirksame Druckmittel gegen Orbáns Regime.",
+    "sourceLinks": [
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-haushalt-ausschuss-ungarn-100.html"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "2024",
+      "EU-Sanktion",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "polen-pis-lgbtq-freie-zonen-hundert-gemeinden",
+    "question": "Was sind \"LGBT-freie Zonen\" in Polen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Über 100 Gemeinden erklären sich 2019-2025 als frei von LGBT-Ideologie"
+      },
+      {
+        "letter": "B",
+        "text": "Sichere Orte für LGBTQ+-Menschen"
+      },
+      {
+        "letter": "C",
+        "text": "Legale diskriminierungsfreie Zonen"
+      },
+      {
+        "letter": "D",
+        "text": "EU-Initiative für Vielfalt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2019-2020: Über 100 polnische Gemeinden und Woiwodschaften erklären sich zu \"LGBT-ideologiefreien Zonen\" – unter PiS-Regierung eine politische Stigmatisierung der LGBTQ+-Community.",
+    "sourceLinks": [
+      {
+        "name": "Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/LGBT-ideologiefreie_Zone"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2019",
+      "LGBTQ+"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "polen-pis-wahlkampf-lgbtq-feindlichkeit",
+    "question": "Wie nutzte Polens PiS LGBTQ+-Feindlichkeit im Wahlkampf?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zentrale Wahlstrategie: LGBTQ+-Menschen als Bedrohung für Familie und Nation"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützung von LGBTQ+-Rechten"
+      },
+      {
+        "letter": "C",
+        "text": "Integrationsprogramme"
+      },
+      {
+        "letter": "D",
+        "text": "Fördermittel für Pride-Events"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS-Wahlstrategie seit 2015: LGBTQ+-Feindlichkeit als Mobilisierungsmittel, Kampagnen gegen \"Gender-Ideologie\" – Stimmengewinn durch Diskriminierung.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2015",
+      "Homophobie"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "polen-praesident-duda-lgbtq-ideologie",
+    "question": "Was sagte Polens Präsident Duda über LGBTQ?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Nur Ideologie\" und \"zerstörerischer als Kommunismus\""
+      },
+      {
+        "letter": "B",
+        "text": "\"Volle Unterstützung für LGBTQ+-Rechte\""
+      },
+      {
+        "letter": "C",
+        "text": "\"Neutral und sachlich\""
+      },
+      {
+        "letter": "D",
+        "text": "\"Kritik an Diskriminierung\""
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Präsident Duda 2020: Hetzerische Aussagen gegen LGBTQ+ als \"Ideologie schlimmer als Kommunismus\" – Wahlkampf-Propaganda mit rassistischen und antidemokratischen Inhalten.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "Homophobie"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "polen-abtreibungsverbot-striktest-europa-2021",
+    "question": "Was passierte mit Polens Abtreibungsgesetz 2021?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fast totales Verbot – nur Ausnahme bei Lebensgefahr der Mutter"
+      },
+      {
+        "letter": "B",
+        "text": "Liberalisierung der Abtreibungsgesetze"
+      },
+      {
+        "letter": "C",
+        "text": "Status quo blieb erhalten"
+      },
+      {
+        "letter": "D",
+        "text": "Abtreibung wurde in allen Fällen erlaubt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Oktober 2021: Polens Verfassungsgericht bestätigte ein extremes Abtreibungsverbot unter PiS. Nur in Fällen von Lebensgefahr für die Mutter oder medizinischen Notfällen ist Abtreibung erlaubt – das restriktivste Gesetz in Europa.",
+    "sourceLinks": [
+      {
+        "name": "Die Zeit",
+        "url": "https://www.zeit.de/politik/ausland/2024-08/polen-selbstbestimmung-abtreibung-gesetz-un"
+      },
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/ueber-amnesty/aktivist-innen/netzwerk-frauenrechte/news-events/polen-ein-jahr-nach-dem-frauenverachtenden"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2021",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "polen-abtreibungsverbot-un-ausschuss-kritik",
+    "question": "Wie kritisierte die UN das polnische Abtreibungsverbot?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Als Verstoß gegen internationales Menschenrecht und Frauenrechtskonvention"
+      },
+      {
+        "letter": "B",
+        "text": "Als legitime nationale Gesetzgebung"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützung für das Gesetz"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Stellungnahme"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Der UN-Ausschuss für die Beseitigung der Diskriminierung von Frauen kritisierte das polnische Abtreibungsverbot als Verstoß gegen die Frauenrechtskonvention und das Menschenrecht auf Selbstbestimmung.",
+    "sourceLinks": [
+      {
+        "name": "Die Zeit",
+        "url": "https://www.zeit.de/politik/ausland/2024-08/polen-selbstbestimmung-abtreibung-gesetz-un"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2024",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "polen-katholische-kirche-konversionstherapie",
+    "question": "Was befürwortete die polnische Bischofskonferenz 2020?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Konversionstherapien für Homosexuelle"
+      },
+      {
+        "letter": "B",
+        "text": "Vollständige Entkriminalisierung"
+      },
+      {
+        "letter": "C",
+        "text": "Ehe für alle"
+      },
+      {
+        "letter": "D",
+        "text": "Transgender-Rechte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Polnische Bischofskonferenz 2020: 27-Seiten-Leitfaden befürwortet Konversionstherapien für Homosexuelle, lehnt Ehen ab – kirchliche Unterstützung für Diskriminierung.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "Kirche"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "polen-europaparlament-artikel-7-verfahren",
+    "question": "Was beschloss das Europaparlament zu Polens Menschenrechtsverletzungen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verurteilung und Verfahren nach Artikel 7 wegen Rechtsstaatlichkeitsverletzung"
+      },
+      {
+        "letter": "B",
+        "text": "Lobendes Schreiben"
+      },
+      {
+        "letter": "C",
+        "text": "Finanzielle Zuschüsse"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Reaktion"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Das Europaparlament verurteilte Polen wegen systematischer Diskriminierung von LGBTQ+ und setzte ein Artikel-7-Verfahren ein – \"schwerwiegende Verletzung der Rechtsstaatlichkeit\".",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "EU"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "deutschland-afd-ethnic-nationalism",
+    "question": "Wie beschreibt der Verfassungsschutz AfD-Rassismus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Ethnisch-abstammungsmäßiges Volksverständnis ist nicht mit Verfassung vereinbar\""
+      },
+      {
+        "letter": "B",
+        "text": "Normale konservative Politik"
+      },
+      {
+        "letter": "C",
+        "text": "Verfassungskonform"
+      },
+      {
+        "letter": "D",
+        "text": "Legitime Positionen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Verfassungsschutz 2025: AfDs ethnisch-abstammungsmäßiges Volksverständnis zielt darauf ab, Menschen von gleichberechtigter Teilhabe auszuschließen – fundamentale Verfassungsverletzung.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "ungarn-geschlechtsidentitaet-verfassungsaenderung-2025",
+    "question": "Was bestimmte Ungarns Verfassungsänderung 2025 über Geschlecht?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Es gibt nur zwei Geschlechter – Verleugnung nicht-binärer Identität"
+      },
+      {
+        "letter": "B",
+        "text": "Anerkennung aller Geschlechtsidentitäten"
+      },
+      {
+        "letter": "C",
+        "text": "Schutz von Transgender-Rechten"
+      },
+      {
+        "letter": "D",
+        "text": "Inklusive Rechtsprechung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "April 2025: Verfassungsänderung schreibt \"zwei Geschlechter\" fest – inter* und nicht-binäre Menschen verlieren rechtliche Anerkennung, gezielter Angriff auf Menschenrechte.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/presse/ungarn-pride-verbot-ist-ein-frontalangriff-auf-lgbtqiaplus-personen-und-darf-nicht-in-kraft-treten"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2025",
+      "Trans-Rechte"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "polen-lgbt-aktivisten-festnahmen-warschau",
+    "question": "Was geschah mit LGBTQ+-Aktivisten in Warschau 2020?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Über 45 wurden festgenommen"
+      },
+      {
+        "letter": "B",
+        "text": "Friedliche Versammlungen wurden genehmigt"
+      },
+      {
+        "letter": "C",
+        "text": "Polizei gewährte Schutz"
+      },
+      {
+        "letter": "D",
+        "text": "Staat förderte ihre Arbeit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "August 2020: Polnische Behörden verhafteten über 45 LGBTQ+-Aktivisten in Warschau – Beispiel für politische Repression unter PiS-Regierung.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "Repression"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "ungarn-orban-verfassungssperre-2012-grundgesetz",
+    "question": "Wie schaffte Orbán 2012 eine Verfassungssperre?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Im Eilverfahren ohne öffentliche Diskussion – künftige Änderungen erfordern zwei Zweidrittelmehrheiten"
+      },
+      {
+        "letter": "B",
+        "text": "Transparente Verfassungsreform mit breiter Beteiligung"
+      },
+      {
+        "letter": "C",
+        "text": "Demokratische Konsultation"
+      },
+      {
+        "letter": "D",
+        "text": "Internationale Abstimmung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2012: Orbáns Fidesz änderte die Verfassung im Eilverfahren ohne echte öffentliche Debatte. Künftige Änderungen erfordern zwei Zweidrittelmehrheiten – faktisches Änderungsverbot.",
+    "sourceLinks": [
+      {
+        "name": "Verfassungsblog",
+        "url": "https://verfassungsblog.de/verfassungsbarbarei-budapest-2/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2012",
+      "Verfassungsbruch"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "deutschland-afd-migrationshintergrund-stigmatisierung",
+    "question": "Wie behandelt die AfD Deutsche mit Migrationshintergrund?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Als nicht-gleichwertige Angehörige des \"ethnisch definierten\" deutschen Volkes"
+      },
+      {
+        "letter": "B",
+        "text": "Mit vollständiger Gleichberechtigung"
+      },
+      {
+        "letter": "C",
+        "text": "Als vollwertige Bürger"
+      },
+      {
+        "letter": "D",
+        "text": "Mit Integrationsprogrammen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Volksverständnis nach Verfassungsschutz: Deutsche mit Migrationshintergrund gelten als nicht-gleichwertig – ethnischer Nationalismus als Kernposition.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Diskriminierung"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "ungarn-meszaros-vermogen-milliarden-aufbau",
+    "question": "Wie stieg Sándor Mészáros Vermögen in nur 15 Jahren?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Von Insolvenz auf über 5 Milliarden Dollar durch staatliche Aufträge"
+      },
+      {
+        "letter": "B",
+        "text": "Durch echten Unternehmerwettbewerb"
+      },
+      {
+        "letter": "C",
+        "text": "Durch internationale Investitionen"
+      },
+      {
+        "letter": "D",
+        "text": "Durch Erbschaft"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Sándor Mészáros war 2000 bankrott. Nach Orbáns Machtübernahme erhielt er Millionen über direkte Staatsvergaben und EU-Gelder – sein Vermögen wuchs auf über 5 Milliarden Dollar.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Oligarchen"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "deutschland-nsu-terrorzelle-morde-rechtsextremisten",
+    "question": "Wer war der \"Nationalsozialistischer Untergrund\" (NSU) in Deutschland?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Eine rechtsextremistische Terrorzelle, die 10 Menschen ermordete"
+      },
+      {
+        "letter": "B",
+        "text": "Eine friedliche Protestbewegung"
+      },
+      {
+        "letter": "C",
+        "text": "Eine kulturelle Vereinigung"
+      },
+      {
+        "letter": "D",
+        "text": "Eine politische Partei"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Die NSU war eine rechtsextremistische Terrorzelle, die 2000-2007 mindestens 10 Menschen ermordete, überwiegend mit Migrationshintergrund. Der Fall offenbarte massive Versäumnisse bei Verfassungsschutz und Polizei.",
+    "sourceLinks": [
+      {
+        "name": "Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Nationalsozialistischer_Untergrund"
+      },
+      {
+        "name": "bpb",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/343019/4-november-2011-aufdeckung-des-nsu/"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "NSU",
+      "Terrorismus",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "deutschland-nsu-verfassungsschutz-versagen-vertuschung",
+    "question": "Wie versagte der Verfassungsschutz bei der NSU-Überwachung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Informanten in der Gruppe wurden nicht angemessen überwacht; Dokumente wurden später gelöscht"
+      },
+      {
+        "letter": "B",
+        "text": "Perfekte Überwachung und Prävention"
+      },
+      {
+        "letter": "C",
+        "text": "Rechtzeitige Warnung und Intervention"
+      },
+      {
+        "letter": "D",
+        "text": "Vollständige Transparenz"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Der Verfassungsschutz hatte Informanten in der NSU, überwachte die Zelle aber nicht ausreichend. Nach der Aufdeckung wurden Dokumente vernichtet – ein systematisches Versagen bei der Terrorbekämpfung.",
+    "sourceLinks": [
+      {
+        "name": "WDR",
+        "url": "https://www1.wdr.de/archiv/am-rechten-rand/rechtsextremismus438.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "NSU",
+      "2011",
+      "Behördenversagen"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "polen-atlas-hate-lgbtq-karte-aktivismus",
+    "question": "Was ist der \"Atlas of Hate\" in Polen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Digitale Karte von über 100 LGBTQ+-freien Zonen, erstellt durch Aktivisten"
+      },
+      {
+        "letter": "B",
+        "text": "Eine Tourismus-Webseite"
+      },
+      {
+        "letter": "C",
+        "text": "Ein geschichtliches Archiv"
+      },
+      {
+        "letter": "D",
+        "text": "Eine statistische Datenbank"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "\"Atlas of Hate\": Activist:innen dokumentieren über 100 LGBTQ+-freie Zonen in Polen und machen die Diskriminierung sichtbar – ein Drittel des Landes als \"frei von gleichen Rechten\".",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "LGBTQ+"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "ungarn-richter-pensionierung-verfassungsgericht",
+    "question": "Wie manipulierte Orbán die Justiz durch Pensionierungen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "400 Richter wurden in Ruhestand gezwungen; Verfassungsgericht wurde mit Orbán-freundlichen Richtern besetzt"
+      },
+      {
+        "letter": "B",
+        "text": "Reguläre Pensionierungen ohne Manipulation"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Besetzungsverfahren"
+      },
+      {
+        "letter": "D",
+        "text": "Unabhängige Justizreform"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Justiz-Manipulation: 400 Richter wurden gezwungen in Ruhestand zu gehen. Das Verfassungsgericht wurde mit Richtern besetzt, die Orbáns Agenda unterstützten – systematische Kontrolle.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2012",
+      "Justizreform"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "deutschland-afd-rechtsextremismus-correlation-gewalt",
+    "question": "Gibt es einen Zusammenhang zwischen AfD-Wahlerfolg und rechter Gewalt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, starke Korrelation zwischen AfD-Wahlerfolgen und Anstieg rechter Gewalt"
+      },
+      {
+        "letter": "B",
+        "text": "Nein, keine Korrelation"
+      },
+      {
+        "letter": "C",
+        "text": "Negative Korrelation (mehr AfD = weniger Gewalt)"
+      },
+      {
+        "letter": "D",
+        "text": "Unabhängige Entwicklung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024: Anstieg rechter Gewalt um 25% parallel zu AfD-Wahlerfolgen (30%+ in Umfragen) – AfD-Normalisierung von Extremismus führt zu Radicalisierung und Gewalt.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Rechte Gewalt"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "ungarn-orban-medienkontrolle-oligarchen-presse",
+    "question": "Wie schwächte Orbán die Pressefreiheit in Ungarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Kontrolle via Oligarchen, Werbeverbote gegen kritische Medien, Bestechung von Verlegern"
+      },
+      {
+        "letter": "B",
+        "text": "Förderung unabhängiger Medien"
+      },
+      {
+        "letter": "C",
+        "text": "Garantie von Pressefreiheit"
+      },
+      {
+        "letter": "D",
+        "text": "Schutz von Journalist:innen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Medien-Kontrolle: Oligarchenfreunde kaufen Medien, Werbeverbote gegen kritische Zeitungen, Bestechung von Verlegern, Lizenzgebühren als Kontrollinstrument.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Pressefreiheit"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "polen-konservative-katholische-allianz-lgbtq",
+    "question": "Wie vereinigte PiS konservative und katholische Kräfte gegen LGBTQ+?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Religion und Nationalismus als Kitt für ultrakatholische und rechtsradikale Bewegungen"
+      },
+      {
+        "letter": "B",
+        "text": "Säkulare und progressive Politik"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützung von Minderheitenrechten"
+      },
+      {
+        "letter": "D",
+        "text": "Befürwortung von Gleichstellung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS-Strategie: Religion (Katholizismus) und Nationalismus vereinigen ultrakatholische Fundamentalisten, Rechtsradikale und Rechtspopulisten gegen LGBTQ+-Rechte.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2015",
+      "Homophobie"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "deutschland-afd-menschenwuerde-verletzung-verfassungsschutz",
+    "question": "Wie verletzt die AfD das Prinzip der Menschenwürde?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Positionen und Äußerungen verstoßen gegen Menschenwürde-Prinzip"
+      },
+      {
+        "letter": "B",
+        "text": "Respektiert Menschenwürde"
+      },
+      {
+        "letter": "C",
+        "text": "Förderung von Gleichberechtigung"
+      },
+      {
+        "letter": "D",
+        "text": "Humanistische Werte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Verfassungsschutz 2025: AfD-Positionen verstoßen gegen das Menschenwürde-Prinzip – fundamentale Verfassungsverletzung als Basis der Rechtsextremismus-Einstufung.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Menschenwürde"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "ungarn-eu-kommission-von-der-leyen-kritik-kinderschutz",
+    "question": "Was sagte EU-Kommissionspräsidentin von der Leyen zu Ungarns LGBTQ+-Gesetz?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Kinderschutz ist Vorwand, nutzt Recht auf Diskriminierung\""
+      },
+      {
+        "letter": "B",
+        "text": "\"Legitime Schutzmaßnahme\""
+      },
+      {
+        "letter": "C",
+        "text": "\"Unterstützen die Initiative\""
+      },
+      {
+        "letter": "D",
+        "text": "\"Keine Einwände\""
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Von der Leyen 2021: \"Kinderschutz-Vorwand wird genutzt, um Menschen wegen sexueller Orientierung zu diskriminieren\" – verdient Kürzung von EU-Mitteln.",
+    "sourceLinks": [
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/ungarn-homosexualitaet-103.html"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2021",
+      "EU"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "polen-lgbtq-freie-zonen-aufhebung-april-2025",
+    "question": "Wann wurden Polens LGBTQ+-freie Zonen aufgehoben?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "April 2025 durch rechtlichen, finanziellen und gesellschaftlichen Druck"
+      },
+      {
+        "letter": "B",
+        "text": "2019 sofort nach Proklamation"
+      },
+      {
+        "letter": "C",
+        "text": "Noch nicht aufgehoben"
+      },
+      {
+        "letter": "D",
+        "text": "Gesetzlich bindend"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "April 2025: Letzte LGBTQ+-freie Zonen aufgehoben nach jahrelangem Druck durch EU-Sanktionen, Geldstrafen und Protest – ein wichtiger Sieg gegen institutionalisierte Diskriminierung.",
+    "sourceLinks": [
+      {
+        "name": "Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/LGBT-ideologiefreie_Zone"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2025",
+      "LGBTQ+"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "ungarn-orban-eu-artikel-7-verfahren",
+    "question": "Warum läuft gegen Ungarn ein Artikel-7-Verfahren der EU?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verdacht auf Gefährdung der Justiz-Unabhängigkeit, Medien und Korruptionsförderung"
+      },
+      {
+        "letter": "B",
+        "text": "Finanzielle Missstände"
+      },
+      {
+        "letter": "C",
+        "text": "Verwaltungs-Ineffizienz"
+      },
+      {
+        "letter": "D",
+        "text": "Technik-Fragen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Artikel-7-Verfahren gegen Ungarn seit Jahren – Grund: Gefährdung der Unabhängigkeit der Justiz, Medien und systematische Korruption = Verstoß gegen EU-Grundwerte.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "polen-stopp-lgbt-initiative-verbot-pride",
+    "question": "Was fordert Polens \"Stopp LGBT\" Initiative?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verbot von Pride-Paraden und Werbung für LGBTQ+-Forderungen"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützung von Pride-Events"
+      },
+      {
+        "letter": "C",
+        "text": "Gleichstellungsgesetze"
+      },
+      {
+        "letter": "D",
+        "text": "Antidiskriminierungs-Maßnahmen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "\"Stopp LGBT\" Initiative (Stiftung Leben und Familie): Fordert Verbot von Pride-Paraden und Werbung für LGBTQ+-Rechte – geleitet von Abtreibungsgegnerin Kaja Godek.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2015",
+      "Homophobie"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "deutschland-afd-muslime-nicht-gleichwertig",
+    "question": "Wie sieht die AfD deutsche Muslime?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Als nicht-gleichwertige Angehörige des ethnisch definierten Volkes"
+      },
+      {
+        "letter": "B",
+        "text": "Als vollwertige deutsche Bürger"
+      },
+      {
+        "letter": "C",
+        "text": "Mit gleichem Respekt"
+      },
+      {
+        "letter": "D",
+        "text": "Als zu integrierende Bevölkerung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Verfassungsschutz 2025: AfD sieht deutsche Staatsangehörige aus muslimischen Ländern als nicht-gleichwertig – fundamentale Verletzung des Gleichheitsprinzips.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Islamophobie"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "ungarn-orban-eu-praesident-2024-kritik",
+    "question": "Warum kritisierte die EU Orbáns Übernahme der EU-Präsidentschaft 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Ein Land ohne Demokratie kann nicht die EU führen\""
+      },
+      {
+        "letter": "B",
+        "text": "Normale Rotation"
+      },
+      {
+        "letter": "C",
+        "text": "Technische Bedenken"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Kritik"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024: Orbán übernahm EU-Ratsvorsitz. EU-Parlamentarier:innen kritisierten heftig: \"Ein undemokratisches Land kann nicht die Europäische Union führen\" – Demokratie-Defizit zu gravierend.",
+    "sourceLinks": [
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-haushalt-ausschuss-ungarn-100.html"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "polen-pis-geschlechtsidentitaet-genderideologie-schulen",
+    "question": "Wie bekämpft Polens PiS \"Gender-Ideologie\" in Schulen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ablehnung von modernem Sexualkundeunterricht und Geschlechtsidentität"
+      },
+      {
+        "letter": "B",
+        "text": "Förderung umfassender Sexualkunde"
+      },
+      {
+        "letter": "C",
+        "text": "WHO-Richtlinien befolgen"
+      },
+      {
+        "letter": "D",
+        "text": "Inklusive Bildung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS-Politik: Lehnt modernen Sexualkundeunterricht und Geschlechtsidentität-Unterricht ab – nutzt \"Gender-Ideologie\"-Kampagne zur Polarisierung gegen progressive Bildung.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2015",
+      "Bildung"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "deutschland-afd-verbotsgesetz-moeglichkeit-2024",
+    "question": "Wird in Deutschland ein AfD-Verbot diskutiert?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, Verbotsverfahren wegen verfassungsfeindlicher Bestrebungen erwogen"
+      },
+      {
+        "letter": "B",
+        "text": "Nein, keine Diskussion"
+      },
+      {
+        "letter": "C",
+        "text": "Nur akademisch"
+      },
+      {
+        "letter": "D",
+        "text": "Von allen Parteien abgelehnt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024-2025: CDU und SPD diskutieren ernsthaft AfD-Verbotsforderung – Rechtsextremismus-Einstufung macht Verbotsverfahren nach Artikel 21 GG denkbar.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Verbotsverfahren"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "ungarn-zivilgesellschaft-unterdruckung-versammlungsfreiheit",
+    "question": "Wie unterdrückt Orbán Versammlungs- und Vereinigungsfreiheit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Gesetze, die kritische Versammlungen verbieten und NGOs kriminalisieren"
+      },
+      {
+        "letter": "B",
+        "text": "Volle Unterstützung für Versammlungsfreiheit"
+      },
+      {
+        "letter": "C",
+        "text": "Garantie von Vereinigungsrechten"
+      },
+      {
+        "letter": "D",
+        "text": "Förderung von Bürgerbeteiligung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Regime sperrt kritische Demonstrationen durch Gesetze, kriminalisiert NGOs und nutzt Polizeipräsenz zur Abschreckung – systematische Unterdrückung der Versammlungsfreiheit.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Grundrechte"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "polen-justizreform-pis-unabhaengigkeit-gerichtshof",
+    "question": "Wie griff die PiS die Unabhängigkeit der polnischen Justiz an?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Justizreformen, die Justizminister Kontrolle über Richterbeförderungen gaben"
+      },
+      {
+        "letter": "B",
+        "text": "Volle Justiz-Unabhängigkeit gewährleistet"
+      },
+      {
+        "letter": "C",
+        "text": "Richter wurden autonom gewählt"
+      },
+      {
+        "letter": "D",
+        "text": "EU-Standards befolgt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS-Justizreformen: Justizminister erhielt Kontrolle über Richter-Ernennungen und Beförderungen. EU-Gerichtshof verurteilte dies als Verstoß gegen Unabhängigkeit.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "Justiz"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "deutschland-antisemitische-gewalt-anstieg-2024",
+    "question": "Wie entwickelte sich antisemitische Gewalt in Deutschland 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Signifikanter Anstieg, befeuert durch GAZA-Konflikt und Rechtsextremismus"
+      },
+      {
+        "letter": "B",
+        "text": "Rückgang um 30%"
+      },
+      {
+        "letter": "C",
+        "text": "Stabiler Verlauf"
+      },
+      {
+        "letter": "D",
+        "text": "Vereinzelte Vorfälle"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024: Schwerer Anstieg antisemitischer Gewalt in Deutschland, befeuert durch Gaza-Konflikt und rechtsextremistische Mobilisierung – besorgniserregender Trend.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Antisemitismus",
+      "Gewalt"
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "ungarn-orban-minderheitsrechte-verfassungsschutz-unterminierung",
+    "question": "Wie untergräbt Orbán Minderheitsrechte in Ungarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Verfassungsänderungen, die Minderheiten-Schutz abschwächen und Diskriminierung ermöglichen"
+      },
+      {
+        "letter": "B",
+        "text": "Durch Förderung von Minderheits-Integration"
+      },
+      {
+        "letter": "C",
+        "text": "Durch Verbot von Diskriminierung"
+      },
+      {
+        "letter": "D",
+        "text": "Durch Schutz von Minderheitssprachen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Verfassungsänderungen schwächen Minderheits-Schutzbestimmungen ab und ermöglichen strukturelle Diskriminierung von Roma, Juden, Nachbarn und LGBTQ+-Menschen.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Minderheitsrechte"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "deutschland-afd-demokratiefeindliche-rhetorik-waehler",
+    "question": "Was ist die AfD-Rhetorik zur Demokratie?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ablehnung von parlamentarischer Kontrolle und \"Volk gegen Elite\" Populismus"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützung für Gewaltenteilung"
+      },
+      {
+        "letter": "C",
+        "text": "Förderung von Konsensus"
+      },
+      {
+        "letter": "D",
+        "text": "Respekt vor Institutionen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Rhetorik: Fundamentale Kritik an Gewaltenteilung, \"Volk gegen Elite\" Populismus, Verachtung für Parlamente – eine Strategie zur Delegitimation demokratischer Strukturen.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Demokratiefeindlichkeit"
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "polen-frauenbewegung-schwarzer-protest-abtreibungsverbot",
+    "question": "Wie protestierten polnische Frauen gegen das Abtreibungsverbot?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit Streiks und Massenprotesten (\"Schwarzer Protest\"), Gründung von Frauenrechtsgruppen"
+      },
+      {
+        "letter": "B",
+        "text": "Sie akzeptierten das Verbot ohne Widerstand"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Proteste"
+      },
+      {
+        "letter": "D",
+        "text": "Unterstützung für das Verbot"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Polnische Frauenbewegung startete Massenproteste (\"Schwarzer Protest\"), Streiks und Demonstrationen gegen das Abtreibungsverbot. Die Kampagne \"Ciocia Czarna\" (Black Aunt) unterstützt Frauen, die ins Ausland reisen.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/ueber-amnesty/aktivist-innen/netzwerk-frauenrechte/news-events/polen-ein-jahr-nach-dem-frauenverachtenden"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2021",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "ungarn-presse-ranking-europa-pressefreiheit",
+    "question": "Wie bewertet der Press Freedom Index Ungarns Pressefreiheit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ungarns Rang sank massiv, jetzt unter 100 von 180 Ländern (\"nicht frei\")"
+      },
+      {
+        "letter": "B",
+        "text": "Oberste Rankings"
+      },
+      {
+        "letter": "C",
+        "text": "Leicht verbessert"
+      },
+      {
+        "letter": "D",
+        "text": "\"Frei\" nach internationalen Standards"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Press Freedom Index: Ungarns Pressefreiheit-Rang sank unter Orbán massiv. Das Land fiel aus der \"teilweise frei\" Kategorie in \"nicht frei\" ab – dramatischer Abstieg.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Pressefreiheit"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "deutschland-rechtsextremisten-sicherheitskraefte-infiltration",
+    "question": "Wie viele Rechtsextremisten arbeiten in deutschen Sicherheitskräften?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hunderte, mit dokumentierten Fällen bei Polizei, Militär und Verfassungsschutz"
+      },
+      {
+        "letter": "B",
+        "text": "Keine bekannten Fälle"
+      },
+      {
+        "letter": "C",
+        "text": "Vereinzelte Ausnahmen"
+      },
+      {
+        "letter": "D",
+        "text": "Vollständig ausgesiebt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Dokumentierte Fälle von Rechtsextremisten bei Polizei, Bundeswehr und Verfassungsschutz – ein systemisches Problem bei der Überprüfung von Sicherheitskräften.",
+    "sourceLinks": [
+      {
+        "name": "Bundestag",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw50-de-aktuelle-stunde-reichsbuerger-926426"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Rechtsextremismus",
+      "Sicherheit"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "polen-pis-waehler-dezember-2024-wahl",
+    "question": "Wie reagierten Polinnen und Polen bei der Wahl 2024 auf PiS-Regierung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Massiver Wahlerfolg für Oppositionsparteien; PiS verlor Mehrheit"
+      },
+      {
+        "letter": "B",
+        "text": "PiS erhielt 60% der Stimmen"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Veränderung"
+      },
+      {
+        "letter": "D",
+        "text": "Erhöhte PiS-Unterstützung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Oktober 2023: Polinnen und Polen wählten ein neues Parlament. Die Opposition unter Donald Tusk besiegte die PiS-Regierung deutlich und übernahm die Regierung 2024.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2024",
+      "Wahlen"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "ungarn-eu-rechtsstaatlichkeit-bericht-2024",
+    "question": "Was dokumentiert der EU-Bericht über Ungarns Rechtsstaatlichkeit 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schwerwiegende Defizite bei Justiz-Unabhängigkeit, Korruptionsbekämpfung und Medienfreiheit"
+      },
+      {
+        "letter": "B",
+        "text": "Positive Fortschritte"
+      },
+      {
+        "letter": "C",
+        "text": "Stabiler Status quo"
+      },
+      {
+        "letter": "D",
+        "text": "Internationale Anerkennung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "EU-Bericht 2024: Ungarn zeigt schwerwiegende Mängel bei Justiz-Unabhängigkeit, systematischer Korruptionbekämpfung und Medienpluralismus – Rechtsstaatlichkeit unter erheblichem Druck.",
+    "sourceLinks": [
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/ungarn-eu-bericht-rechtsstaatlichkeit"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Rechtsstaat"
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "deutschland-afd-parallele-strukturen-gesellschaft",
+    "question": "Welche \"parallelen Strukturen\" hat die AfD aufgebaut?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schüler:innen-, Arbeiter:innen-, Jugendorganisationen zur Organisierung von Basis"
+      },
+      {
+        "letter": "B",
+        "text": "Reine Wahlorganisation"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Strukturen"
+      },
+      {
+        "letter": "D",
+        "text": "Nur Medienarbeit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD hat ein Netzwerk von Basis-Organisationen wie Jungen Alternative (JA), AfD Arbeiterorganisationen und Schüler:innen-Gruppen aufgebaut – Anzeichen für Strukturaufbau für längerfristige Infiltration.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Organisation"
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "polen-justizminister-eu-sanktionen-kompensation-diskriminierung",
+    "question": "Wie reagierte Polens Justizminister auf EU-Sanktionen wegen LGBTQ+-Diskriminierung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zahlte aus Staatsbudget doppelt der EU-Kürzung an LGBTQ+-freie Zonen"
+      },
+      {
+        "letter": "B",
+        "text": "Respektierte EU-Vorgaben"
+      },
+      {
+        "letter": "C",
+        "text": "Reformierte Diskriminierung"
+      },
+      {
+        "letter": "D",
+        "text": "Verhandelte mit EU-Kommission"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "August 2020: Justizminister Ziobro zahlte aus Staatsbudget doppelt der EU-Kürzung an LGBTQ+-freie Zonen – staatliche Subventionierung von Diskriminierung als Reaktion auf EU-Sanktion.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2020",
+      "EU"
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "ungarn-orban-migranten-angst-wahlkampf-2022",
+    "question": "Wie nutzte Orbán Migration im Wahlkampf 2022?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit Angst-Kampagne gegen Migranten; \"Soros und Migration bedrohen Ungarn\""
+      },
+      {
+        "letter": "B",
+        "text": "Mit Integrationsprogrammen"
+      },
+      {
+        "letter": "C",
+        "text": "Mit offenen Grenzen"
+      },
+      {
+        "letter": "D",
+        "text": "Mit Unterstützung für Flüchtlinge"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Wahlkampf 2022: Zentrale Angst-Kampagne gegen Migranten und \"Soros-Invasion\" – Migrationsfurcht als Mobilisierungsmittel trotz geringer Migration nach Ungarn.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2022",
+      "Wahlkampf"
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "deutschland-rechtsradikale-demo-dresden-legida-2015",
+    "question": "Was waren die LEGIDA-Demonstrationen in Dresden 2014-2016?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Rechtsradikale Großdemonstrationen gegen Asylbewerber und Islamisierung"
+      },
+      {
+        "letter": "B",
+        "text": "Friedliche Integrations-Kampagnen"
+      },
+      {
+        "letter": "C",
+        "text": "Kulturelle Austausch-Veranstaltungen"
+      },
+      {
+        "letter": "D",
+        "text": "Religionstoleranz-Märsche"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "LEGIDA (Legale Europäer gegen Islamisierung des Abendlandes): Rechtsradikale Massenproteste 2014-2016 in Dresden gegen Asylbewerber und \"Islamisierung\". Eine Vorform der AfD-Mobilisierung.",
+    "sourceLinks": [
+      {
+        "name": "bpb",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/308619/10-jahre-fidesz-regierung-lage-der-demokratie-in-ungarn/"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2015",
+      "Rechtsradikalismus",
+      "Protest"
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "ungarn-roma-diskriminierung-bildung-arbeitsmarkt",
+    "question": "Wie zeigt sich Diskriminierung von Roma in Ungarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Segregation in Schulen, Arbeitsmarkt-Ausschluss, Wohnungs-Diskriminierung unter Orbán"
+      },
+      {
+        "letter": "B",
+        "text": "Volle Gleichberechtigung"
+      },
+      {
+        "letter": "C",
+        "text": "Spezielle Integrationsprogramme"
+      },
+      {
+        "letter": "D",
+        "text": "Positive Diskriminierung zugunsten Roma"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Roma-Situation in Ungarn: Strukturelle Diskriminierung bei Bildung, Arbeitsmarkt und Wohnraum hat sich unter Orbán verschärft. Ghetto-ähnliche Lebensbedingungen in vielen Gemeinden.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "deutschland-afd-netzwerk-neonazi-\"fluegel\"-kalbitz",
+    "question": "Was ist der rechtsextreme \"Flügel\" der AfD?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Eine interne Netzwerk mit offener NS-Verehrung, geleitet von Björn Höcke"
+      },
+      {
+        "letter": "B",
+        "text": "Ein moderater Flügel"
+      },
+      {
+        "letter": "C",
+        "text": "Ein pro-demokratisches Lager"
+      },
+      {
+        "letter": "D",
+        "text": "Ein liberales Netzwerk"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Der \"Flügel\" (auch als Höcke-Kreis bekannt): Ein interner AfD-Netzwerk mit offen nationalistischen und NS-referenzierenden Positionen. Nach Gerichtsentscheid von AfD aufgelöst, aber Mitglieder aktiv.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2023",
+      "Neonazismus"
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "polen-justiz-justizkommission-richter-entfernung",
+    "question": "Wie baute PiS Kontrolle über Richterbeamte auf?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch neue Aufsichtskommission, die unabhängige Richter:innen absetzten konnte"
+      },
+      {
+        "letter": "B",
+        "text": "Volle Unabhängigkeit der Richter:innen"
+      },
+      {
+        "letter": "C",
+        "text": "Internationale Aufsicht"
+      },
+      {
+        "letter": "D",
+        "text": "Wissenschaftliche Beiräte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS schuf neue Justizkommissionen und -strukturen, die es der Partei ermöglichten, Richter:innen unter Druck zu setzen oder abzusetzen. Der EuGH verurteilte diese Praxis.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2018",
+      "Justizreform"
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "deutschland-afd-delegitimation-demokratischer-institutionen",
+    "question": "Wie delegitimiert die AfD demokratische Institutionen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Angriffe auf Medien, Justiz, Polizei und Verwaltung als \"Systemzersetzung\""
+      },
+      {
+        "letter": "B",
+        "text": "Durch Unterstützung der Gewaltenteilung"
+      },
+      {
+        "letter": "C",
+        "text": "Durch Vertrauen in Institutionen"
+      },
+      {
+        "letter": "D",
+        "text": "Durch Kooperation mit Behörden"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Strategie: Systematische Delegitimation von Medien (\"Lügenpresse\"), Justiz, Polizei und Verwaltung – ein Versuch, Vertrauen in demokratische Institutionen zu unterminieren.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Antidemokratie"
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "ungarn-dunkle-gelder-oligarchen-stiftungen-eu-betrug",
+    "question": "Wie fließen Bestechungsgelder in Ungarns Korruptionssystem?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Über Offshore-Stiftungen und Oligarchen-Konstrukte, die EU-Gelder umlaufen"
+      },
+      {
+        "letter": "B",
+        "text": "Transparente öffentliche Zahlungen"
+      },
+      {
+        "letter": "C",
+        "text": "Legale Spenden"
+      },
+      {
+        "letter": "D",
+        "text": "Internationale Audit-Kontrollierung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Investigationen zeigen: Ungarns Korruption funktioniert über Offshore-Strukturen, Stiftungen und Oligarchen-Netzwerke. EU-Gelder fließen in fragwürdige Projekte für enge Vertraute Orbáns.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "polen-abtreibung-frauen-illegale-grenzueberschreitung",
+    "question": "Was mussten polnische Frauen nach dem Abtreibungsverbot tun?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ins Ausland reisen für legale Abtreibungen oder illegale Ärzte nutzen"
+      },
+      {
+        "letter": "B",
+        "text": "Staatliche Unterstützung erhalten"
+      },
+      {
+        "letter": "C",
+        "text": "Kostenlose Verhütung bereitgestellt"
+      },
+      {
+        "letter": "D",
+        "text": "Vollständige Sicherheit im Land"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Nach Inkrafttreten: Tausende polnische Frauen reisten ins Ausland (Deutschland, Niederlande) oder nutzten illegale Mittel. \"Ciocia Czarna\" (Black Aunt) half Frauen, Grenzen zu überqueren.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/ueber-amnesty/aktivist-innen/netzwerk-frauenrechte/news-events/polen-ein-jahr-nach-dem-frauenverachtenden"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2021",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "ungarn-fluechtlinge-gewalt-migranten-grenze",
+    "question": "Wie behandelt Ungarn Flüchtlinge und Migranten an der Grenze?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit illegaler Gewalt, Push-Backs, Menschenrechtsverletzungen auf Orbáns Befehl"
+      },
+      {
+        "letter": "B",
+        "text": "Mit humanitärem Empfang"
+      },
+      {
+        "letter": "C",
+        "text": "Mit legalen Asylverfahren"
+      },
+      {
+        "letter": "D",
+        "text": "Mit internationaler Unterstützung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Ungarn nutzt Gewalt und Push-Backs gegen Migranten und Flüchtlinge an der Grenze – mehrfach von EU-Behörden und NGOs kritisiert. Fälle von Misshandlung sind dokumentiert.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Menschenrechte"
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "deutschland-afd-desinformation-fake-news-social-media",
+    "question": "Wie verbreitet die AfD Desinformation in sozialen Medien?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Systematisch: falsche Zahlen zu Kriminalität, Zuwanderung, COVID; koordinierte Kampagnen"
+      },
+      {
+        "letter": "B",
+        "text": "Faktenchecks durchführend"
+      },
+      {
+        "letter": "C",
+        "text": "Vertrauenswürdige Quellen nutzend"
+      },
+      {
+        "letter": "D",
+        "text": "Wissenschaftliche Fakten verbreitend"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Fact-Checker dokumentieren: AfD verbreitet systematisch falsche Zahlen zu Kriminalität, Asyl und COVID. Koordinierte Social-Media-Kampagnen mit Bots verstärken Desinformation.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Desinformation"
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "ungarn-soros-kampagne-antisemitische-hetze-fidesz",
+    "question": "Wie nutzt Fidesz Soros-Kampagnen für antisemitische Hetze?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit antisemitischen Karikaturen und Verschwörungserzählungen gegen George Soros"
+      },
+      {
+        "letter": "B",
+        "text": "Mit faktischen Kritiken"
+      },
+      {
+        "letter": "C",
+        "text": "Ohne antisemitische Elemente"
+      },
+      {
+        "letter": "D",
+        "text": "Mit Unterstützung für Juden"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Fidesz-Kampagnen gegen Soros verwenden klassische antisemitische Tropen – verschwörerische Narrativen, Karikaturen im Stil der NS-Propaganda. Ein Versuch, antisemitische Sentimente zu schüren.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Antisemitismus"
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "polen-frauen-todesfaelle-abtreibungsverbot-medizinische-notwendigkeit",
+    "question": "Wie wirkt sich Polens Abtreibungsverbot auf Frauengesundheit aus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Todesfälle durch medizinische Ablehnung; Frauen mit Komplikationen warten, bis es kritisch wird"
+      },
+      {
+        "letter": "B",
+        "text": "Verbesserte Gesundheitsversorgung"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Auswirkungen"
+      },
+      {
+        "letter": "D",
+        "text": "Gesteigerte Frauengesundheit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Nach dem Verbot 2021: Mehrere dokumentierte Fälle von Frauen, die starben, weil Ärzte Abtreibungen nicht durchführten. Ein Beispiel ist Izabela Dąbrowska, die starb, weil notwendige Behandlung verweigert wurde.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/ueber-amnesty/aktivist-innen/netzwerk-frauenrechte/news-events/polen-ein-jahr-nach-dem-frauenverachtenden"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2021",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "deutschland-afd-putin-sympathie-ukrainekrieg",
+    "question": "Wie äußert sich AfD-Sympathie für Putin während des Ukraine-Kriegs?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit Kritik an Sanktionen gegen Russland, Skepsis gegenüber Ukraine-Hilfe"
+      },
+      {
+        "letter": "B",
+        "text": "Mit voller Ukraine-Unterstützung"
+      },
+      {
+        "letter": "C",
+        "text": "Mit neutralen Positionen"
+      },
+      {
+        "letter": "D",
+        "text": "Mit Kritik an Putin"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Positionen: Kritik an Russland-Sanktionen, Skeptizismus gegenüber Ukraine-Unterstützung, Lob für Putin. Manche AfD-Politiker reisten zu Putins Gala 2024.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Außenpolitik"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "ungarn-media-ownership-oligarchen-fidesz-propaganda",
+    "question": "Wem gehören die Medien in Ungarn unter Orbán?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mehrheit in Orbán-freundliche Oligarchen-Hände; kritische Medien sind Ausnahmen"
+      },
+      {
+        "letter": "B",
+        "text": "Unabhängigen Medien-Konzernen"
+      },
+      {
+        "letter": "C",
+        "text": "Staatlichen öffentlichen Anstalten"
+      },
+      {
+        "letter": "D",
+        "text": "Internationalen Medien-Conglomeraten"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Unter Orbán: Oligarchenfreunde kauften Medien. Central European Press Holding (Teil von Orbán-Netzwerk) kontrolliert große Teile der Presse. Kritische Medien sind reduziert.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Medienmonopol"
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "deutschland-rassistische-morde-terrorismus-2020-2024",
+    "question": "Wie viele rassistisch motivierte Morde gab es in Deutschland 2020-2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mindestens 30, von Rechtsextremisten begannen"
+      },
+      {
+        "letter": "B",
+        "text": "Keine"
+      },
+      {
+        "letter": "C",
+        "text": "Einzelne Vorfälle"
+      },
+      {
+        "letter": "D",
+        "text": "Rückgang"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2020-2024: Mindestens 30+ rassistisch motivierte Morde in Deutschland dokumentiert. Bekannte Fälle: Hanau (10 Tote 2020), mehrere einzelne Morde durch rechtsextreme Täter.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2024",
+      "Terrorismus",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "ungarn-eu-milliarden-kuehlschrank-orbans-privatisierung",
+    "question": "Wie nutzte Orbán EU-Gelder für fragwürdige Projekte?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Millionen für \"Infrastruktur-Projekte\" wie teure Kühlschränke für Schulen via Oligarchen"
+      },
+      {
+        "letter": "B",
+        "text": "Transparente Infrastruktur-Investitionen"
+      },
+      {
+        "letter": "C",
+        "text": "Legitime öffentliche Beschaffung"
+      },
+      {
+        "letter": "D",
+        "text": "Unabhängige Kontrolle"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Investigationen zeigen: EU-Gelder flossen in absurde Projekte (z.B. überteuerte \"Kühlschränke\" für Schulen) über Oligarchen-Firmen – massiver Geldverschwendung und Bereicherung.",
+    "sourceLinks": [
+      {
+        "name": "FAZ",
+        "url": "https://www.faz.net/aktuell/politik/ausland/korruption-in-ungarn-am-ende-profitiert-immer-einer-aus-dem-orban-clan-110788385.htm"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU-Betrug"
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "polen-frauen-gesundheit-krise-abtreibungsverbot-faelle",
+    "question": "Welche konkrete Folge hatte Polens Abtreibungsverbot für Frauen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fall Izabela Dąbrowska: starb, weil Abtreibung verweigert wurde, obwohl medizinisch notwendig"
+      },
+      {
+        "letter": "B",
+        "text": "Nur positive Folgen"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Auswirkungen"
+      },
+      {
+        "letter": "D",
+        "text": "Verbesserte Versorgung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Izabela Dąbrowska (24) starb an Sepsis, weil Ärzte eine medizinisch notwendige Abtreibung verweigerten – Unglück, das das Abtreibungsverbot kritisierte und Massenprostest auslöste.",
+    "sourceLinks": [
+      {
+        "name": "Amnesty Austria",
+        "url": "https://www.amnesty.at/ueber-amnesty/aktivist-innen/netzwerk-frauenrechte/news-events/polen-ein-jahr-nach-dem-frauenverachtenden"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2021",
+      "Frauenrechte"
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "deutschland-afd-schulz-moeglichkeit-deportationen-diskurs",
+    "question": "Was diskutiert die AfD öffentlich über Massendeportationen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Millionen Menschen ohne Integrationschancen sollten deportiert werden"
+      },
+      {
+        "letter": "B",
+        "text": "Integration und Gleichstellung"
+      },
+      {
+        "letter": "C",
+        "text": "Offene Grenzen"
+      },
+      {
+        "letter": "D",
+        "text": "Freiwillige Rückkehr"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Diskurs: Offen über Massendeportationen von Millionen Menschen sprechen, oft ohne legale Grundlage. Ein Diskurs, der an Nationalsozialismus erinnert.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Deportation"
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "ungarn-finanzielle-unabhaengigkeit-eu-haengt-ab",
+    "question": "Wie abhängig ist Ungarn von EU-Mitteln?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ungarn erhält über 4% des Staatsbudgets aus EU-Mitteln; blockierte Gelder sind kritisch"
+      },
+      {
+        "letter": "B",
+        "text": "Völlig unabhängig"
+      },
+      {
+        "letter": "C",
+        "text": "Marginale Abhängigkeit"
+      },
+      {
+        "letter": "D",
+        "text": "EU zahlt umgekehrt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Ungarn: Etwa 4-5% des Staatsbudgets stammen aus EU-Mitteln. Blockierte Zahlungen (40 Milliarden Euro) sind kritisch für Orbáns Haushalt – ein wesentlicher Druck der EU.",
+    "sourceLinks": [
+      {
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-haushalt-ausschuss-ungarn-100.html"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU-Abhängigkeit"
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "deutschland-massnahmen-verfassungsfeindliche-partei-verbot-2024",
+    "question": "Welche Maßnahmen sind für AfD-Verbot juristisch notwendig?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Antrag beim Bundesverfassungsgericht nach Artikel 21 GG; hohe Hürde"
+      },
+      {
+        "letter": "B",
+        "text": "Parlamentsbeschluss"
+      },
+      {
+        "letter": "C",
+        "text": "Regierungs-Dekret"
+      },
+      {
+        "letter": "D",
+        "text": "Ohne Verfahren möglich"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Verbotsverfahren nach Artikel 21 GG: Müsste vom Bundestag oder Bundesrat beim Bundesverfassungsgericht eingereicht werden. Hohe Beweishürde für \"verfassungsfeindliche Bestrebungen\".",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2025",
+      "Verbotsverfahren"
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "ungarn-fidesz-opposition-wahlbehinderung-unfaire-bedingungen",
+    "question": "Wie behindert Fidesz die Opposition bei Wahlen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch unfaire Wahlgeometrie, Gerrymandering und Medien-Kontrolle"
+      },
+      {
+        "letter": "B",
+        "text": "Mit fairer Kampagne"
+      },
+      {
+        "letter": "C",
+        "text": "Mit gleicher Medienzeit"
+      },
+      {
+        "letter": "D",
+        "text": "Mit transparenter Wahlleitung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Fidesz sichert Macht durch systematische Wahlmanipulation: Gerrymander-Wahlkreise, massive Medien-Kontrolle (90%+ TV-Zeit für Fidesz), unfaire Spielregeln trotz der Wahlverluste.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Wahlbetrug"
+    ]
+  },
+  {
+    "id": 81,
+    "slug": "polen-pis-zweite-kammer-macht-verschiebung",
+    "question": "Wie versuchte PiS, die Macht in der Zweiten Kammer zu sichern?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Justizreformen und neue Normen; Opposition gewann aber 2023"
+      },
+      {
+        "letter": "B",
+        "text": "Mit fairer Machtteilung"
+      },
+      {
+        "letter": "C",
+        "text": "Mit Respekt vor Gewaltenteilung"
+      },
+      {
+        "letter": "D",
+        "text": "Durch progressive Reformen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS versuchte, Macht durch Justizreformen und Verfassungsänderungen zu sichern. Aber 2023: Opposition besiegte PiS deutlich bei Wahlen – übernahm Regierung unter Donald Tusk.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2023",
+      "Wahlen"
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "deutschland-hanau-rassistisches-attentat-2020",
+    "question": "Was war das Attentat von Hanau 2020?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Rassistischer Massenmord: 10 Menschen wurden von rechtsextremistem Täter erschossen"
+      },
+      {
+        "letter": "B",
+        "text": "Ein Unfall"
+      },
+      {
+        "letter": "C",
+        "text": "Eine politische Debatte"
+      },
+      {
+        "letter": "D",
+        "text": "Ein Missverständnis"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "19. Februar 2020: Ein rechtsextremistischer Täter tötete 9 Menschen in Hanau (überwiegend mit Migrationshintergrund) – ein Massaker, das die Bedrohung durch Rechtsextremismus sichtbar machte.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2020",
+      "Terrorismus",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "ungarn-kritik-eu-orbans-stil-lager-ungarn",
+    "question": "Wie kritisiert die EU Orbáns Herrschaftsstil?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Als \"Defekt-Demokratie\" mit Elementen von Autoritarismus"
+      },
+      {
+        "letter": "B",
+        "text": "Als vorbildliche Regierung"
+      },
+      {
+        "letter": "C",
+        "text": "Als normale EU-Regierung"
+      },
+      {
+        "letter": "D",
+        "text": "Als progressive Reformen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "EU-Beschreibung: Ungarn ist eine \"illiberale Demokratie\" unter Orbán – formale Wahlen, aber Aushöhlung von Gewaltenteilung, Pressefreiheit und Rechtsstaatlichkeit.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU-Kritik"
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "deutschland-afd-vermoegen-finanzierung-russland-verdacht",
+    "question": "Gibt es Verdacht auf russische Finanzierung der AfD?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, Verdacht auf Zahlungen aus Russland oder Putin-nahem Umfeld"
+      },
+      {
+        "letter": "B",
+        "text": "Nein, vollständig transparent finanziert"
+      },
+      {
+        "letter": "C",
+        "text": "Nur von deutschen Spendern"
+      },
+      {
+        "letter": "D",
+        "text": "Vollständig staatlich finanziert"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Investigative Berichte deuten auf Verdacht von Geldflüssen aus Russland oder Putin-Unterstützern zur AfD. Offizielle Bestätigung fehlt, aber Vermutungen sind stark.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Finanzierung"
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "polen-koscinski-oberster-gerichtshof-pis-kontrolle",
+    "question": "Wer ist Zbigniew Ziobro und wie prägte er Polens Justiz?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PiS-Justizminister: führte Justizreformen durch, die der Partei Kontrolle gaben"
+      },
+      {
+        "letter": "B",
+        "text": "Ein Reformer für Unabhängigkeit"
+      },
+      {
+        "letter": "C",
+        "text": "Ein Verfechter der Medienfreiheit"
+      },
+      {
+        "letter": "D",
+        "text": "Ein Demokratie-Aktivist"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Zbigniew Ziobro: PiS-Justizminister, der Reformen durchsetzte, die der Partei Kontrolle über Richter gaben. EU-Gerichtshof verurteilte seine Maßnahmen als Verstoß gegen Justiz-Unabhängigkeit.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2018",
+      "Justizreform"
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "ungarn-soros-universitaet-vertreibung-ceu-budapest",
+    "question": "Was geschah mit der Soros-Stiftungsuniversität in Ungarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CEU wurde 2019 unter Druck gezwungen, Budapest zu verlassen"
+      },
+      {
+        "letter": "B",
+        "text": "Sie erhielt volle Unterstützung"
+      },
+      {
+        "letter": "C",
+        "text": "Sie expandierte unter Fidesz"
+      },
+      {
+        "letter": "D",
+        "text": "Sie wurde subventioniert"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Central European University (CEU), gegründet von George Soros, war unter Orbán-Druck. 2019 verließ die Universität Budapest und zog nach Wien – ein Zeichen von Repression gegen kritische Intellektuellen.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2019",
+      "Bildung"
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "deutschland-lanz-interview-hoecke-rechtsradikale-statements",
+    "question": "Wie wurden Björn Höckes rechtsradikale Äußerungen bekannt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durchgesickerte Interviews: Höcke sprach von \"Remigration\" und NS-Vergleichen"
+      },
+      {
+        "letter": "B",
+        "text": "Er verurteilte Rechtsextremismus"
+      },
+      {
+        "letter": "C",
+        "text": "Er war progressiv"
+      },
+      {
+        "letter": "D",
+        "text": "Falsche Berichte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024: Audio-Aufzeichnungen zeigten, dass AfD-Spitzenpolitiker Björn Höcke Nazi-Vergleiche nutzte und von \"Remigration\" (Vertreibung) sprach – radikale Positionen wurden publik.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Höcke"
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "ungarn-orban-visegard-gruppe-antidemokratische-allianz",
+    "question": "Was ist die Visegrád-Gruppe und Orbáns Rolle?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Allianz mit Tschechien, Polen, Slowakei; Orbán führt antidemokratische Block"
+      },
+      {
+        "letter": "B",
+        "text": "EU-Reformbündnis"
+      },
+      {
+        "letter": "C",
+        "text": "Progressive Allianz"
+      },
+      {
+        "letter": "D",
+        "text": "Nur wirtschaftliche Kooperation"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Visegrád-4: Allianz zwischen Ungarn, Tschechien, Polen, Slowakei. Unter Orbán versuchte die Gruppe, EU-Vorgaben zu blockieren und antidemokratische Maßnahmen zu verteidigen.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "EU-Politik"
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "deutschland-reichstag-brandsatz-jan-6-versuch-2021",
+    "question": "Gab es einen Versuch, den Reichstag zu stürmen, wie Jan. 6 in den USA?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, August 2020: Hunderte Rechtsextremisten stürmten Treppen, Polizei stoppte sie"
+      },
+      {
+        "letter": "B",
+        "text": "Nein, keine Versuche"
+      },
+      {
+        "letter": "C",
+        "text": "Nur friedliche Proteste"
+      },
+      {
+        "letter": "D",
+        "text": "Nicht dokumentiert"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "29. August 2020: Hunderte Rechtsextremisten, Reichsbürger und Corona-Leugner versuchten Reichstag zu stürmen. Polizei blockierte Treppen – ein kritisches Moment für deutsche Demokratie.",
+    "sourceLinks": [
+      {
+        "name": "Bundestag",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw50-de-aktuelle-stunde-reichsbuerger-926426"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2020",
+      "Rechtsextremismus",
+      "Umsturzversuch"
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "ungarn-kirchensteuer-kontrolle-katholische-kirche-orban",
+    "question": "Wie versuchte Orbán die katholische Kirche unter Kontrolle zu bringen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Durch Gesetze, die Kirchensteuer- und Vermögensflüsse kontrollieren"
+      },
+      {
+        "letter": "B",
+        "text": "Durch Unterstützung der Kirche"
+      },
+      {
+        "letter": "C",
+        "text": "Vollständige Trennung"
+      },
+      {
+        "letter": "D",
+        "text": "Religionsfreiheit garantierend"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbán versuchte, Kirchensteuer und Vermögensverwaltung zu kontrollieren – eine Strategie, die Kirche zu Unterstützerin seiner Politik zu machen.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Kirche"
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "deutschland-afd-osten-dominanz-waehleranteile-sachsen",
+    "question": "Wo hat die AfD ihre stärksten Wahlergebnisse?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In ostdeutschen Bundesländern (Sachsen, Thüringen 30-40%)"
+      },
+      {
+        "letter": "B",
+        "text": "Überall gleichmäßig verteilt"
+      },
+      {
+        "letter": "C",
+        "text": "Nur in Westdeutschland"
+      },
+      {
+        "letter": "D",
+        "text": "In Süddeutschland dominant"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Geographie: Besonders stark in ostdeutschen Bundesländern (Sachsen, Thüringen, Brandenburg 30-40%), schwächer im Westen und Süden. Spiegelt ost-west Debatten über Identität wider.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Wähler"
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "polen-kulturkrieg-traditionalismus-lgbtq-gender",
+    "question": "Wie führt PiS einen \"Kulturkrieg\" in Polen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gegen \"Gender-Ideologie\", westliche Werte, LGBTQ+ – mit kirchlicher Unterstützung"
+      },
+      {
+        "letter": "B",
+        "text": "Für progressive Werte"
+      },
+      {
+        "letter": "C",
+        "text": "Mit liberalen Reformen"
+      },
+      {
+        "letter": "D",
+        "text": "Für Säkularisierung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "PiS-\"Kulturkrieg\": Zentral gegen \"westliche Gender-Ideologie\", für \"traditionelle Werte\" und Katholizismus. Ein Versuch, Identität gegen westlichen Pluralismus zu mobilisieren.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "PiS",
+      "2015",
+      "Kulturkrieg"
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "deutschland-tusk-reaktion-deutschland-fluechtlingspolitik-kritik",
+    "question": "Was kritisierte Polens neuer Ministerpräsident Tusk an Deutschland?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Er sah Deutschlands liberale Flüchtlingspolitik als Fehler, der Migration anlockt"
+      },
+      {
+        "letter": "B",
+        "text": "Er lobte deutsche Migrationspolitik"
+      },
+      {
+        "letter": "C",
+        "text": "Er unterstützte offene Grenzen"
+      },
+      {
+        "letter": "D",
+        "text": "Er war neutral"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Tusk-Kritik 2024: Er sieht Deutschlands liberale Asylpolitik als fehlerhaft und als Grund für gestiegene Migration – eine Abkehr von progressiver Politik unter Tusk.",
+    "sourceLinks": [
+      {
+        "name": "LSVD",
+        "url": "https://www.lsvd.de/de/ct/2227-quot-LSBTI-freie-Zonen-quot-in-Polen-Steigender-Hass-im-Nachbarland"
+      }
+    ],
+    "tags": [
+      "Polen",
+      "Tusk",
+      "2024",
+      "Asylpolitik"
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "ungarn-liesz-medien-hetze-orban-propaganda-maschine",
+    "question": "Was ist Ungarns \"Propaganda-Maschine\" Orbáns?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kontrollierte Medien (TV, Zeitung), die Orbán-freundliche Inhalte 24/7 sendeten"
+      },
+      {
+        "letter": "B",
+        "text": "Unabhängige Medienlandschaft"
+      },
+      {
+        "letter": "C",
+        "text": "Pluralistische Berichterstattung"
+      },
+      {
+        "letter": "D",
+        "text": "Kritisches Fernsehen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Medien-Kontrolle: Hunderte von Fernsehsendern, Zeitungen und Online-Portalen unter Oligarchen-Kontrolle senden einheitliche pro-Fidesz-Propaganda. Kritische Medien sind marginalisiert.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Propaganda"
+    ]
+  },
+  {
+    "id": 95,
+    "slug": "deutschland-rechtsextremismus-alltagskultur-normalisierung",
+    "question": "Wie normalisiert sich Rechtsextremismus im Alltag in Deutschland?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AfD-Mitgliedschaft, Rechtsextremismus-Phrasen in Alltag, soziale Akzeptanz"
+      },
+      {
+        "letter": "B",
+        "text": "Keine Normalisierung"
+      },
+      {
+        "letter": "C",
+        "text": "Rückgang"
+      },
+      {
+        "letter": "D",
+        "text": "Isoliert und marginalisiert"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Normalisierung: AfD-Wachstum (30%+ Umfrage) normalisiert extremistische Rhetorik. \"Remigration\" und \"Ethnische Homogenität\" werden mainstream diskutiert – gefährliche Verschiebung der Grenzen.",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Normalisierung"
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "ungarn-orban-militarisierung-propaganda-russland-allianz",
+    "question": "Wie nähert sich Ungarn unter Orbán Russland militärisch an?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blockiert EU-Sanktionen gegen Russland, kauft russisches Gas trotz Embargo"
+      },
+      {
+        "letter": "B",
+        "text": "Folgt EU-Außenpolitik"
+      },
+      {
+        "letter": "C",
+        "text": "Mit Kritik an Russland"
+      },
+      {
+        "letter": "D",
+        "text": "NATO-konform"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbán-Russland-Nähe: Blockiert EU-Sanktionen gegen Russland, kauft billiges Gas trotz Embargo – eine außenpolitische Abkehr, die EU destabilisiert.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Außenpolitik"
+    ]
+  },
+  {
+    "id": 97,
+    "slug": "deutschland-afd-hanau-opfer-erinnerung-rechtsextremismus",
+    "question": "Wie gedachte Deutschland der Hanau-Opfer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mit Gedenkveranstaltungen, Mahnung gegen Rechtsextremismus"
+      },
+      {
+        "letter": "B",
+        "text": "Mit Normalität"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Erinnerung"
+      },
+      {
+        "letter": "D",
+        "text": "Mit Minimalisierung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Hanau-Gedenken: Jährliche Veranstaltungen, Denkmal-Initiativen, Verarbeitung von Leid. Ein Moment, der Aufmerksamkeit auf Rechtsextremismus lenkt.",
+    "sourceLinks": [
+      {
+        "name": "Verband BRG",
+        "url": "https://verband-brg.de/rechte-rassistische-und-antisemitische-gewalt-in-deutschland-2024-jahresbilanzen-der-opferberatungsstelle"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "2020",
+      "Terrorismus",
+      "Opfererinnerung"
+    ]
+  },
+  {
+    "id": 98,
+    "slug": "ungarn-eu-kritik-orban-system-dauer-anti-demokratie",
+    "question": "Wie lange andert Orbáns anti-demokratisches System bereits an?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Seit 15+ Jahren kontinuierlicher \"Aushöhlung der Demokratie\""
+      },
+      {
+        "letter": "B",
+        "text": "Nur kurze Phase"
+      },
+      {
+        "letter": "C",
+        "text": "Wurde überwunden"
+      },
+      {
+        "letter": "D",
+        "text": "Kurzfristig"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Orbáns Regime: 15+ Jahre kontinuierliche, systematische Aushöhlung demokratischer Strukturen. Ein Paradebeispiel für autoritäre Konsolidierung im EU-Kontext.",
+    "sourceLinks": [
+      {
+        "name": "bpb",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/308619/10-jahre-fidesz-regierung-lage-der-demokratie-in-ungarn/"
+      }
+    ],
+    "tags": [
+      "Ungarn",
+      "Fidesz",
+      "2024",
+      "Antidemokratie"
+    ]
+  },
+  {
+    "id": 99,
+    "slug": "deutschland-afd-waehlerschaft-demografisch-analyse",
+    "question": "Wer wählt die AfD in Deutschland? Demografisches Profil?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Überproportional: Männer, ältere Menschen, Arbeiter:innen, \"abgehängt\" Fühlende"
+      },
+      {
+        "letter": "B",
+        "text": "Gleichmäßig über alle Gruppen verteilt"
+      },
+      {
+        "letter": "C",
+        "text": "Nur akademisch Gebildete"
+      },
+      {
+        "letter": "D",
+        "text": "Nur junge Menschen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "AfD-Wähler:innen: Überproportional Männer (60%+), älter, mit Arbeiter-Hintergrund, oft in wirtschaftlich schwachen Regionen. Weniger Akademiker:innen, mehr \"Abgehängte\".",
+    "sourceLinks": [
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/afd-verfassungsschutz-rechtsextremistisch-100.html"
+      }
+    ],
+    "tags": [
+      "Deutschland",
+      "AfD",
+      "2024",
+      "Wählerdaten"
+    ]
+  },
+  {
+    "id": 100,
+    "slug": "europa-2025-prognose-zukunft-demokratie-rechtsextremismus",
+    "question": "Wie sieht die Prognose für europäische Demokratie 2025-2030?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Risiken: Rechtsextremismus weiterhin 25-30% in mehreren Ländern, Orbán-Lager erstarkt"
+      },
+      {
+        "letter": "B",
+        "text": "Sichere demokratische Entwicklung"
+      },
+      {
+        "letter": "C",
+        "text": "Automatische Stabilisierung"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Herausforderungen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2025-2030-Prognose: Rechtsextremismus bleibt Dauerproblem (25-30%+ in mehreren Ländern), \"illiberale Demokratien\" à la Ungarn sind Modell, EU-Fragmentierung nimmt zu. Nötig: gezielte Gegenwehr.",
+    "sourceLinks": [
+      {
+        "name": "Kontrast",
+        "url": "https://kontrast.at/orban-kickl-ungarn/"
+      }
+    ],
+    "tags": [
+      "Europa",
+      "2025",
+      "Prognose",
+      "Demokratie"
+    ]
+  },
+
+  {
+    "id": 1,
+    "slug": "trump-pussy-grab-tape-frauenverachtung-wahlkampf",
+    "question": "Was zeigte das 2005-\"Access Hollywood\"-Tape über Trump?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trump prahlt mit Frauenbelästigung (\"grab them by the pussy\"); Wähler ignorieren es"
+      },
+      {
+        "letter": "B",
+        "text": "Respektvolles Verhalten gegenüber Frauen"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützung für Frauenrechte"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Kontroverse"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Oktober 2005: Access Hollywood-Tape: Trump prahlt damit, Frauen ohne Zustimmung zu berühren. Trotz Shitstorm erhielt er Unterstützung von 46% der Wähler. Normalisierung von Frauenfeindlichkeit.",
+    "sourceLinks": [
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/politics/trump-access-hollywood-tape"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2016",
+      "Frauenfeindlichkeit",
+      "Wahlkampf"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "gop-republican-party-trump-unterstützung-frauen-rechte-verrat",
+    "question": "Wie verriet die Republikanische Partei Frauenrechte unter Trump?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blockierte Abtreibungs-Schutze, ernannte Anti-Abtreibungs-Richter, 6. Supreme Court schränkte Rechte ein"
+      },
+      {
+        "letter": "B",
+        "text": "Schützte reproduktive Rechte"
+      },
+      {
+        "letter": "C",
+        "text": "Förderte Gleichberechtigung"
+      },
+      {
+        "letter": "D",
+        "text": "Unterstützte Frauenrechte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump ernannte 3 Supreme Court Richter. Juni 2022: Gericht hob Roe v. Wade auf – Abtreibungsrechte gelöscht. GOP blockierte alle Schutzgesetze. Verrat an eigenen Wähler-Versprechen von Sicherheit.",
+    "sourceLinks": [
+      {
+        "name": "New York Times",
+        "url": "https://www.nytimes.com"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "GOP",
+      "2022",
+      "Frauenrechte",
+      "Supreme Court"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "trump-dreamers-schutz-aufgehoben-daca-undocumented-children",
+    "question": "Was tat Trump mit DACA (Schutz für Dreamers)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Versuchte Aufhebung von DACA; 700.000+ undokumentierte Kinder verloren Schutz"
+      },
+      {
+        "letter": "B",
+        "text": "Verstärkte Schutzmaßnahmen"
+      },
+      {
+        "letter": "C",
+        "text": "Legalisierungsprogramm"
+      },
+      {
+        "letter": "D",
+        "text": "Erweiterte Rechte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump versuchte 2017-2021, DACA aufzuheben – 700.000+ junge Migranten verloren Schutz. Supreme Court blockierte zweimal. Verrat an Versprechungen, Familien zu schützen.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Immigration",
+      "Kinder"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "trump-lgbtq-gleichstellung-rollback-transgender-militaer",
+    "question": "Wie rollte Trump LGBTQ+-Rechte zurück?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verbot für Transgender in Militär, rollte Schutzmaßnahmen zurück, ernannte Anti-LGBTQ+-Richter"
+      },
+      {
+        "letter": "B",
+        "text": "Förderte LGBTQ+-Rechte"
+      },
+      {
+        "letter": "C",
+        "text": "Gab Gleichstellungsgesetze"
+      },
+      {
+        "letter": "D",
+        "text": "Unterstützte Vielfalt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump 2017: Verbot von Transgender-Personen im Militär (später teilweise blockiert). Rollback von Obama-Schutzmaßnahmen. Generell Anti-LGBTQ+-Politik und Richterlügen (Gorsuch-Entscheidung ausnahmsweise pro-LGBTQ+).",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "LGBTQ+",
+      "Diskriminierung"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "trump-voting-rights-schwarz-wähler-unterdrückung",
+    "question": "Wie unterdrückte die GOP unter Trump Schwarze Wähler?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Voter ID-Gesetze, Wahlkreis-Manipulation, Polling-Stationen-Schließung in schwarzen Bezirken"
+      },
+      {
+        "letter": "B",
+        "text": "Erweiterte Wahlrechte"
+      },
+      {
+        "letter": "C",
+        "text": "Schützte Wahlbeteiligung"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Wahlen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-GOP: Voter ID-Gesetze (diskriminieren Schwarze/Hispanics), Gerrymandering in schwarzen Bezirken, Polling-Stationen-Schließungen. Verrat an Wahlrechten.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "GOP",
+      "2017",
+      "Rassismus",
+      "Wahlrecht"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "trump-family-separation-zero-tolerance-kinder-käfige-border",
+    "question": "Was war Trumps \"Zero Tolerance\"-Politik an der Grenze?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trennte 5.600+ Kinder von Eltern; tausende in Käfigen detainiert"
+      },
+      {
+        "letter": "B",
+        "text": "Humane Einwanderungspolitik"
+      },
+      {
+        "letter": "C",
+        "text": "Familienfreundliche Verfahren"
+      },
+      {
+        "letter": "D",
+        "text": "Legale Asylverarbeitung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2018: Trump ordnete Zero Tolerance Grenzkontrolle an – über 5.600 Kinder von Eltern getrennt. Tausende in Käfigen detainiert. Viele nie wiedervereinigt. Menschenrechtsverletzungen.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Grenzkrise",
+      "Kinderrechte"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "trump-mueller-ermittlung-obstruction-of-justice-10-punkte",
+    "question": "Was dokumentierte die Mueller-Ermittlung über Trump?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 Fälle von möglicher Behinderung der Justiz; Trump versuchte Ermittler zu blockieren"
+      },
+      {
+        "letter": "B",
+        "text": "Volle Kooperation"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Verfehlungen"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Ermittlung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Mueller-Bericht 2019: Dokumentierte 10 Fälle von möglicher Behinderung der Justiz. Trump versuchte Mueller zu feuern, Comey zu entfernen, Zeugen einzuschüchtern.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Mueller",
+      "Justizbehinderung"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "trump-charlottesville-\"very-fine-people\" nazis-kkk",
+    "question": "Wie reagierte Trump auf Nazi-Aufmarsch in Charlottesville?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sagte \"sehr feine Menschen\" auf beiden Seiten; moral equivalence mit Nazis"
+      },
+      {
+        "letter": "B",
+        "text": "Verurteilte Nazis scharf"
+      },
+      {
+        "letter": "C",
+        "text": "Antifaschistische Haltung"
+      },
+      {
+        "letter": "D",
+        "text": "Klare anti-rassistische Position"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "August 2017: Charlottesville Nazi-Aufmarsch. Trump sagte \"es gibt sehr feine Menschen auf beiden Seiten\" – moralische Äquivalenz zwischen Nazis und Anti-Faschisten. Normalisierte Rassismus.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Rassismus",
+      "Nazis"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "trump-alabama-sharpie-hurricane-dorian-wissenschaftsverleugnung",
+    "question": "Wie missbrauchte Trump Wissenschaft bei Hurricane Dorian?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zeigte Hurricane-Karte mit Sharpie-Änderung; drohte NOAA für Widerspruch"
+      },
+      {
+        "letter": "B",
+        "text": "Folgte wissenschaftlichen Daten"
+      },
+      {
+        "letter": "C",
+        "text": "Respektierte Expertisen"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Kommunikation"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "September 2019: Trump zeigte Hurricane-Karte mit Sharpie-Zeichnung zur Rechtfertigung falscher Vorhersage. Drohte NOAA für Widerspruch. Wissenschaftliche Integrität verletzt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Wissenschaft",
+      "Lügen"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "trump-federal-judges-attacks-courts-legitimacy-undermining",
+    "question": "Wie unterminierte Trump Gerichtslegitimität?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Attackierte kritische Richter, nannte Gericht \"Fake News\", delegitimierte Justiz"
+      },
+      {
+        "letter": "B",
+        "text": "Respektierte Justiz-Unabhängigkeit"
+      },
+      {
+        "letter": "C",
+        "text": "Akzeptierte Urteile"
+      },
+      {
+        "letter": "D",
+        "text": "Unterstützte Rechtsstaatlichkeit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump wiederholte Attacken auf Richter, nannte kritische Entscheidungen \"Fake\", unterminierte Gerichtslegitimität. Versuch, Justiz-Vertrauen zu erodieren – antidemokratisch.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Justiz",
+      "Antidemokratie"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "trump-feuert-alle-inspektoren-general-oversight-blockieren",
+    "question": "Wie blockierte Trump Überwachung durch Inspektoren General?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Feuerte alle 4 kritischen Inspektoren General während Amtszeit"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützte Überwachung"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Verwaltung"
+      },
+      {
+        "letter": "D",
+        "text": "Förderte Accountability"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump feuerte 4 Inspektoren General, die Verfehlungen der Regierung dokumentierten – versuchte Überwachung auszuschalten. Verstoß gegen Checks-and-Balances.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Überwachung",
+      "Blockade"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "trump-pressefreiheit-angriff-fake-news-journalisten",
+    "question": "Wie attackierte Trump die Pressefreiheit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nannte Presse \"Feind des Volkes\", attackierte Journalisten, drohte mit Lizenz-Entzug"
+      },
+      {
+        "letter": "B",
+        "text": "Förderte Medienfreiheit"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützte Journalisten"
+      },
+      {
+        "letter": "D",
+        "text": "Respektierte Pressefreiheit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump nannte Presse \"Feind des Volkes\", attackierte Reporter, drohte mit Lizenz-Entzug. Versuch, Pressefreiheit zu unterdrücken – antidemokratisch.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Presse",
+      "Antidemokratie"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "trump-mueller-entlassung-versuch-don-mcgahn-story",
+    "question": "Versuchte Trump Mueller zu entlassen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, ordnete McGahn an, Mueller zu feuern; McGahn weigerte sich, zurück trat"
+      },
+      {
+        "letter": "B",
+        "text": "Kooperierte mit Ermittlung"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Prozess"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Interferenz"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Juni 2017: Trump ordnete Don McGahn an, Mueller zu feuern. McGahn weigerte sich und trat zurück – Behinderung der Justiz dokumentiert in Mueller-Bericht.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Mueller",
+      "Justizbehinderung"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "trump-pardons-cronies-criminals-birther-family-friends",
+    "question": "Wen begnadigte Trump kurz vor Amtsende?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "143 Personen, viele Kriminelle und Vertraute; Sohn Don Jr., Schwiegersohn Kushner sparte Strafen"
+      },
+      {
+        "letter": "B",
+        "text": "Verdiente Verurteilte"
+      },
+      {
+        "letter": "C",
+        "text": "Nach Gerechtigkeit"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Gnadenerweise"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump begnadigte 143 Personen, darunter Cronies, Kriminelle, Freunde, Spender. Kushner-Vater erhielt Begnadigung für Weiße-Kragen-Verbrechen. Verstoß gegen Gerechtigkeit.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2021",
+      "Gnadenerweise",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "trump-roger-stone-commutation-lügen-justiz",
+    "question": "Was tat Trump für seinen Freund Roger Stone?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Begnadigte Stone wegen Meineids und Behinderung der Justiz; kommt trotz Verurteilung frei"
+      },
+      {
+        "letter": "B",
+        "text": "Folgte justiziellen Verfahren"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Begnadigung"
+      },
+      {
+        "letter": "D",
+        "text": "Respektierte Gerichte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "November 2020: Trump commutierte Stones Satz trotz Verurteilung wegen Meineids und Justiz-Behinderung. Politische Gunst über Gerechtigkeit.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Begnadigung",
+      "Korruption"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "trump-paul-manafort-commutation-campaign-manager-schulden",
+    "question": "Wie begnadigte Trump seinen Wahlkampfmanager Paul Manafort?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Commutierte Strafe trotz Geldwäsche- und Betrugs-Verurteilung wegen politischer Loyalität"
+      },
+      {
+        "letter": "B",
+        "text": "Folgte justiziellen Verfahren"
+      },
+      {
+        "letter": "C",
+        "text": "Respektierte Gerichte"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Entscheidung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump commutierte Manaforts Satz trotz Verurteilung für Geldwäsche und Betrug. Manafort folgte Trump, darum wurde er belohnt – Korruption als Norm.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Manafort",
+      "Bestechung"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "trump-post-office-destruction-usps-mail-voting-sabotage",
+    "question": "Wie sabotierte Trump die US Postal Service vor 2020 Wahl?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ernannte DeJoy, der USPS zerstörte; verhinderte Mail-in-Wahl-Verarbeitung"
+      },
+      {
+        "letter": "B",
+        "text": "Förderte Mail-Voting"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützte USPS"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Wahlvorbereitung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump ernannte Louis DeJoy als USPS-Chef. DeJoy zerstörte Sortierstationen, reduzierte Postboxen – versuchte Mail-Voting zu sabotieren vor 2020 Wahl.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Wahlbetrug",
+      "USPS"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "trump-georgia-call-raffensperger-11-thousand-votes",
+    "question": "Was sagte Trump zu Georgias Außenminister Raffensperger?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Ich brauche 11.780 Stimmen\" – versuchte Außenminister zu erpressen"
+      },
+      {
+        "letter": "B",
+        "text": "Akzeptierte Wahlergebnis"
+      },
+      {
+        "letter": "C",
+        "text": "Rispektierte Wahl"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Einmischung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Januar 2021: Trump forderte Raffensperger telefonisch \"11.780 Stimmen\" – offene Erpressung für Wahlmanipulation. Aufzeichnung veröffentlicht, Erpressung dokumentiert.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2021",
+      "Wahlbetrug",
+      "Erpressung"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "trump-michigan-electors-pressure-overturn-votes",
+    "question": "Wie versuchte Trump die Michigan-Wähler zu zwingen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Forderte Wahlleute auf, Stimmabgabe zu ändern; Druck auf Sekretärin Benson"
+      },
+      {
+        "letter": "B",
+        "text": "Akzeptierte Wahl"
+      },
+      {
+        "letter": "C",
+        "text": "Respektierte demokratische Prozesse"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Einmischung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump forderte Michigan-Wahlleute auf, Stimmen zu ändern, drohte Sekretärin Benson. Versuch, Wahl umzukehren – Wahlmanipulation.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Wahlbetrug",
+      "Michigan"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "trump-pennsylvania-irregularities-lawsuit-baseless-400-fälle",
+    "question": "Wie viele Wahl-Klagen verlor Trump in Pennsylvania?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Über 60 Klagen verloren; alle Richter (auch Trump-ernannte) wiesen Anträge ab"
+      },
+      {
+        "letter": "B",
+        "text": "Gewann alle Fälle"
+      },
+      {
+        "letter": "C",
+        "text": "Beweise für Betrug"
+      },
+      {
+        "letter": "D",
+        "text": "Unfaire Richter"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump reichte 60+ Klagen in Pennsylvania ein – alle verloren. Selbst Trump-ernannte Richter wiesen Anträge als \"ohne Substanz\" ab. Keine Beweise für Betrug.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Wahlbetrug-Lügen",
+      "Justiz"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "trump-2020-wahlkampf-unethisch-foreign-interference-china",
+    "question": "Welche ethischen Verstöße gab es in Trumps 2020-Wahlkampf?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Versuchte ausländische Unterstützung zu nutzen; Nordkorea/China angeboten"
+      },
+      {
+        "letter": "B",
+        "text": "Sauberer Wahlkampf"
+      },
+      {
+        "letter": "C",
+        "text": "Ethische Standards"
+      },
+      {
+        "letter": "D",
+        "text": "Transparenz"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump versuchte, ausländische Hilfe für 2020 Wahl zu nutzen – wiederholtes Muster. China/Nordkorea boten Unterstützung an. Verrat an Nationalinteressen.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Wahlkampf",
+      "Auslandseinfluss"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "trump-wisconsin-recount-verzögerung-demokrat-verlierer",
+    "question": "Wie versuchte Trump den Wisconsin-Wahlreccount zu manipulieren?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zahlte Millionen für Recount; Ergebnis verschärfte Biden-Sieg"
+      },
+      {
+        "letter": "B",
+        "text": "Akzeptierte Wahl"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Einmischung"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Recount"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump zahlte für Wisconsin-Recount – Ergebnis verschärfte Biden-Sieg, kostete Trump über $3 Millionen. Wahlmanipulation misslang.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Wahlbetrug",
+      "Wisconsin"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "trump-arizona-recount-cyber-ninjas-conspiracy",
+    "question": "Was war der Arizona-Recount-Skandal?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trump finanzierte \"Cyber Ninjas\" Recount; fand nur mehr Beweise gegen Trump"
+      },
+      {
+        "letter": "B",
+        "text": "Legitimer Wahlprozess"
+      },
+      {
+        "letter": "C",
+        "text": "Unabhängige Überprüfung"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Ergebnisse"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump finanzierte Arizona-Recount durch \"Cyber Ninjas\". Ergebnis: Nur mehr Beweise gegen Trump, Biden gewann mit noch größerem Vorsprung.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2021",
+      "Wahlbetrug-Versuch",
+      "Arizona"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "trump-financial-disclosures-incomplete-untrue-false-reporting",
+    "question": "Wie falsifizierte Trump finanzielle Offenlegungen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Underreported Schulden, Verbindlichkeiten und Interessenskonflikte um Milliarden"
+      },
+      {
+        "letter": "B",
+        "text": "Transparente Offenlegung"
+      },
+      {
+        "letter": "C",
+        "text": "Vollständige Angaben"
+      },
+      {
+        "letter": "D",
+        "text": "Ehrliche Finanzberichterstattung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump underreported Schulden, Verbindlichkeiten, Interessenskonflikte um Milliarden in Financial Disclosures. Persistente Falsifizierung von Regierungsdokumentation.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Finanzbetrug",
+      "Offenlegung"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "trump-security-clearances-revoked-brennan-comey-pressure",
+    "question": "Welche Sicherheitsfreigaben revoked Trump aus Rache?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Revoked Clearances von kritischen Sicherheitsbeamten (Brennan, Comey); Rache-Akt"
+      },
+      {
+        "letter": "B",
+        "text": "Respektierte Profis"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Repressalien"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Entscheidungen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump revoked Sicherheitsfreigaben von Brennan (CIA), Comey (FBI) und anderen – weil sie seine Ermittlungen kritisierten. Politische Rache gegen Profis.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Rache",
+      "Sicherheit"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "trump-nordkorea-liebesbriefe-delikates-verhandlung-scheitern",
+    "question": "Was war das Ergebnis von Trumps \"Liebesbriefe\" mit Kim Jong-un?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nordkorea baute Atomwaffen weiter aus; keine Denuklearisierung"
+      },
+      {
+        "letter": "B",
+        "text": "Vollständige Denuklearisierung"
+      },
+      {
+        "letter": "C",
+        "text": "Friedensvertrag"
+      },
+      {
+        "letter": "D",
+        "text": "Erfolgreiche Verhandlung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump schrieb \"Liebesbriefe\" an Kim Jong-un – großes Medienspektakel, aber keine Ergebnisse. Nordkorea baute Atomwaffen weiter aus.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Nordkorea",
+      "Friedensversprechen-Betrug"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "trump-saudi-arabia-weapons-sales-khashoggi-murder-covered",
+    "question": "Wie ignorierte Trump Saudi-Arabiens Khashoggi-Mord?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ignoriierte Khashoggi-Mord von MBS; 115 Milliarden Dollar Waffendeals wichtiger"
+      },
+      {
+        "letter": "B",
+        "text": "Verurteilte Mord"
+      },
+      {
+        "letter": "C",
+        "text": "Forderte Untersuchung"
+      },
+      {
+        "letter": "D",
+        "text": "Unterstützte Journalisten"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Saudi-Arabien tötete Journalist Khashoggi 2018. Trump ignorierte Mord, weil 115 Milliarden Dollar Waffendeals wichtiger waren. Geschäfte vor Menschenrechten.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Saudi-Arabien",
+      "Menschenrechte-Verrat"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "trump-white-house-counsel-don-mcgahn-testimony-subpoena",
+    "question": "Wie blockierte Trump Zeugenaussagen von Don McGahn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blockierte Subpoena für McGahn; versuchte Justiz-Behinderung"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützte Ermittlungen"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Kooperation"
+      },
+      {
+        "letter": "D",
+        "text": "Respektierte Gericht-Befehle"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump blockierte Subpoena für Don McGahn (Rechtsberater), der wichtige Zeugnis hätte gegeben. Versuch, Mueller-Ermittlung zu obstruieren.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Justizbehinderung",
+      "Mueller"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "trump-puerto-rico-hurricane-maria-response-neglect-paper-towels",
+    "question": "Wie vernachlässigte Trump Puerto Rico nach Hurricane Maria?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Warf Papiertücher zu Menschen, keine echte Hilfe; 3.000 Todesfälle"
+      },
+      {
+        "letter": "B",
+        "text": "Massive Hilfsmaßnahmen"
+      },
+      {
+        "letter": "C",
+        "text": "Koordinierte Krise-Reaktion"
+      },
+      {
+        "letter": "D",
+        "text": "Effiziente Katastrophenhilfe"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2017: Hurricane Maria zerstörte Puerto Rico. Trump besuchte, warf Papiertücher zu Opfern – keine echte Hilfe. Über 3.000 starben an Folgen. Rassistische Neglekt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Hurricane Maria",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "trump-taxes-deutsche-bank-loans-laundry-verdacht",
+    "question": "Welche Verbindung hatte Trump zur Deutsche Bank?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Holte über 2 Milliarden Dollar Kredite von Deutsche Bank; Geldwäsche-Verdacht"
+      },
+      {
+        "letter": "B",
+        "text": "Legale Finanzierungen"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Geschäfte"
+      },
+      {
+        "letter": "D",
+        "text": "Normal Unternehmens-Kredite"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump erhielt über 2 Milliarden Dollar von Deutsche Bank – unter Geldwäsche-Verdacht. Bank verstrickt in russische Geldwäsche. Trump-Verbindung fragwürdig.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Deutsche Bank",
+      "Geldwäsche"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "trump-mar-a-lago-memberships-foreign-nationals-espionage",
+    "question": "Wer waren Mar-a-Lago-Mitglieder?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ausländische Staatsbeamte, Spione, Investoren aus Ländern mit US-Interessen"
+      },
+      {
+        "letter": "B",
+        "text": "Normale amerikanische Mitglieder"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Mitgliedschaft"
+      },
+      {
+        "letter": "D",
+        "text": "Sicherheits-überprüfte Personen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Mar-a-Lago Mitgliedschaft: Ausländische Staatsbeamte (Chinesen, Russen, Saudis), potenzielle Spione, Investoren. Nationale Sicherheits-Risiko für geheime Information-Sicherheit.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Mar-a-Lago",
+      "Sicherheit"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "trump-campaign-data-cambridge-analytica-microtargeting",
+    "question": "Was war Trumps Verbindung zu Cambridge Analytica?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nutzten Cambridge Analytica für Microtargeting mit gestohlenen Daten"
+      },
+      {
+        "letter": "B",
+        "text": "Ethisches Kampagnen-Management"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Werbung"
+      },
+      {
+        "letter": "D",
+        "text": "Legitime Daten-Nutzung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trumps Kampagne nutzte Cambridge Analytica für Microtargeting mit Facebook-Daten (50+ Millionen Nutzer). Datenschmutz-Skandal.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2016",
+      "Cambridge Analytica",
+      "Datenschutz"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "trump-facebook-ads-verbreitung-misinformation-russland-bot",
+    "question": "Wie verbreitete Trumps Kampagne Desinformation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Unterstützung von russischen Bots, Facebook-Ads mit Lügen, Mikro-Zielgruppen"
+      },
+      {
+        "letter": "B",
+        "text": "Fact-basierte Kampagne"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Werbung"
+      },
+      {
+        "letter": "D",
+        "text": "Ethische Kommunikation"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2016: Trumps Kampagne unterstützte russische Desinformation, lud Facebook-Ads mit Lügen hoch, nutzte Mikro-Zielgruppen. Russische Interferenz-Kooperation.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2016",
+      "Desinformation",
+      "Russland"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "trump-foreign-money-campaign-shell-companies-illegal",
+    "question": "Wie finanzierte Trump seine Kampagne mit ausländischem Geld?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Shell-Companies versteckten ausländische Spenden; illegale Finanzierung"
+      },
+      {
+        "letter": "B",
+        "text": "Legale Finanzierung"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Quelle"
+      },
+      {
+        "letter": "D",
+        "text": "Amerikanische Spender"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trumps Kampagne nutzte Shell-Companies für ausländische Spenden – illegale Wahlkampf-Finanzierung. Verstöß gegen Wahlgesetze.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2016",
+      "Wahlfinanzierung",
+      "Illegal"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "trump-foundation-lawsuit-charity-fraud-settlement-900k",
+    "question": "Warum wurde Trumps Stiftung verklagt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gemeinnützigkeits-Betrug; Spendenmittel für Trump-Unternehmen genutzt"
+      },
+      {
+        "letter": "B",
+        "text": "Legitime Gemeinnützigkeit"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Stiftung"
+      },
+      {
+        "letter": "D",
+        "text": "Wohltätigkeit-Fokus"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "New York Attorney General: Trump Foundation verklagte wegen Betrug. Spendenmittel zur Finanzierung von Trump-Unternehmen missbraucht. Vergleich 900.000 Dollar.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Stiftung",
+      "Betrug"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "trump-foundation-iowa-veterans-money-restitution-falsch",
+    "question": "Wie betrog Trump Veteran mit Foundation-Geld?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Spendenmittel für Iowa-Veteranen gingen an Trump-Kampagne statt Veteranen"
+      },
+      {
+        "letter": "B",
+        "text": "Korrekte Verwendung"
+      },
+      {
+        "letter": "C",
+        "text": "Veteranen-Unterstützung"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Verteilung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Foundation sammelte Geld für Iowa-Veteranen, leitete es zur Trump-Kampagne um – Veteranen-Betrug. New York Anklage.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2016",
+      "Veteranen-Betrug",
+      "Foundation"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "trump-emoluments-clause-violations-foreign-payments",
+    "question": "Wie verstieß Trump gegen \"Emoluments Clause\"?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trump Hotels erhielten ausländische Regierungszahlungen; Verfassungsverstoß"
+      },
+      {
+        "letter": "B",
+        "text": "Einhaltung Verfassung"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Finanzen"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Konflikt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump Hotels erhielten Zahlungen von ausländischen Regierungen – Verstoß gegen Emoluments Clause (Verfassung). Diverse Klagen; Supreme Court blockierte aber Überprüfung.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Verfassungsverstoß",
+      "Emoluments"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "trump-office-of-government-ethics-violaton-director-forced",
+    "question": "Wie entfernte Trump die Ethik-Watchdog?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Feuerte Walter Shaub (Ethics Chief); Versuch Ethik-Überwachung zu blockieren"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützte Ethik-Büro"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Ethik"
+      },
+      {
+        "letter": "D",
+        "text": "Respektierte Ethik-Standards"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump unter Druck von Walter Shaub (Ethics Chief), der Interessenskonflikte dokumentierte. Shaub feuert später; Trump Ethik-Überwachung blockiert.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Ethik",
+      "Blockade"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "trump-executive-orders-unlawful-courts-blocked-immigration",
+    "question": "Wie viele Exekutivanordnungen von Gerichten blockiert?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hunderte; Richter fanden viele rechtswidrig"
+      },
+      {
+        "letter": "B",
+        "text": "Keine blockiert"
+      },
+      {
+        "letter": "C",
+        "text": "Alle verfassungskonform"
+      },
+      {
+        "letter": "D",
+        "text": "Kein Gerichtswiderstand"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Hunderte Exekutivanordnungen von Trump wurden von Gerichten blockiert – viele Richter fanden sie rechtswidrig. Beispiele: Muslim Ban, DACA-Aufhebung.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Exekutivanordnung",
+      "Rechtswidrig"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "trump-muslim-ban-executive-order-racism-unconstitutional",
+    "question": "Was war Trumps \"Muslim Ban\"?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Exekutivanordnung, die Muslime aus 7+ Ländern ausschloss; Richter nannten es rassistisch"
+      },
+      {
+        "letter": "B",
+        "text": "Nationale Sicherheitsmaßnahme"
+      },
+      {
+        "letter": "C",
+        "text": "Legitime Einwanderungspolitik"
+      },
+      {
+        "letter": "D",
+        "text": "Verfassungskonform"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump signierte \"Travel Ban\" gegen Muslim-Länder (Iran, Syrien, etc.). Gerichte blockierten dreimal; Supreme Court erlaubte später. Rassistischer Intent dokumentiert.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Muslim Ban",
+      "Rassismus"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "trump-environmental-rollback-fossil-fuels-coal-industry",
+    "question": "Welche Umweltschutzmaßnahmen baute Trump ab?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100+ Umweltvorschriften; profitierte Kohle/Öl-Industrie"
+      },
+      {
+        "letter": "B",
+        "text": "Verstärkte Umweltschutz"
+      },
+      {
+        "letter": "C",
+        "text": "Förderte erneuerbare Energien"
+      },
+      {
+        "letter": "D",
+        "text": "Folgte Wissenschaft"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump baute 100+ Umweltschutzvorschriften ab – Methan, Jagd, Wasser, Fracking. Kohle/Öl-Konzerne profitierten. Klima-Sabotage.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Umwelt",
+      "Lobbyismus"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "trump-corporate-tax-cuts-billionaires-workers-stagnate",
+    "question": "Wem nützten Trumps Steuererleichterungen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Milliardären und Konzernen; Arbeiterlöhne stagniert"
+      },
+      {
+        "letter": "B",
+        "text": "Mittelklasse und Arbeitern"
+      },
+      {
+        "letter": "C",
+        "text": "Allen gleichmäßig"
+      },
+      {
+        "letter": "D",
+        "text": "Hauptsächlich Armen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump Tax Cuts 2017: Steuersätze für Konzerne von 35% auf 21%. Billionäre zahlten weniger. Arbeiterlöhne stagnierten. Verrat an Arbeiter-Versprechen.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Steuerpolitik",
+      "Ungleichheit"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "trump-healthcare-sabotage-aca-obamacare-versuch-aufheben",
+    "question": "Wie versuchte Trump Healthcare zu sabotieren?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Versuchte Obamacare zu zerstören; 20+ Millionen hätten Versicherung verloren"
+      },
+      {
+        "letter": "B",
+        "text": "Verstärkte Healthcare"
+      },
+      {
+        "letter": "C",
+        "text": "Universelle Versicherung"
+      },
+      {
+        "letter": "D",
+        "text": "Erweiterte Zugang"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump ordnete Angriff auf Affordable Care Act an. Versuch, Obamacare zu zerstören; 20+ Millionen hätten Versicherung verloren. Senat blockierte dreimal.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Healthcare",
+      "Sabotage"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "trump-supreme-court-overturn-roe-abortion-rights-dobbs",
+    "question": "Wie manipulierte Trump Supreme Court für Roe-Aufhebung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ernannte 3 Anti-Abtreibungs-Richter; Dobbs-Entscheidung (2022) hob Roe auf"
+      },
+      {
+        "letter": "B",
+        "text": "Keine Justiz-Manipulation"
+      },
+      {
+        "letter": "C",
+        "text": "Respektierte Richter-Unabhängigkeit"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Auswirkung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump ernannte Gorsuch, Kavanaugh, Barrett (3 Conservative Justices). Nach seinem Weggang: Dobbs-Entscheidung 2022 hob Roe auf. Trump-Ziel erfüllt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Supreme Court",
+      "Manipulation"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "trump-election-lies-repeat-2024-deja-vu-wahlbetrug-lügen",
+    "question": "Wiederholte Trump Wahlbetrug-Lügen 2024?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, behauptete erneut Betrug ohne Beweise; versuchte 2024-Wahl zu delegitimieren"
+      },
+      {
+        "letter": "B",
+        "text": "Akzeptierte Wahl"
+      },
+      {
+        "letter": "C",
+        "text": "Keine Lügen"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Aussagen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2024: Trump behauptete erneut ohne Beweise Wahlbetrug – exakte Wiederholung 2020-Lügen. Versuch, Wahl zu delegitimieren. Systemischer Betrug.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2024",
+      "Wahlbetrug-Lügen",
+      "Deja Vu"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "trump-nuclear-secrets-bedside-book-national-security-risk",
+    "question": "Was war das \"Bedside Classified Documents\"-Skandal?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trump lagerte Atomwaffen-Geheimdokumente neben seinem Bett; Fremde konnten zugreifen"
+      },
+      {
+        "letter": "B",
+        "text": "Sichere Aufbewahrung"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Handhabung"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Sicherheitsrisiken"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "FBI-Razzia in Mar-a-Lago: Fanden Atomwaffen-Geheimdokumente in Schlafzimmern/Nachtschränken. Fremde (Mitglieder, Angestellte) konnten zugreifen. Nationale Sicherheitskrise.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2022",
+      "Geheimdokumente",
+      "Spionage"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "trump-defiance-subpoena-executive-privilege-claim-invalid",
+    "question": "Wie weigerte sich Trump, Subpoena zu folgen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beanspruchte \"Executive Privilege\" ohne Basis; Gericht wies Anspruch ab"
+      },
+      {
+        "letter": "B",
+        "text": "Kooperierte mit Ermittlung"
+      },
+      {
+        "letter": "C",
+        "text": "Respektierte Gerichtsbefehle"
+      },
+      {
+        "letter": "D",
+        "text": "Transparente Antwort"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump weigerte sich, Subpoena zu folgen (Januar-6-Komitee). Beanspruchte Executive Privilege ohne Grundlage. Gericht wies Anspruch ab – Versuch, Justiz zu blockieren.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2022",
+      "Subpoena",
+      "Justizbehinderung"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "trump-classified-documents-stored-bathrooms-boxes",
+    "question": "Wo lagerte Trump Klassifizierte Dokumente?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In Badezimmern, Ballsälen, Lagerhäusern; neben Kleidung und Gemälden"
+      },
+      {
+        "letter": "B",
+        "text": "Sichere Bunker"
+      },
+      {
+        "letter": "C",
+        "text": "Nationale Archive"
+      },
+      {
+        "letter": "D",
+        "text": "Autorisierte Lagerung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "FBI-Razzia fand Geheimdokumente in Badezimmern, Ballsälen, Lagerhäusern – neben Trumps Kleidung, Gemälden. Grotexke Lagerung mit Sicherheitsrisiken.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2022",
+      "Geheimdokumente",
+      "Sicherheit"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "trump-mar-a-lago-documents-stolen-foreign-spies-access",
+    "question": "Hatten ausländische Spione Zugang zu Trumps Dokumenten?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "FBI bekannt, dass ausländische Agenten Mar-a-Lago besuchten; Sicherheitsrisiko"
+      },
+      {
+        "letter": "B",
+        "text": "Keine Spione"
+      },
+      {
+        "letter": "C",
+        "text": "Sichere Umgebung"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Sicherheitsrisiken"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "FBI dokumentierte: Ausländische Agenten besuchten Mar-a-Lago, konnten Geheimdokumenten sehen. Nationale Sicherheits-Katastrophe. Trump ignorierte Warnung.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2022",
+      "Spionage",
+      "Sicherheit"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "trump-politische-wende-geschaeftemacher-politiker-verrat",
+    "question": "War Trump ein echter Politiker oder Geschäftemacher?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Geschäftemacher mit Politlabel; Präsidentschaft = Geschäftsopportunität"
+      },
+      {
+        "letter": "B",
+        "text": "Echte Politische Überzeugungen"
+      },
+      {
+        "letter": "C",
+        "text": "Dienst am Gemeinwohl"
+      },
+      {
+        "letter": "D",
+        "text": "Werte-getrieben"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Profil: Geschäftemacher, nicht Politiker. Präsidentschaft als Bereicherung für Familie/Freunde. Versprechen waren Betrug. Eigeninteresse über öffentliche Wohl.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2025",
+      "Geschäftemacher",
+      "Verrat"
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "trump-trade-war-china-agricultural-subsidies-farmer-payment",
+    "question": "Wie schadete Trumps Handelskrieg Bauern?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sojabohnen-Zölle; Bauern benötigten 28 Milliarden Dollar Rettungs-Subventionen"
+      },
+      {
+        "letter": "B",
+        "text": "Bauern profitierten"
+      },
+      {
+        "letter": "C",
+        "text": "Tarife halfen Wirtschaft"
+      },
+      {
+        "letter": "D",
+        "text": "Keine Schäden"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Handelskrieg 2018-2019: China Zölle führten zu Sojabohnen-Absatz-Bruch. Bauern benötigten 28+ Milliarden Dollar Emergency-Subventionen. Verrat an Farmer-Wähler.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Handelskrieg",
+      "Bauern"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "trump-korea-peace-agreement-fail-retaliation-threat",
+    "question": "Wie scheiterte Trumps Korea-Friedensabkommen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Keine Denuklearisierung; Nordkorea baute weiter Atomwaffen; Drohungen folgten"
+      },
+      {
+        "letter": "B",
+        "text": "Vollständiger Erfolg"
+      },
+      {
+        "letter": "C",
+        "text": "Permanente Entwaffnung"
+      },
+      {
+        "letter": "D",
+        "text": "Friedensvertrag unterzeichnet"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump \"Lieberbriefe\" an Kim: Keine Ergebnisse. Nordkorea baute Atomwaffen weiter aus. Trump-Versprechen Desinformation.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Nordkorea",
+      "Friedensversprechen"
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "trump-middle-east-tensions-iran-drone-assassination-soleimani",
+    "question": "Wie eskalierte Trump Spannungen im Nahen Osten?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Drohnenanschlag auf Soleimani; Iran-Vergeltung, Kriegsangst"
+      },
+      {
+        "letter": "B",
+        "text": "De-Eskalation"
+      },
+      {
+        "letter": "C",
+        "text": "Diplomatie-Fokus"
+      },
+      {
+        "letter": "D",
+        "text": "Friedenspolitik"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Januar 2020: Trump ordnete Drohnenanschlag auf iranischen General Soleimani an. Iran drohte Vergeltung; Kriegsangst stieg. Eskalation ohne Diplomatie.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Iran",
+      "Kriegseskalation"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "trump-iraq-troop-withdrawal-announce-then-reverse-chaos",
+    "question": "Wie verwirrte Trump mit Iraks Militär-Abzug?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kündigte Abzug an, dann rückgängig; chaotische Signale, Region destabilisiert"
+      },
+      {
+        "letter": "B",
+        "text": "Klare Strategie"
+      },
+      {
+        "letter": "C",
+        "text": "Konsistente Politik"
+      },
+      {
+        "letter": "D",
+        "text": "Erfolgreiche Kriegsführung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump kündigte Iraks Truppabzug mehrfach an, reverste Ankündigungen. Chaotische Außenpolitik, Region destabilisiert. Keine klare Vision.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Irak",
+      "Verwirrung"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "trump-diplomacy-failure-north-korea-isolation-policy",
+    "question": "Was war Trumps Nordkorea-Isolations-Politik?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nach gescheitertem Gipfel: Zurück zu Sanktionen; Region gespannter"
+      },
+      {
+        "letter": "B",
+        "text": "Erfolgreiche Verhandlung"
+      },
+      {
+        "letter": "C",
+        "text": "Fortgesetzte Diplomatie"
+      },
+      {
+        "letter": "D",
+        "text": "Friedensgewinn"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Nach Trump-Kim Gipfel-Scheitern: Rückkehr zu Sanktionen. Nordkorea provozierte Tests. Region gespannter statt entspannt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Nordkorea",
+      "Diplomatie-Versagen"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "trump-israel-palestine-conflict-one-sided-cherry-picking",
+    "question": "War Trumps \"Peace Plan\" für Israel-Palästina einseitig?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ja, 100% pro-Israel; keine echten Verhandlungen, Palästinenser rejecteten"
+      },
+      {
+        "letter": "B",
+        "text": "Ausgewogener Plan"
+      },
+      {
+        "letter": "C",
+        "text": "Beide Seiten unterstützten"
+      },
+      {
+        "letter": "D",
+        "text": "Faire Lösung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump \"Peace Plan\" 2020: 100% pro-Israel Positionen. Keine echten Verhandlungen. Palästinenser rejecteten sofort. Falsche Friedenspolitik.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Israel-Palästina",
+      "Friedensversprechen-Betrug"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "trump-uae-abraham-accords-arab-israel-normalization-war",
+    "question": "Welcher geopolitische Fehler war Abraham Accords?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Normalisierte Israel-UAE statt Palästina-Lösung; Friedenscover für Rüstungsdeals"
+      },
+      {
+        "letter": "B",
+        "text": "Echter Friedensfortschritt"
+      },
+      {
+        "letter": "C",
+        "text": "Regionaler Frieden"
+      },
+      {
+        "letter": "D",
+        "text": "Nachhaltige Lösung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Abraham Accords: Israel-UAE Normalisierung, aber keine Palästina-Lösung. Cover für massive Rüstungsdeals. Nicht echte Friedenspolitik.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "UAE-Israel",
+      "Friedensversprechen-Betrug"
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "trump-russia-ukraine-aid-withholding-impeachment-i",
+    "question": "Warum blockierte Trump Ukraine-Waffenhilfe?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Versuchte Ermittlung gegen Biden zu erzwingen; Impeachment I Grund"
+      },
+      {
+        "letter": "B",
+        "text": "Reguläre Militärhilfe"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Ukraine-Politik"
+      },
+      {
+        "letter": "D",
+        "text": "Demokratie unterstützt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2019: Trump blockierte 400 Millionen Dollar Ukraine-Waffenhilfe, erpresste Ermittlung gegen Biden. Impeachment I Grund. Verrat an Verbündeter.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Ukraine",
+      "Erpressung"
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "trump-russia-invasion-ukraine-predicted-nato-weak",
+    "question": "Was sagte Trump vor Russlands Ukraine-Invasion?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Das ist genial\" – lobte Putins Plan als \"clever\"; NATO-Schwächung vorbereitet"
+      },
+      {
+        "letter": "B",
+        "text": "Warnte Putins Pläne ab"
+      },
+      {
+        "letter": "C",
+        "text": "Stärkte NATO"
+      },
+      {
+        "letter": "D",
+        "text": "Verteidigte Ukraine"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2022: Trump nannte Putins Ukraine-Invasion \"genial\" und \"clever\" – lobte Aggression. Hatte NATO systematisch geschwächt. Russland-Sympathie.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2022",
+      "Russland",
+      "Ukraine"
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "trump-nato-article-five-threat-withdraw-putin-sympath",
+    "question": "Welche Drohung richtete Trump gegen NATO-Verbündete?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Drohte, Article 5 nicht zu ehren (wenn Russland angreift); NATO destabilisiert"
+      },
+      {
+        "letter": "B",
+        "text": "Stärkte NATO"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützte Allianz"
+      },
+      {
+        "letter": "D",
+        "text": "Garantierte Sicherheit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump drohte, Article 5 Verpflichtung nicht zu erfüllen – NATO Grund-Garantie. Destabilisierte Allianz, ermutigte Putins Aggression.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "NATO",
+      "Putin-Sympathie"
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "trump-afghan-withdrawal-agreement-taliban-rush-chaos-flip",
+    "question": "Wie vereinbarte Trump Afghanistans Chaos?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verhandlungen mit Taliban (nicht Kabul-Regierung); chaotischer Mai-Abzug"
+      },
+      {
+        "letter": "B",
+        "text": "Geplante Koordinierung"
+      },
+      {
+        "letter": "C",
+        "text": "Geordneter Rückzug"
+      },
+      {
+        "letter": "D",
+        "text": "Legitimes Abkommen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump verhandelte Abzug mit Taliban (nicht Kabul-Regierung). Abkommen führte zu 2021-Chaos unter Biden. Trump hat Scheitern vorbereitet.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2020",
+      "Afghanistan",
+      "Abzug-Chaos"
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "trump-venezuela-guaido-failure-maduro-remains-power",
+    "question": "Wie scheiterte Trumps Venezuela-Strategie?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Versuchte Guaidó-Coup; Maduro blieb an Macht, Region destabilisiert"
+      },
+      {
+        "letter": "B",
+        "text": "Demokratie-Erfolg"
+      },
+      {
+        "letter": "C",
+        "text": "Regimewechsel gelungen"
+      },
+      {
+        "letter": "D",
+        "text": "Stabilisierung"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump unterstützte gescheiterten Guaidó-Coup. Maduro blieb an Macht; Region destabilisiert. Venezuela-Krisis verschärft sich.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "Venezuela",
+      "Coup-Versuch"
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "trump-hong-kong-crackdown-silence-china-trade-deal",
+    "question": "Wie ignorierte Trump Chinas Hong Kong-Unterdrückung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kritisierte nicht, weil Phase-1 Handelsabkommen wichtiger war"
+      },
+      {
+        "letter": "B",
+        "text": "Verurteilte Unterdrückung"
+      },
+      {
+        "letter": "C",
+        "text": "Unterstützte Demonstranten"
+      },
+      {
+        "letter": "D",
+        "text": "Forderte Freiheit"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "2019-2020: Trump ignorierte Chinas Hong Kong-Sicherheitsgesetz (Unterdrückung der Protestierenden), weil Handelsabkommen Phase-1 wichtiger war.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "China",
+      "Hongkong"
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "trump-uyghur-persecution-silence-xinjiang-concentration-camps",
+    "question": "Wie ignorierte Trump Uyghur-Verfolgung in Xinjiang?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kritisierte nicht trotz Konzentrationslagern; China-Geschäfte wichtiger"
+      },
+      {
+        "letter": "B",
+        "text": "Kritisierte Unterdrückung"
+      },
+      {
+        "letter": "C",
+        "text": "Sanktionierte China"
+      },
+      {
+        "letter": "D",
+        "text": "Forderte Menschenrechte"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Uyghur-Genozid in Xinjiang: Trump kritisierte kaum, weil China-Geschäfte wichtiger. Mengenverhaftungen und Unterdrückung ignoriert.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2019",
+      "China",
+      "Uyghur-Genozid"
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "trump-trade-war-manufacturing-loss-recession-threat",
+    "question": "Wie schadete Trumps Handelskrieg der Wirtschaft?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Manufaktur-Jobs statt Gewinne; Rückgang statt Aufschwung; Rezessions-Angst"
+      },
+      {
+        "letter": "B",
+        "text": "Wirtschaftlicher Boom"
+      },
+      {
+        "letter": "C",
+        "text": "Job-Gewinne"
+      },
+      {
+        "letter": "D",
+        "text": "Wohlstand für Arbeiter"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Handelsz Kriegs-Zölle 2018-2019: Manufaktur-Beschäftigung stagniert, Unternehmensgewinne fallen, Verbraucher zahlen mehr. Rezessions-Angst stieg.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Handelskrieg",
+      "Wirtschaft"
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "trump-tariffs-consumer-prices-inflation-working-families",
+    "question": "Wie führte Trumps Zölle zu Inflation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zölle erhöhten Verbraucher-Preise um 19+ Milliarden Dollar für Haushalte"
+      },
+      {
+        "letter": "B",
+        "text": "Senkung Verbraucher-Preise"
+      },
+      {
+        "letter": "C",
+        "text": "Inflation bekämpft"
+      },
+      {
+        "letter": "D",
+        "text": "Sparsamkeit für Familien"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trumps Zölle erhöhten Verbraucher-Preise um 19+ Milliarden Dollar pro Jahr. Arbeiter-Familien zahlten dafür. Verrat an Wähler-Versprechung.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Zölle",
+      "Inflation"
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "trump-global-leadership-weakened-reputation-usa-decline",
+    "question": "Wie schwächte Trump die globale US-Führung?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Isolationismus, NATO-Drohungen, Alliierten-Kritik; USA-Ansehen gesunken"
+      },
+      {
+        "letter": "B",
+        "text": "Stärkte US-Ansehen"
+      },
+      {
+        "letter": "C",
+        "text": "Verbündete-Beziehung verbessert"
+      },
+      {
+        "letter": "D",
+        "text": "Globale Führung bewahrt"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Amtszeit: US-Ansehen weltweit gesunken (Umfragen 40-60% Zustimmung). Isolationismus, NATO-Drohungen, Alliierten-Kritik. Globale Führung geschwächt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Außenpolitik",
+      "Ansehen"
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "trump-paris-climate-agreement-withdrawal-isolation",
+    "question": "Wie isolierte Trump die USA mit Klima-Austritt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kündigte Paris Klimaabkommen; einziger Leader mit Austritt"
+      },
+      {
+        "letter": "B",
+        "text": "Beigetreten Abkommen"
+      },
+      {
+        "letter": "C",
+        "text": "Klimaführer"
+      },
+      {
+        "letter": "D",
+        "text": "Multipolare Abkommen"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump kündigte Paris-Klimaabkommen – einziger Leader global mit Austritt. Isolierte USA international. Biden trat später wieder bei.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Klimaabkommen",
+      "Isolation"
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "trump-military-spending-cuts-research-innovation-gap",
+    "question": "Wie schwächte Trump die USA militärisch langfristig?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reduzierte Militär-Forschung/Innovation; China/Russland überholten Technologie"
+      },
+      {
+        "letter": "B",
+        "text": "Erhöhte Militär-Stärke"
+      },
+      {
+        "letter": "C",
+        "text": "Technologie-Führung"
+      },
+      {
+        "letter": "D",
+        "text": "Strategie-Vorteil"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump Militär-Budgets: Reduzierte Forschung. China/Russland intensivierten Innovation. USA-Tech-Vorsprung schrumpfte. Langfristiger Nachteil.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Militär",
+      "Innovation"
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "trump-intelligence-agencies-attacks-undermining-security",
+    "question": "Wie schwächte Trump die Geheimdienste?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Attackierte CIA/FBI, traute Putin statt Agenten; Morale-Kollaps"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützte Geheimdienste"
+      },
+      {
+        "letter": "C",
+        "text": "Stärkte Überwachung"
+      },
+      {
+        "letter": "D",
+        "text": "Vertraute Experten"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump attackierte CIA/FBI öffentlich wegen kritischer Berichte. Traute Putin mehr als Geheimdiensten. Agenten-Morale fiel, Karrieren beendet.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Geheimdienste",
+      "Untergrabung"
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "trump-state-department-exodus-career-diplomats-left",
+    "question": "Wie führte Trump zum \"Braindrain\" im State Department?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Karriere-Diplomaten verließen; Morale-Kollaps; Fachkompetenz-Verlust"
+      },
+      {
+        "letter": "B",
+        "text": "Diplomatie verstärkt"
+      },
+      {
+        "letter": "C",
+        "text": "Erfahrung beibehalten"
+      },
+      {
+        "letter": "D",
+        "text": "Talente gefördert"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Amtszeit: Massiver Exodus von Career-Diplomaten aus State Department. Morale-Kollaps; Fachkompetenz verloren. USA-Diplomatie-Kapazität geschwächt.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "State Department",
+      "Fachkompetenz"
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "trump-wto-withdrawal-threat-multilateral-system-collapse",
+    "question": "Wie bedrohte Trump die WTO?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Drohte WTO-Austritt; multilaterales Handelssystem destabilisiert"
+      },
+      {
+        "letter": "B",
+        "text": "Unterstützte WTO"
+      },
+      {
+        "letter": "C",
+        "text": "Stärkte Zusammenarbeit"
+      },
+      {
+        "letter": "D",
+        "text": "Faire Handelssystem"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump drohte WTO-Austritt mehrfach. Zölle ohne WTO-Genehmigung. Multilaterales Handelssystem destabilisiert. Chaotische Außenpolitik.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "WTO",
+      "Multilateralismus"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "trump-canada-mexico-extradition-treaty-threat-blackmail",
+    "question": "Wie drohte Trump seinen Nachbarn?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Drohte Kanada/Mexiko mit Zöllen bei Nichtkooperation; Erpressung"
+      },
+      {
+        "letter": "B",
+        "text": "Faire Verhandlungen"
+      },
+      {
+        "letter": "C",
+        "text": "Transparente Diplomatie"
+      },
+      {
+        "letter": "D",
+        "text": "Gute Nachbarschaften"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump drohte Kanada/Mexiko mit Zöllen zur Erzwingung von Zugeständnissen. Erpressungs-Taktik gegen traditionelle Verbündete.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2018",
+      "Kanada-Mexiko",
+      "Erpressung"
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "trump-environmental-diplomacy-paris-failure-isolation",
+    "question": "Wie machte Trump die USA isoliert bei Klimawandel?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Verlies Paris, forderte CO2-Abbau-Verzicht; USA-Leadership verloren"
+      },
+      {
+        "letter": "B",
+        "text": "Klimaabkommen unterstützt"
+      },
+      {
+        "letter": "C",
+        "text": "Nachhaltige Diplomatie"
+      },
+      {
+        "letter": "D",
+        "text": "Global-Partnerschaft"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Klima-Politik: Verließ Paris, rollte Vorschriften ab, forderte andere zur Aufgabe auf. USA-Klima-Leadership verloren; China/Europa übernahmen.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2017",
+      "Klima",
+      "Diplomatie-Versagen"
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "trump-friedenspolitiker-mythos-kriege-eskalation-geschaeftemaker",
+    "question": "War Trump wirklich ein \"Friedenspolitiker\"?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nein, eskalierte Konflikte (Iran, Nord-Korea, China), reduzierte Diplomatie"
+      },
+      {
+        "letter": "B",
+        "text": "Friedensnobelpreis-Kandidat"
+      },
+      {
+        "letter": "C",
+        "text": "De-Eskalation erfolgreich"
+      },
+      {
+        "letter": "D",
+        "text": "Echte Friedensinitiative"
+      }
+    ],
+    "correctAnswer": "A",
+    "backgroundInfo": "Trump-Mythos: \"Friedenspolitiker\". Realität: Eskalierte Konflikte, reduzierte Diplomatie, Handelsskrieg, NATO-Schwächung. Geschäftemacher statt Friedenspolitiker.",
+    "sourceLinks": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "tags": [
+      "Trump",
+      "2025",
+      "Mythos-Debunking",
+      "Kriegstreiber"
+    ]
   }
+
+
 ];
 
 export function getQuestionById(id: number): Question | undefined {

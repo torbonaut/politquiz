@@ -25,11 +25,12 @@ app.get('/', (c) => {
   const questionStack = getRandomQuestions(5);
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
   const allTags = getAllTags();
+  const totalQuestions = questions.length;
 
   return c.html(renderLayout({
     title: 'Demokratie Quiz - Austrian Politics Quiz',
     description: 'Test your knowledge of Austrian politics with interactive flip cards',
-    content: renderCardStack(questionStack, stats),
+    content: renderCardStack(questionStack, stats, totalQuestions),
     question: questionStack[0],
     stats,
     allTags
@@ -47,6 +48,7 @@ app.get('/question/:slug', (c) => {
 
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
   const allTags = getAllTags();
+  const totalQuestions = questions.length;
 
   // Create a stack with the selected question at the top and 4 random others
   const otherQuestions = questions
@@ -55,7 +57,7 @@ app.get('/question/:slug', (c) => {
     .slice(0, 4);
 
   const questionStack = [question, ...otherQuestions];
-  const content = renderCardStack(questionStack, stats);
+  const content = renderCardStack(questionStack, stats, totalQuestions);
 
   return c.html(renderLayout({
     title: `${question.question} - Demokratie Quiz`,
@@ -78,13 +80,14 @@ app.get('/tag/:tag', (c) => {
 
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
   const allTags = getAllTags();
+  const totalTaggedQuestions = taggedQuestions.length;
 
   // Create a stack with up to 5 questions with this tag
   const questionStack = taggedQuestions
     .sort(() => Math.random() - 0.5)
     .slice(0, 5);
 
-  const content = renderCardStack(questionStack, stats);
+  const content = renderCardStack(questionStack, stats, totalTaggedQuestions);
 
   return c.html(renderLayout({
     title: `${tag} Questions - Demokratie Quiz`,

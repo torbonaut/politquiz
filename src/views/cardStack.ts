@@ -2,15 +2,17 @@ import type { Question } from '../database';
 
 export function renderCardStack(
   questions: Question[],
-  stats: { asked: number; correct: number; wrong: number }
+  stats: { asked: number; correct: number; wrong: number },
+  totalAvailable?: number
 ) {
+  const displayCount = totalAvailable ?? questions.length;
   return `
     <div class="card-stack-wrapper">
       <div class="card-stack-container" id="card-stack-container">
         ${questions.map((question, index) => renderSingleCard(question, index, stats)).join('')}
       </div>
       <div class="text-center mt-12 text-xs text-slate-500 dark:text-slate-400">
-        ${questions.length} Frage${questions.length !== 1 ? 'n' : ''} im Stapel
+        ${displayCount} Frage${displayCount !== 1 ? 'n' : ''} verfügbar
       </div>
     </div>
   `;
