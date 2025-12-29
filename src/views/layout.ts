@@ -316,12 +316,112 @@ export function renderLayout({ title, description, content, question, stats, all
     <span class="absolute right-full mr-3 bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-100 px-3 py-2 rounded text-xs whitespace-nowrap shadow-lg border border-slate-300 dark:border-slate-600 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">All Questions</span>
   </a>
 
+  <!-- Impressum Modal -->
+  <div id="impressum-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-[100] flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-2 border-slate-200 dark:border-slate-700 max-w-md w-full max-h-[80vh] overflow-y-auto">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">Impressum</h2>
+          <button class="modal-close text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="text-sm text-slate-700 dark:text-slate-300 space-y-3">
+          <p class="font-semibold">Medieninhaber und für den Inhalt verantwortlich:</p>
+          <p class="font-bold">machma.app</p>
+          <div class="space-y-2">
+            <a href="https://www.machma.at" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+              </svg>
+              <span>www.machma.at</span>
+            </a>
+            <a href="mailto:mail@machma.app" class="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <span>mail@machma.app</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Datenschutz Modal -->
+  <div id="datenschutz-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-[100] flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-2 border-slate-200 dark:border-slate-700 max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">Datenschutzerklärung</h2>
+          <button class="modal-close text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="text-sm text-slate-700 dark:text-slate-300 space-y-4">
+          <section>
+            <h3 class="font-semibold text-base mb-2">1. Verantwortlicher</h3>
+            <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
+            <p class="mt-2">
+              machma.app<br>
+              E-Mail: <a href="mailto:mail@machma.app" class="text-blue-600 dark:text-blue-400 hover:underline">mail@machma.app</a>
+            </p>
+          </section>
+
+          <section>
+            <h3 class="font-semibold text-base mb-2">2. Erhebung und Speicherung personenbezogener Daten</h3>
+            <p>Bei der Nutzung dieser Website werden folgende Daten lokal in Ihrem Browser gespeichert:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Cookie für Quiz-Statistiken (Anzahl gestellter Fragen, richtige/falsche Antworten)</li>
+              <li>LocalStorage für Theme-Präferenz (Hell/Dunkel-Modus)</li>
+            </ul>
+            <p class="mt-2">Diese Daten werden ausschließlich lokal in Ihrem Browser gespeichert und nicht an Server übermittelt.</p>
+          </section>
+
+          <section>
+            <h3 class="font-semibold text-base mb-2">3. Zweck der Datenverarbeitung</h3>
+            <p>Die gespeicherten Daten dienen ausschließlich dazu:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Ihre Quiz-Statistiken während mehrerer Sitzungen zu erhalten</li>
+              <li>Ihre Präferenz für das Design-Theme zu speichern</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="font-semibold text-base mb-2">4. Weitergabe von Daten</h3>
+            <p>Eine Weitergabe Ihrer personenbezogenen Daten an Dritte findet nicht statt.</p>
+          </section>
+
+          <section>
+            <h3 class="font-semibold text-base mb-2">5. Ihre Rechte</h3>
+            <p>Sie haben jederzeit das Recht:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Ihre gespeicherten Daten zu löschen (über "Statistiken zurücksetzen" im Menü)</li>
+              <li>Die Cookie-Speicherung in Ihren Browser-Einstellungen zu deaktivieren</li>
+              <li>Auskunft über Ihre gespeicherten Daten zu verlangen</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="font-semibold text-base mb-2">6. Aktualität der Datenschutzerklärung</h3>
+            <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Dezember 2024.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     // Initialize card stack on page load
     document.addEventListener('DOMContentLoaded', function() {
       initializeCardStack();
       initializeThemeToggle();
       initializeMenuDropdown();
+      initializeModals();
     });
 
     // Reinitialize after HTMX swaps (for reset stats, etc.)
@@ -329,6 +429,7 @@ export function renderLayout({ title, description, content, question, stats, all
       if (event.detail.target.id === 'stats-bar') {
         initializeThemeToggle();
         initializeMenuDropdown();
+        initializeModals();
       }
     });
 
@@ -385,6 +486,55 @@ export function renderLayout({ title, description, content, question, stats, all
       }
     }
 
+    function initializeModals() {
+      const impressumButton = document.getElementById('impressum-button');
+      const datenschutzButton = document.getElementById('datenschutz-button');
+      const impressumModal = document.getElementById('impressum-modal');
+      const datenschutzModal = document.getElementById('datenschutz-modal');
+
+      if (impressumButton && impressumModal) {
+        impressumButton.addEventListener('click', function() {
+          impressumModal.classList.remove('hidden');
+          document.getElementById('menu-dropdown')?.classList.add('hidden');
+        });
+      }
+
+      if (datenschutzButton && datenschutzModal) {
+        datenschutzButton.addEventListener('click', function() {
+          datenschutzModal.classList.remove('hidden');
+          document.getElementById('menu-dropdown')?.classList.add('hidden');
+        });
+      }
+
+      // Close modals
+      const modalCloseButtons = document.querySelectorAll('.modal-close');
+      modalCloseButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          impressumModal?.classList.add('hidden');
+          datenschutzModal?.classList.add('hidden');
+        });
+      });
+
+      // Close on backdrop click
+      [impressumModal, datenschutzModal].forEach(modal => {
+        if (modal) {
+          modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+              modal.classList.add('hidden');
+            }
+          });
+        }
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          impressumModal?.classList.add('hidden');
+          datenschutzModal?.classList.add('hidden');
+        }
+      });
+    }
+
     function initializeCardStack() {
       const container = document.getElementById('card-stack-container');
       if (!container) return;
@@ -414,6 +564,36 @@ export function renderLayout({ title, description, content, question, stats, all
             handleNextQuestion(card);
           });
         }
+
+        // Handle tab switching
+        const tabButtons = card.querySelectorAll('.tab-button');
+        const tabContents = card.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const tabName = this.dataset.tab;
+
+            // Remove active class from all tabs and contents
+            tabButtons.forEach(btn => {
+              btn.classList.remove('active', 'border-blue-500', 'text-blue-600', 'dark:text-blue-400');
+              btn.classList.add('border-transparent', 'text-slate-600', 'dark:text-slate-400');
+            });
+            tabContents.forEach(content => {
+              content.classList.remove('active');
+              content.classList.add('hidden');
+            });
+
+            // Add active class to clicked tab and corresponding content
+            this.classList.add('active', 'border-blue-500', 'text-blue-600', 'dark:text-blue-400');
+            this.classList.remove('border-transparent', 'text-slate-600', 'dark:text-slate-400');
+            const activeContent = card.querySelector('[data-tab-content="' + tabName + '"]');
+            if (activeContent) {
+              activeContent.classList.add('active');
+              activeContent.classList.remove('hidden');
+            }
+          });
+        });
 
         // Handle click to flip back
         card.addEventListener('click', function(e) {
@@ -464,8 +644,12 @@ export function renderLayout({ title, description, content, question, stats, all
 
       // Update result display
       const resultHeader = card.querySelector('.result-header');
-      resultHeader.textContent = isCorrect ? '✓ Correct!' : '✗ Incorrect';
-      resultHeader.classList.add(isCorrect ? 'text-emerald-500' : 'text-red-500');
+      resultHeader.textContent = isCorrect ? '✓ Richtig!' : '✗ Falsch';
+      if (isCorrect) {
+        resultHeader.classList.add('bg-emerald-100', 'dark:bg-emerald-900/30', 'text-emerald-700', 'dark:text-emerald-300', 'border', 'border-emerald-300', 'dark:border-emerald-700');
+      } else {
+        resultHeader.classList.add('bg-red-100', 'dark:bg-red-900/30', 'text-red-700', 'dark:text-red-300', 'border', 'border-red-300', 'dark:border-red-700');
+      }
 
       // Show wrong answer if incorrect
       if (!isCorrect) {
@@ -473,7 +657,7 @@ export function renderLayout({ title, description, content, question, stats, all
         const correctOption = Array.from(card.querySelectorAll('.option-button'))
           .find(btn => btn.dataset.answer === selectedAnswer);
         const optionText = correctOption ? correctOption.querySelector('.option-text').textContent : '';
-        yourAnswer.innerHTML = '<strong>Your Answer:</strong> ' + selectedAnswer + ') ' + optionText;
+        yourAnswer.innerHTML = '<strong>Deine Antwort:</strong> ' + selectedAnswer + ') ' + optionText;
         yourAnswer.style.display = 'block';
       }
 
@@ -493,7 +677,7 @@ export function renderLayout({ title, description, content, question, stats, all
         // Reset card's result display
         const resultHeader = card.querySelector('.result-header');
         resultHeader.textContent = '';
-        resultHeader.classList.remove('text-emerald-500', 'text-red-500');
+        resultHeader.classList.remove('bg-emerald-100', 'dark:bg-emerald-900/30', 'text-emerald-700', 'dark:text-emerald-300', 'border', 'border-emerald-300', 'dark:border-emerald-700', 'bg-red-100', 'dark:bg-red-900/30', 'text-red-700', 'dark:text-red-300', 'border-red-300', 'dark:border-red-700');
 
         const yourAnswer = card.querySelector('.your-answer');
         if (yourAnswer) {
