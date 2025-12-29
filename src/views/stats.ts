@@ -1,10 +1,41 @@
+const teaserTexts = [
+  "Du solltest dich besser auskennen!",
+  "Zeig, was du drauf hast!",
+  "Bist du bereit für die Herausforderung?",
+  "Kennst du dich wirklich aus?",
+  "Politik-Profi oder Anfänger?",
+  "Teste dein Wissen!",
+  "Wie gut kennst du Österreich?",
+  "Zeit für ein Quiz!",
+  "Kannst du alle Fragen beantworten?",
+  "Bist du ein Politik-Experte?",
+  "Das wird knifflig!",
+  "Mal sehen, was du weißt!",
+  "Bereit für echte Herausforderungen?",
+  "Politik ist dein Ding?",
+  "Zeig dein Können!",
+  "Wie gut bist du wirklich?",
+  "Das schaffst du!",
+  "Auf geht's!",
+  "Demokratie verstehen!",
+  "Bleib am Ball!"
+];
+
+function getRandomTeaser(): string {
+  return teaserTexts[Math.floor(Math.random() * teaserTexts.length)];
+}
+
 export function renderStats(stats: { asked: number; correct: number; wrong: number }, allTags: string[] = [], currentTag?: string) {
   const percentage = stats.asked > 0 ? Math.round((stats.correct / stats.asked) * 100) : 0;
+  const teaser = getRandomTeaser();
 
   return `
     <div class="flex flex-col gap-2 w-full py-3" id="stats-bar">
       <div class="flex justify-between items-center w-full">
-        <span class="text-base font-bold text-slate-900 dark:text-slate-100">Polit Quiz</span>
+        <div class="flex flex-col">
+          <a href="/" class="text-base font-bold text-slate-900 dark:text-slate-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Polit Quiz</a>
+          <span class="text-xs text-slate-500 dark:text-slate-400">${teaser}</span>
+        </div>
         <div class="relative">
           <button
             id="menu-toggle"

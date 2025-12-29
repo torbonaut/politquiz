@@ -46,6 +46,7 @@ app.get('/question/:slug', (c) => {
   }
 
   const stats = JSON.parse(getCookie(c, 'stats') || '{"asked":0,"correct":0,"wrong":0}');
+  const allTags = getAllTags();
 
   // Create a stack with the selected question at the top and 4 random others
   const otherQuestions = questions
@@ -61,7 +62,8 @@ app.get('/question/:slug', (c) => {
     description: `Quiz question: ${question.question}`,
     content,
     question,
-    stats
+    stats,
+    allTags
   }));
 });
 
