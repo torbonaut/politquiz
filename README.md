@@ -7,6 +7,7 @@ An interactive quiz game featuring a 3D card stack with questions about Austrian
 - **3D Card Stack**: Interactive card stack with smooth animations and depth perspective
 - **Card Flip Animation**: Smooth 3D card flipping to reveal answers
 - **Circular Card Recycling**: Cards animate in a circular arc from front to back of stack
+- **Tag-Based Filtering**: Questions organized by topics (FPÖ, COVID, Rechtsextrem, etc.) with filterable tags
 - **Source Links**: Each question includes credible news sources (Der Standard, ORF, etc.)
 - **Dark/Light Mode**: Toggle between dark and light themes with persistence
 - **SEO Optimized**: Each question has its own URL and is fully indexable by search engines
@@ -73,6 +74,7 @@ policards/
 
 - `/` - Random question (home page)
 - `/question/:slug` - Individual question by slug (SEO-friendly)
+- `/tag/:tag` - Filter questions by tag
 - `/questions` - List of all questions
 - `/api/answer` - Submit an answer (POST)
 - `/api/next` - Get next random question
@@ -99,7 +101,8 @@ Questions are stored in `src/database.ts`. To add a new question:
   sourceLinks: [
     { name: "Der Standard", url: "https://www.derstandard.at/story/..." },
     { name: "ORF", url: "https://orf.at/stories/..." }
-  ]
+  ],
+  tags: ["FPÖ", "Kickl", "2024"]
 }
 ```
 
@@ -110,6 +113,15 @@ Each question can include source links to credible news sources:
 - International sources (Der Spiegel, The Guardian) for major stories
 - Wikipedia for general FPÖ information
 - Format: `{ name: "Source Name", url: "https://..." }`
+
+### Tags
+
+Questions can be categorized with tags for topic-based filtering:
+- Tags are displayed as badges on cards (up to 3 on front, all on back)
+- All tags are accessible via dropdown menu for filtering
+- Common tags: "FPÖ", "COVID", "Kickl", "Rechtsextrem", "2024", etc.
+- Tags are optional but recommended for better organization
+- Format: `tags: ["Tag1", "Tag2", "Tag3"]`
 
 ## SEO Features
 
@@ -145,6 +157,13 @@ Each question can include source links to credible news sources:
 - Tracks: questions asked, correct answers, wrong answers
 - Calculates success rate percentage
 - Reset functionality with confirmation dialog
+
+### Tag System
+- Questions can have multiple tags for categorization
+- Dropdown menu displays all available tags with filtering
+- Clicking a tag shows only questions with that tag (randomized stack of up to 5)
+- Tags displayed as blue badges on cards
+- Helper functions: `getQuestionsByTag()` and `getAllTags()`
 
 ## Future Enhancements
 
