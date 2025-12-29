@@ -90,7 +90,8 @@ app.get('/tag/:tag', (c) => {
     content,
     question: questionStack[0],
     stats,
-    allTags
+    allTags,
+    currentTag: tag
   }));
 });
 

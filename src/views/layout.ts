@@ -8,9 +8,10 @@ interface LayoutProps {
   question: Question | null;
   stats: { asked: number; correct: number; wrong: number };
   allTags?: string[];
+  currentTag?: string;
 }
 
-export function renderLayout({ title, description, content, question, stats, allTags = [] }: LayoutProps) {
+export function renderLayout({ title, description, content, question, stats, allTags = [], currentTag }: LayoutProps) {
   const url = question ? `https://policards.com/question/${question.slug}` : 'https://policards.com';
   const ogImage = 'https://policards.com/og-image.png';
 
@@ -302,7 +303,7 @@ export function renderLayout({ title, description, content, question, stats, all
 <body class="min-h-screen flex flex-col bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-900 dark:to-slate-800 text-slate-900 dark:text-slate-100 transition-colors duration-300">
   <header class="sticky top-0 bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm z-50 shadow-md">
     <div class="max-w-screen-xl mx-auto px-4">
-      ${renderStats(stats, allTags)}
+      ${renderStats(stats, allTags, currentTag)}
     </div>
   </header>
 

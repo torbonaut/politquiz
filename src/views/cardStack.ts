@@ -5,8 +5,13 @@ export function renderCardStack(
   stats: { asked: number; correct: number; wrong: number }
 ) {
   return `
-    <div class="card-stack-container" id="card-stack-container">
-      ${questions.map((question, index) => renderSingleCard(question, index, stats)).join('')}
+    <div class="card-stack-wrapper">
+      <div class="card-stack-container" id="card-stack-container">
+        ${questions.map((question, index) => renderSingleCard(question, index, stats)).join('')}
+      </div>
+      <div class="text-center mt-12 text-xs text-slate-500 dark:text-slate-400">
+        ${questions.length} question${questions.length !== 1 ? 's' : ''} in stack
+      </div>
     </div>
   `;
 }
@@ -28,16 +33,7 @@ function renderSingleCard(
         <div class="front">
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-2 border-slate-200 dark:border-slate-700 h-full flex flex-col">
             <div class="px-4 py-3 border-b border-slate-200 dark:border-slate-700">
-              <div class="flex items-center justify-between">
-                <h2 class="text-sm font-bold text-blue-600 dark:text-blue-400">Question ${question.id}</h2>
-                ${question.tags && question.tags.length > 0 ? `
-                  <div class="flex flex-wrap gap-1 justify-end">
-                    ${[...question.tags].sort().slice(0, 3).map(tag => `
-                      <span class="text-xs px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">${tag}</span>
-                    `).join('')}
-                  </div>
-                ` : ''}
-              </div>
+              <h2 class="text-sm font-bold text-blue-600 dark:text-blue-400">Question ${question.id}</h2>
             </div>
             <div class="content flex-1 overflow-y-auto px-4 py-3">
               <h3 class="text-base font-semibold mb-4 text-slate-900 dark:text-slate-100">${question.question}</h3>
@@ -63,8 +59,20 @@ function renderSingleCard(
         <!-- Back of card (Answer) -->
         <div class="back">
           <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-2 border-slate-200 dark:border-slate-700 h-full flex flex-col">
-            <div class="px-4 py-3 text-center border-b border-slate-200 dark:border-slate-700">
-              <div class="result-header text-2xl font-bold" data-correct="${question.correctAnswer}">
+            <div class="px-4 py-3">
+              <div class="flex items-center justify-between">
+                <h2 class="text-sm font-bold text-blue-600 dark:text-blue-400">Question ${question.id}</h2>
+                ${question.tags && question.tags.length > 0 ? `
+                  <div class="flex flex-wrap gap-1 justify-end">
+                    ${[...question.tags].sort().map(tag => `
+                      <span class="text-xs px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">${tag}</span>
+                    `).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+            <div class="px-4 py-3 border-t border-slate-200 dark:border-slate-700">
+              <div class="result-header text-2xl font-bold text-center" data-correct="${question.correctAnswer}">
                 <!-- Will be filled by JavaScript -->
               </div>
             </div>
@@ -97,14 +105,6 @@ function renderSingleCard(
                   <div>
                     ${question.sourceLinks.map(link => `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-xs px-1.5 py-0.5 bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors mr-1.5 mb-1.5"><svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>${link.name}</a>`).join('')}
                   </div>
-                </div>
-              ` : ''}
-
-              ${question.tags && question.tags.length > 0 ? `
-                <div class="flex flex-wrap gap-1.5">
-                  ${[...question.tags].sort().map(tag => `
-                    <span class="text-xs px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">${tag}</span>
-                  `).join('')}
                 </div>
               ` : ''}
             </div>
